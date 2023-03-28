@@ -59,7 +59,7 @@ local function SetupLayout(layout)
 	E.private["nameplates"]["enable"] = false --keep this in mind, you'll need to comment out the nameplate sections of the profiles
 	
 	--Update ElvUI
-	E:UpdateAll(true)
+	E:StaggeredUpdateAll()
 	--Show message about layout being set
 	PluginInstallStepComplete.message = "|cff0DB1D0J|cff15A6D1i|cff1D9CD3b|cff2691D5e|cff2E87D6r|cff367DD8i|cff3F72DAs|cff4768DCh |cff5853DFU|cff6049E1I|r".." Layout Set"
 	PluginInstallStepComplete:Show()
