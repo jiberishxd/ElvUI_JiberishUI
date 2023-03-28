@@ -167,6 +167,16 @@ local InstallerData = {
 			PluginInstallFrame.Option4:SetText("DarkPasch")]]
 		end,
 		[4] = function()
+			_G.PluginInstallFrame.SubTitle:SetFormattedText('Discord')
+			_G.PluginInstallFrame.Desc1:SetText(L["Join the Discord if you have any questions or issues"])
+			_G.PluginInstallFrame.Option1:Enable()
+			_G.PluginInstallFrame.Option1:Show()
+			_G.PluginInstallFrame.Option1:SetScript('OnClick', function() E:StaticPopup_Show('ELVUI_EDITBOX', nil, nil, 'https://discord.gg/jr5w8ArzAx')  end)
+			_G.PluginInstallFrame.Option1:SetScript('OnEnter', nil)
+			_G.PluginInstallFrame.Option1:SetScript('OnLeave', nil)
+			_G.PluginInstallFrame.Option1:SetText('Discord')
+		end,
+		[5] = function()
 			PluginInstallFrame.SubTitle:SetText("Installation Complete")
 			PluginInstallFrame.Desc1:SetText("You have completed the installation process.")
 			PluginInstallFrame.Desc2:SetText("Please click the button below in order to finalize the process and automatically reload your UI.")
@@ -179,7 +189,8 @@ local InstallerData = {
 		[1] = "Welcome",
 		[2] = "Layouts 1",
 		[3] = "Layouts 2",
-		[4] = "Installation Complete",
+		[4] = "Discord",
+		[5] = "Installation Complete",
 	},
 	StepTitlesColor = {1, 1, 1},
 	StepTitlesColorSelected = {0.41, 0.25, 0.89},
