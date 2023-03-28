@@ -1,5 +1,6 @@
 local E, L, V, P, G = unpack(ElvUI)
 local JiberishUI = E:GetModule('|cff00b3ffJiberish UI|r')
+local valuecolors = E:ClassColor(E.myclass, true)
 
 function JiberishUI:General()
 	if not E.db.movers then E.db.movers = {} end
@@ -333,4 +334,20 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:gradient]"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:gradient]"]["yOffset"] = -1
 
+end
+
+--fix colors afterwards so jiberish doesn't need to manually fix each new profile
+function JiberishUI:FixClassColors()
+	E.db["chat"]["tabSelectorColor"]["r"] = valuecolors.r
+	E.db["chat"]["tabSelectorColor"]["g"] = valuecolors.g
+	E.db["chat"]["tabSelectorColor"]["b"] = valuecolors.b
+	E.db["general"]["customGlow"]["color"]["r"] = valuecolors.r
+	E.db["general"]["customGlow"]["color"]["g"] = valuecolors.g
+	E.db["general"]["customGlow"]["color"]["b"] = valuecolors.b
+	E.db["chat"]["tabSelectedTextColor"]["r"] = valuecolors.r
+	E.db["chat"]["tabSelectedTextColor"]["g"] = valuecolors.g
+	E.db["chat"]["tabSelectedTextColor"]["b"] = valuecolors.b
+	E.db["general"]["valuecolor"]["r"] = valuecolors.r
+	E.db["general"]["valuecolor"]["g"] = valuecolors.g
+	E.db["general"]["valuecolor"]["b"] = valuecolors.b
 end

@@ -51,6 +51,9 @@ local function SetupLayout(layout)
 	elseif layout == "JiberisVXT" then
 		JiberishUI:JiberishVXT()
 	end
+
+	--fix the colors after the profile
+	JiberishUI:FixClassColors()
 	
 	--Update ElvUI
 	E:UpdateAll(true)
