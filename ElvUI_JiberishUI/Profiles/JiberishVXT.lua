@@ -2101,7 +2101,7 @@ function JiberishUI:JiberishVXT()
 	E.db["unitframe"]["units"]["target"]["castbar"]["yOffsetTime"] = -1
 	E.db["unitframe"]["units"]["target"]["colorOverride"] = "FORCE_ON"
 	E.db["unitframe"]["units"]["target"]["customTexts"]["JiberishTargetHealth"]["attachTextTo"] = "Health"
-	E.db["unitframe"]["units"]["target"]["customTexts"]["JiberishTragetHealth"]["enable"] = true
+	E.db["unitframe"]["units"]["target"]["customTexts"]["JiberishTargetHealth"]["enable"] = true
 	E.db["unitframe"]["units"]["target"]["customTexts"]["JiberishTargetHealth"]["font"] = "KMT-GothamXN_Ultra"
 	E.db["unitframe"]["units"]["target"]["customTexts"]["JiberishTargetHealth"]["fontOutline"] = "OUTLINE"
 	E.db["unitframe"]["units"]["target"]["customTexts"]["JiberishTargetHealth"]["justifyH"] = "CENTER"
