@@ -1,0 +1,8 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file='General.lua'/>
+	<Script file='JiberishCaith.lua'/>
+	<Script file='JiberishInfoPanel.lua'/>
+	<Script file='JiberishMinimal.lua'/>
+	<Script file='JiberishPortraitMode.lua'/>
+	<Script file='JiberishVXT.lua'/>
+</Ui>
