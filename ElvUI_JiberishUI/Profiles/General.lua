@@ -118,30 +118,30 @@ function JiberishUI:General()
 	E.db["movers"]["DTPanelEltruismDataTextMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,0"
 
 	--start the custom texts
-	E.db["unitframe"]["units"]["party"]["customTexts"] = E.db["unitframe"]["units"]["party"]["customTexts"] or {}
-	E.db["unitframe"]["units"]["player"]["customTexts"] = E.db["unitframe"]["units"]["player"]["customTexts"] or {}
-	E.db["unitframe"]["units"]["raid1"]["customTexts"] = E.db["unitframe"]["units"]["raid1"]["customTexts"] or {}
-	E.db["unitframe"]["units"]["raid2"]["customTexts"] = E.db["unitframe"]["units"]["raid2"]["customTexts"] or {}
-	E.db["unitframe"]["units"]["raid3"]["customTexts"] = E.db["unitframe"]["units"]["raid3"]["customTexts"] or {}
-	E.db["unitframe"]["units"]["target"]["customTexts"] = E.db["unitframe"]["units"]["target"]["customTexts"] or {}
-	E.db["unitframe"]["units"]["targettarget"]["customTexts"] = E.db["unitframe"]["units"]["targettarget"]["customTexts"] or {}
-	E.db["unitframe"]["units"]["boss"]["customTexts"] = E.db["unitframe"]["units"]["boss"]["customTexts"] or {}
-	E.db["unitframe"]["units"]["focus"]["customTexts"] = E.db["unitframe"]["units"]["focus"]["customTexts"] or {}
-	E.db["unitframe"]["units"]["pet"]["customTexts"] = E.db["unitframe"]["units"]["pet"]["customTexts"] or {}
-	E.db["unitframe"]["units"]["arena"]["customTexts"] = E.db["unitframe"]["units"]["arena"]["customTexts"] or {}
 
-	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
-	E.db["unitframe"]["units"]["target"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
-	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
-	E.db["unitframe"]["units"]["focus"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
-	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
-	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
-	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
-	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
-	E.db["unitframe"]["units"]["boss"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
-	E.db["unitframe"]["units"]["arena"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
-	E.db["unitframe"]["units"]["party"]["customTexts"]["[eltruism:IconOutline:player]"] = {}
+	--party
+	E.db["unitframe"]["units"]["party"]["customTexts"] = E.db["unitframe"]["units"]["party"]["customTexts"] or {}
 	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:gradient]"] = {}
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[eltruism:IconOutline:player]"] = {}
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:current:shortvalue]"]["attachTextTo"] = "InfoPanel"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:current:shortvalue]"]["enable"] = true
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:current:shortvalue]"]["font"] = "KMT-GothamXN_Ultra"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:current:shortvalue]"]["fontOutline"] = "OUTLINE"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:current:shortvalue]"]["justifyH"] = "LEFT"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:current:shortvalue]"]["size"] = 10
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:current:shortvalue]"]["text_format"] = "[health:current:shortvalue]"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:current:shortvalue]"]["xOffset"] = 0
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:current:shortvalue]"]["yOffset"] = 0
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:percent]"]["attachTextTo"] = "InfoPanel"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:percent]"]["enable"] = true
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:percent]"]["font"] = "KMT-GothamXN_Ultra"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:percent]"]["fontOutline"] = "OUTLINE"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:percent]"]["justifyH"] = "RIGHT"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:percent]"]["size"] = 10
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:percent]"]["text_format"] = "[health:percent]"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:percent]"]["xOffset"] = 0
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[health:percent]"]["yOffset"] = 0
 	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:gradient]"]["attachTextTo"] = "InfoPanel"
 	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:gradient]"]["enable"] = false
 	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:gradient]"]["font"] = "KMT-GothamXN_Ultra"
@@ -151,7 +151,31 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:gradient]"]["text_format"] = "[name:eltruism:gradient]"
 	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:gradient]"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:gradient]"]["yOffset"] = 0
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:abbreviate]"]["attachTextTo"] = "Health"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:abbreviate]"]["enable"] = false
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:abbreviate]"]["font"] = "KMT-GothamXN_Ultra"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:abbreviate]"]["fontOutline"] = "OUTLINE"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:abbreviate]"]["justifyH"] = "CENTER"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:abbreviate]"]["size"] = 14
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:abbreviate]"]["text_format"] = "[name:eltruism:abbreviate]"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:abbreviate]"]["xOffset"] = 0
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[name:eltruism:abbreviate]"]["yOffset"] = 0
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[eltruism:IconOutline:player]"]["attachTextTo"] = "Health"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[eltruism:IconOutline:player]"]["enable"] = false
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[eltruism:IconOutline:player]"]["font"] = "KMT-GothamXN_Ultra"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[eltruism:IconOutline:player]"]["fontOutline"] = "OUTLINE"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[eltruism:IconOutline:player]"]["justifyH"] = "CENTER"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[eltruism:IconOutline:player]"]["size"] = 35
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[eltruism:IconOutline:player]"]["text_format"] = "[eltruism:IconOutline:player]"
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[eltruism:IconOutline:player]"]["xOffset"] = -74
+	E.db["unitframe"]["units"]["party"]["customTexts"]["[eltruism:IconOutline:player]"]["yOffset"] = 29
+
+	--player
+	E.db["unitframe"]["units"]["player"]["customTexts"] = E.db["unitframe"]["units"]["player"]["customTexts"] or {}
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:gradient]"] = {}
 	E.db["unitframe"]["units"]["player"]["customTexts"]["[eltruism:IconOutline:player]"] = {}
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current-percent-nostatus:shortvalue]"] = {}
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
 	E.db["unitframe"]["units"]["player"]["customTexts"]["[eltruism:IconOutline:player]"]["attachTextTo"] = "InfoPanel"
 	E.db["unitframe"]["units"]["player"]["customTexts"]["[eltruism:IconOutline:player]"]["enable"] = false
 	E.db["unitframe"]["units"]["player"]["customTexts"]["[eltruism:IconOutline:player]"]["font"] = "KMT-GothamXN_Ultra"
@@ -161,7 +185,42 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["player"]["customTexts"]["[eltruism:IconOutline:player]"]["text_format"] = "[eltruism:IconOutline:player]"
 	E.db["unitframe"]["units"]["player"]["customTexts"]["[eltruism:IconOutline:player]"]["xOffset"] = -64
 	E.db["unitframe"]["units"]["player"]["customTexts"]["[eltruism:IconOutline:player]"]["yOffset"] = 0
-	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:gradient]"] = {}
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current-percent-nostatus:shortvalue]"]["attachTextTo"] = "Health"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current-percent-nostatus:shortvalue]"]["enable"] = false
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current-percent-nostatus:shortvalue]"]["font"] = "KMT-GothamXN_Ultra"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current-percent-nostatus:shortvalue]"]["fontOutline"] = "OUTLINE"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current-percent-nostatus:shortvalue]"]["justifyH"] = "RIGHT"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current-percent-nostatus:shortvalue]"]["size"] = 14
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current-percent-nostatus:shortvalue]"]["text_format"] = "[health:current-percent-nostatus:shortvalue]"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current-percent-nostatus:shortvalue]"]["xOffset"] = 0
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current-percent-nostatus:shortvalue]"]["yOffset"] = 19
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current:shortvalue]"]["attachTextTo"] = "InfoPanel"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current:shortvalue]"]["enable"] = false
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current:shortvalue]"]["font"] = "KMT-GothamXN_Ultra"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current:shortvalue]"]["fontOutline"] = "OUTLINE"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current:shortvalue]"]["justifyH"] = "LEFT"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current:shortvalue]"]["size"] = 10
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current:shortvalue]"]["text_format"] = "[health:current:shortvalue]"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current:shortvalue]"]["xOffset"] = 0
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current:shortvalue]"]["yOffset"] = 0
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:percent]"]["attachTextTo"] = "InfoPanel"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:percent]"]["enable"] = false
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:percent]"]["font"] = "KMT-GothamXN_Ultra"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:percent]"]["fontOutline"] = "OUTLINE"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:percent]"]["justifyH"] = "RIGHT"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:percent]"]["size"] = 10
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:percent]"]["text_format"] = "[health:percent]"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:percent]"]["xOffset"] = 0
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:percent]"]["yOffset"] = 0
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:abbreviate]"]["attachTextTo"] = "Health"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:abbreviate]"]["enable"] = false
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:abbreviate]"]["font"] = "KMT-GothamXN_Ultra"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:abbreviate]"]["fontOutline"] = "OUTLINE"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:abbreviate]"]["justifyH"] = "CENTER"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:abbreviate]"]["size"] = 15
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:abbreviate]"]["text_format"] = "[name:eltruism:abbreviate]"
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:abbreviate]"]["xOffset"] = 0
+	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:abbreviate]"]["yOffset"] = 4
 	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:gradient]"]["attachTextTo"] = "InfoPanel"
 	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:gradient]"]["enable"] = false
 	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:gradient]"]["font"] = "KMT-GothamXN_Ultra"
@@ -171,8 +230,14 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:gradient]"]["text_format"] = "[name:eltruism:gradient]"
 	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:gradient]"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["player"]["customTexts"]["[name:eltruism:gradient]"]["yOffset"] = -1
-	E.db["unitframe"]["units"]["player"]["customTexts"]["[health:current-percent-nostatus:shortvalue]"] = {}
+
+	--raid1
+	E.db["unitframe"]["units"]["raid1"]["customTexts"] = E.db["unitframe"]["units"]["raid1"]["customTexts"] or {}
+	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[perhp<%]"] = {}
+	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[name:eltruism:gradient]"] = {}
+	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[health:current:shortvalue]"] = {}
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[eltruism:IconOutline:player]"] = {}
+	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[eltruism:IconOutline:player]"]["attachTextTo"] = "Health"
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[eltruism:IconOutline:player]"]["enable"] = false
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[eltruism:IconOutline:player]"]["font"] = "KMT-GothamXN_Ultra"
@@ -182,7 +247,6 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[eltruism:IconOutline:player]"]["text_format"] = "[eltruism:IconOutline:player]"
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[eltruism:IconOutline:player]"]["xOffset"] = -50
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[eltruism:IconOutline:player]"]["yOffset"] = -1
-	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[health:current:shortvalue]"] = {}
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[health:current:shortvalue]"]["attachTextTo"] = "InfoPanel"
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[health:current:shortvalue]"]["enable"] = false
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[health:current:shortvalue]"]["font"] = "KMT-GothamXN_Ultra"
@@ -192,7 +256,6 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[health:current:shortvalue]"]["text_format"] = "[health:current:shortvalue]"
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[health:current:shortvalue]"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[health:current:shortvalue]"]["yOffset"] = 0
-	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[name:eltruism:gradient]"] = {}
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[name:eltruism:gradient]"]["attachTextTo"] = "InfoPanel"
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[name:eltruism:gradient]"]["enable"] = false
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[name:eltruism:gradient]"]["font"] = "KMT-GothamXN_Ultra"
@@ -202,7 +265,6 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[name:eltruism:gradient]"]["text_format"] = "[name:eltruism:gradient]"
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[name:eltruism:gradient]"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[name:eltruism:gradient]"]["yOffset"] = -1
-	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[perhp<%]"] = {}
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[perhp<%]"]["attachTextTo"] = "InfoPanel"
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[perhp<%]"]["enable"] = false
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[perhp<%]"]["font"] = "KMT-GothamXN_Ultra"
@@ -212,7 +274,14 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[perhp<%]"]["text_format"] = "[perhp<%]"
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[perhp<%]"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["raid1"]["customTexts"]["[perhp<%]"]["yOffset"] = 0
+
+	--raid2
+	E.db["unitframe"]["units"]["raid2"]["customTexts"] = E.db["unitframe"]["units"]["raid2"]["customTexts"] or {}
+	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[perhp<%]"] = {}
+	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[name:eltruism:gradient]"] = {}
+	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[health:current:shortvalue]"] = {}
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[eltruism:IconOutline:player]"] = {}
+	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[eltruism:IconOutline:player]"]["attachTextTo"] = "Health"
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[eltruism:IconOutline:player]"]["enable"] = false
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[eltruism:IconOutline:player]"]["font"] = "KMT-GothamXN_Ultra"
@@ -222,7 +291,6 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[eltruism:IconOutline:player]"]["text_format"] = "[eltruism:IconOutline:player]"
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[eltruism:IconOutline:player]"]["xOffset"] = -50
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[eltruism:IconOutline:player]"]["yOffset"] = -1
-	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[health:current:shortvalue]"] = {}
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[health:current:shortvalue]"]["attachTextTo"] = "InfoPanel"
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[health:current:shortvalue]"]["enable"] = false
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[health:current:shortvalue]"]["font"] = "KMT-GothamXN_Ultra"
@@ -232,7 +300,6 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[health:current:shortvalue]"]["text_format"] = "[health:current:shortvalue]"
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[health:current:shortvalue]"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[health:current:shortvalue]"]["yOffset"] = 0
-	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[name:eltruism:gradient]"] = {}
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[name:eltruism:gradient]"]["attachTextTo"] = "InfoPanel"
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[name:eltruism:gradient]"]["enable"] = false
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[name:eltruism:gradient]"]["font"] = "KMT-GothamXN_Ultra"
@@ -242,7 +309,6 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[name:eltruism:gradient]"]["text_format"] = "[name:eltruism:gradient]"
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[name:eltruism:gradient]"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[name:eltruism:gradient]"]["yOffset"] = 0
-	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[perhp<%]"] = {}
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[perhp<%]"]["attachTextTo"] = "InfoPanel"
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[perhp<%]"]["enable"] = false
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[perhp<%]"]["font"] = "KMT-GothamXN_Ultra"
@@ -252,7 +318,14 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[perhp<%]"]["text_format"] = "[perhp<%]"
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[perhp<%]"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["[perhp<%]"]["yOffset"] = 0
+
+	--raid3
+	E.db["unitframe"]["units"]["raid3"]["customTexts"] = E.db["unitframe"]["units"]["raid3"]["customTexts"] or {}
+	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[perhp<%]"] = {}
+	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[name:eltruism:gradient]"] = {}
+	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[health:current:shortvalue]"] = {}
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[eltruism:IconOutline:player]"] = {}
+	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[eltruism:IconOutline:player]"]["attachTextTo"] = "Health"
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[eltruism:IconOutline:player]"]["enable"] = false
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[eltruism:IconOutline:player]"]["font"] = "KMT-GothamXN_Ultra"
@@ -262,7 +335,6 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[eltruism:IconOutline:player]"]["text_format"] = "[eltruism:IconOutline:player]"
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[eltruism:IconOutline:player]"]["xOffset"] = -50
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[eltruism:IconOutline:player]"]["yOffset"] = -1
-	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[health:current:shortvalue]"] = {}
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[health:current:shortvalue]"]["attachTextTo"] = "InfoPanel"
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[health:current:shortvalue]"]["enable"] = false
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[health:current:shortvalue]"]["font"] = "KMT-GothamXN_Ultra"
@@ -272,7 +344,6 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[health:current:shortvalue]"]["text_format"] = "[health:current:shortvalue]"
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[health:current:shortvalue]"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[health:current:shortvalue]"]["yOffset"] = 0
-	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[name:eltruism:gradient]"] = {}
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[name:eltruism:gradient]"]["attachTextTo"] = "InfoPanel"
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[name:eltruism:gradient]"]["enable"] = false
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[name:eltruism:gradient]"]["font"] = "KMT-GothamXN_Ultra"
@@ -282,7 +353,6 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[name:eltruism:gradient]"]["text_format"] = "[name:eltruism:gradient]"
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[name:eltruism:gradient]"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[name:eltruism:gradient]"]["yOffset"] = 0
-	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[perhp<%]"] = {}
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[perhp<%]"]["attachTextTo"] = "InfoPanel"
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[perhp<%]"]["enable"] = false
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[perhp<%]"]["font"] = "KMT-GothamXN_Ultra"
@@ -292,7 +362,13 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[perhp<%]"]["text_format"] = "[perhp<%]"
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[perhp<%]"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["[perhp<%]"]["yOffset"] = 0
+
+	--target
+	E.db["unitframe"]["units"]["target"]["customTexts"] = E.db["unitframe"]["units"]["target"]["customTexts"] or {}
+	E.db["unitframe"]["units"]["target"]["customTexts"]["[name:eltruism:gradient]"] = {}
 	E.db["unitframe"]["units"]["target"]["customTexts"]["[eltruism:IconOutline:player]"] = {}
+	E.db["unitframe"]["units"]["target"]["customTexts"]["[health:current-percent-nostatus:shortvalue]"] = {}
+	E.db["unitframe"]["units"]["target"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
 	E.db["unitframe"]["units"]["target"]["customTexts"]["[eltruism:IconOutline:player]"]["attachTextTo"] = "InfoPanel"
 	E.db["unitframe"]["units"]["target"]["customTexts"]["[eltruism:IconOutline:player]"]["enable"] = false
 	E.db["unitframe"]["units"]["target"]["customTexts"]["[eltruism:IconOutline:player]"]["font"] = "KMT-GothamXN_Ultra"
@@ -302,7 +378,6 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["target"]["customTexts"]["[eltruism:IconOutline:player]"]["text_format"] = "[eltruism:IconOutline:player]"
 	E.db["unitframe"]["units"]["target"]["customTexts"]["[eltruism:IconOutline:player]"]["xOffset"] = -64
 	E.db["unitframe"]["units"]["target"]["customTexts"]["[eltruism:IconOutline:player]"]["yOffset"] = 0
-	E.db["unitframe"]["units"]["target"]["customTexts"]["[name:eltruism:gradient]"] = {}
 	E.db["unitframe"]["units"]["target"]["customTexts"]["[name:eltruism:gradient]"]["attachTextTo"] = "InfoPanel"
 	E.db["unitframe"]["units"]["target"]["customTexts"]["[name:eltruism:gradient]"]["enable"] = false
 	E.db["unitframe"]["units"]["target"]["customTexts"]["[name:eltruism:gradient]"]["font"] = "KMT-GothamXN_Ultra"
@@ -312,8 +387,12 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["target"]["customTexts"]["[name:eltruism:gradient]"]["text_format"] = "[name:eltruism:gradient]"
 	E.db["unitframe"]["units"]["target"]["customTexts"]["[name:eltruism:gradient]"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["target"]["customTexts"]["[name:eltruism:gradient]"]["yOffset"] = -1
-	E.db["unitframe"]["units"]["target"]["customTexts"]["[health:current-percent-nostatus:shortvalue]"] = {}
+
+	--target of target
+	E.db["unitframe"]["units"]["targettarget"]["customTexts"] = E.db["unitframe"]["units"]["targettarget"]["customTexts"] or {}
+	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:gradient]"] = {}
 	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[eltruism:IconOutline:player]"] = {}
+	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
 	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[eltruism:IconOutline:player]"]["attachTextTo"] = "Health"
 	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[eltruism:IconOutline:player]"]["enable"] = false
 	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[eltruism:IconOutline:player]"]["font"] = "KMT-GothamXN_Ultra"
@@ -323,7 +402,6 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[eltruism:IconOutline:player]"]["text_format"] = "[eltruism:IconOutline:player]"
 	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[eltruism:IconOutline:player]"]["xOffset"] = -1
 	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[eltruism:IconOutline:player]"]["yOffset"] = -1
-	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:gradient]"] = {}
 	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:gradient]"]["attachTextTo"] = "InfoPanel"
 	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:gradient]"]["enable"] = false
 	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:gradient]"]["font"] = "KMT-GothamXN_Ultra"
@@ -333,6 +411,28 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:gradient]"]["text_format"] = "[name:eltruism:gradient]"
 	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:gradient]"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:gradient]"]["yOffset"] = -1
+	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:abbreviate]"]["attachTextTo"] = "Health"
+	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:abbreviate]"]["enable"] = false
+	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:abbreviate]"]["font"] = "KMT-GothamXN_Ultra"
+	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:abbreviate]"]["fontOutline"] = "OUTLINE"
+	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:abbreviate]"]["justifyH"] = "CENTER"
+	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:abbreviate]"]["size"] = 11
+	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:abbreviate]"]["text_format"] = "[name:eltruism:abbreviate]"
+	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:abbreviate]"]["xOffset"] = 0
+	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["[name:eltruism:abbreviate]"]["yOffset"] = 3
+
+	--focus
+	E.db["unitframe"]["units"]["focus"]["customTexts"] = E.db["unitframe"]["units"]["focus"]["customTexts"] or {}
+	E.db["unitframe"]["units"]["focus"]["customTexts"]["[name:eltruism:abbreviate]"] = {}
+	E.db["unitframe"]["units"]["focus"]["customTexts"]["[name:eltruism:abbreviate]"]["attachTextTo"] = "Health"
+	E.db["unitframe"]["units"]["focus"]["customTexts"]["[name:eltruism:abbreviate]"]["enable"] = false
+	E.db["unitframe"]["units"]["focus"]["customTexts"]["[name:eltruism:abbreviate]"]["font"] = "KMT-GothamXN_Ultra"
+	E.db["unitframe"]["units"]["focus"]["customTexts"]["[name:eltruism:abbreviate]"]["fontOutline"] = "OUTLINE"
+	E.db["unitframe"]["units"]["focus"]["customTexts"]["[name:eltruism:abbreviate]"]["justifyH"] = "CENTER"
+	E.db["unitframe"]["units"]["focus"]["customTexts"]["[name:eltruism:abbreviate]"]["size"] = 15
+	E.db["unitframe"]["units"]["focus"]["customTexts"]["[name:eltruism:abbreviate]"]["text_format"] = "[name:eltruism:abbreviate]"
+	E.db["unitframe"]["units"]["focus"]["customTexts"]["[name:eltruism:abbreviate]"]["xOffset"] = 0
+	E.db["unitframe"]["units"]["focus"]["customTexts"]["[name:eltruism:abbreviate]"]["yOffset"] = 4
 
 end
 
