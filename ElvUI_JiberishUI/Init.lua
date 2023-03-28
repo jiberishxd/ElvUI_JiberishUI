@@ -172,8 +172,6 @@ local InstallerData = {
 			_G.PluginInstallFrame.Option1:Enable()
 			_G.PluginInstallFrame.Option1:Show()
 			_G.PluginInstallFrame.Option1:SetScript('OnClick', function() E:StaticPopup_Show('ELVUI_EDITBOX', nil, nil, 'https://discord.gg/jr5w8ArzAx')  end)
-			_G.PluginInstallFrame.Option1:SetScript('OnEnter', nil)
-			_G.PluginInstallFrame.Option1:SetScript('OnLeave', nil)
 			_G.PluginInstallFrame.Option1:SetText('Discord')
 		end,
 		[5] = function()
