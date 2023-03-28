@@ -348,7 +348,6 @@ function JiberishUI:JiberishInfoPanel()
 	E.db["chat"]["customTimeColor"]["b"] = 0.98
 	E.db["chat"]["customTimeColor"]["g"] = 0.75
 	E.db["chat"]["customTimeColor"]["r"] = 0
-	E.db["chat"]["editBoxPosition"] = "ABOVE_CHAT_INSIDE"
 	E.db["chat"]["fadeChatToggles"] = false
 	E.db["chat"]["fadeTabsNoBackdrop"] = false
 	E.db["chat"]["font"] = "Gotham Narrow Ultra"
@@ -567,7 +566,7 @@ function JiberishUI:JiberishInfoPanel()
 	E.db["movers"]["GMMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,229,-20"
 	E.db["movers"]["GhostFrameMover"] = "TOP,ElvUIParent,TOP,0,-308"
 	E.db["movers"]["HonorBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,186,1"
-	E.db["movers"]["LeftChatMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,37"
+	E.db["movers"]["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,-1,22"
 	E.db["movers"]["LevelUpBossBannerMover"] = "TOP,ElvUIParent,TOP,0,-286"
 	E.db["movers"]["LocationMover"] = "TOP,ElvUIParent,TOP,0,-7"
 	E.db["movers"]["LootFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-495,-457"
@@ -595,7 +594,7 @@ function JiberishUI:JiberishInfoPanel()
 	E.db["movers"]["RaidUtility_Mover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-80,18"
 	E.db["movers"]["ReputationBarMover"] = "TOP,UIParent,TOP,-18,-4"
 	E.db["movers"]["RequestStopButton"] = "TOP,ElvUIParent,TOP,0,-356"
-	E.db["movers"]["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-149,47"
+	E.db["movers"]["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,22"
 	E.db["movers"]["SLE_BG_1_Mover"] = "BOTTOM,ElvUIParent,BOTTOM,0,21"
 	E.db["movers"]["SLE_BG_2_Mover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOM,-337,21"
 	E.db["movers"]["SLE_BG_3_Mover"] = "BOTTOMLEFT,ElvUIParent,BOTTOM,337,21"

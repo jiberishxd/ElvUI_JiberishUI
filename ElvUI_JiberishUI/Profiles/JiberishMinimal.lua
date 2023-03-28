@@ -486,7 +486,6 @@ function JiberishUI:JiberishMinimal()
 	E.db["chat"]["customTimeColor"]["b"] = 1
 	E.db["chat"]["customTimeColor"]["g"] = 1
 	E.db["chat"]["customTimeColor"]["r"] = 1
-	E.db["chat"]["editBoxPosition"] = "ABOVE_CHAT_INSIDE"
 	E.db["chat"]["editboxHistorySize"] = 5
 	E.db["chat"]["fadeChatToggles"] = false
 	E.db["chat"]["fadeTabsNoBackdrop"] = false
@@ -799,7 +798,7 @@ function JiberishUI:JiberishMinimal()
 	E.db["movers"]["GhostFrameMover"] = "TOP,ElvUIParent,TOP,0,-176"
 	E.db["movers"]["HonorBarMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-539,-443"
 	E.db["movers"]["InstanceDifficultyFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-111,-15"
-	E.db["movers"]["LeftChatMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,4"
+	E.db["movers"]["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,-1,22"
 	E.db["movers"]["LevelUpBossBannerMover"] = "TOP,ElvUIParent,TOP,0,-129"
 	E.db["movers"]["LootFrameMover"] = "TOP,UIParent,TOP,0,-306"
 	E.db["movers"]["LossControlMover"] = "TOP,ElvUIParent,TOP,0,-593"
@@ -824,7 +823,7 @@ function JiberishUI:JiberishMinimal()
 	E.db["movers"]["RaidMarkerBarAnchor"] = "BOTTOM,ElvUIParent,BOTTOM,3,130"
 	E.db["movers"]["RaidUtility_Mover"] = "TOP,UIParent,TOP,-160,-4"
 	E.db["movers"]["ReputationBarMover"] = "TOP,ElvUIParent,TOP,0,-2"
-	E.db["movers"]["RightChatMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-4,4"
+	E.db["movers"]["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,22"
 	E.db["movers"]["SLEGhostFrameMover"] = "TOP,UIParent,TOP,0,-373"
 	E.db["movers"]["SLE_DataPanel_3_Mover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-330"
 	E.db["movers"]["SL_DedicatedVehicleBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,443"
