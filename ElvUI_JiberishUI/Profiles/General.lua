@@ -54,12 +54,16 @@ function JiberishUI:General()
 	E.global["general"]["mapAlphaWhenMoving"] = 0.35
 	E.global["general"]["smallerWorldMap"] = false
 	E.global["general"]["smallerWorldMapScale"] = 1
-	E.global["unitframe"]["AuraBarColors"][2825]["color"]["b"] = 0.33333334326744
-	E.global["unitframe"]["AuraBarColors"][2825]["color"]["g"] = 0.37647062540054
-	E.global["unitframe"]["AuraBarColors"][2825]["color"]["r"] = 0.98039221763611
-	E.global["unitframe"]["AuraBarColors"][80353]["color"]["b"] = 0.91372555494308
-	E.global["unitframe"]["AuraBarColors"][80353]["color"]["g"] = 0.98039221763611
-	E.global["unitframe"]["AuraBarColors"][80353]["color"]["r"] = 0.38431376218796
+	if not E.Classic then
+		E.global["unitframe"]["AuraBarColors"][2825]["color"]["b"] = 0.33333334326744
+		E.global["unitframe"]["AuraBarColors"][2825]["color"]["g"] = 0.37647062540054
+		E.global["unitframe"]["AuraBarColors"][2825]["color"]["r"] = 0.98039221763611
+	end
+	if E.Retail then
+		E.global["unitframe"]["AuraBarColors"][80353]["color"]["b"] = 0.91372555494308
+		E.global["unitframe"]["AuraBarColors"][80353]["color"]["g"] = 0.98039221763611
+		E.global["unitframe"]["AuraBarColors"][80353]["color"]["r"] = 0.38431376218796
+	end
 
 	--nameplate filters (even though its disabled it needs to appear to prevent errors)
 	E.private["nameplates"]["enable"] = true --keep this in mind, you'll need to comment out the nameplate sections of the profiles

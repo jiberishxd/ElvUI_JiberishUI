@@ -387,15 +387,17 @@ function JiberishUI:JiberishVXT()
 	E.db["actionbar"]["bar10"]["macroFontSize"] = 16
 	E.db["actionbar"]["bar10"]["macroTextYOffset"] = -7
 	E.db["actionbar"]["bar10"]["visibility"] = "[vehicleui] hide; [overridebar] hide; [petbattle] hide; show"
-	E.db["actionbar"]["bar13"]["countFontSize"] = 16
-	E.db["actionbar"]["bar13"]["hotkeyFontSize"] = 16
-	E.db["actionbar"]["bar13"]["macroFontSize"] = 16
-	E.db["actionbar"]["bar14"]["countFontSize"] = 16
-	E.db["actionbar"]["bar14"]["hotkeyFontSize"] = 16
-	E.db["actionbar"]["bar14"]["macroFontSize"] = 16
-	E.db["actionbar"]["bar15"]["countFontSize"] = 16
-	E.db["actionbar"]["bar15"]["hotkeyFontSize"] = 16
-	E.db["actionbar"]["bar15"]["macroFontSize"] = 16
+	if not E.Classic then
+		E.db["actionbar"]["bar13"]["countFontSize"] = 16
+		E.db["actionbar"]["bar13"]["hotkeyFontSize"] = 16
+		E.db["actionbar"]["bar13"]["macroFontSize"] = 16
+		E.db["actionbar"]["bar14"]["countFontSize"] = 16
+		E.db["actionbar"]["bar14"]["hotkeyFontSize"] = 16
+		E.db["actionbar"]["bar14"]["macroFontSize"] = 16
+		E.db["actionbar"]["bar15"]["countFontSize"] = 16
+		E.db["actionbar"]["bar15"]["hotkeyFontSize"] = 16
+		E.db["actionbar"]["bar15"]["macroFontSize"] = 16
+	end
 	E.db["actionbar"]["bar2"]["backdropSpacing"] = 3
 	E.db["actionbar"]["bar2"]["buttonHeight"] = 23
 	E.db["actionbar"]["bar2"]["buttonSize"] = 40

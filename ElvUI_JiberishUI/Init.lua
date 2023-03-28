@@ -121,7 +121,7 @@ local InstallerData = {
 
 			PluginInstallFrame.Option4:Show()
 			PluginInstallFrame.Option4:SetScript("OnClick", function()
-				E.data:SetProfile("Jiberis PortraitMode") -- this will create a new profile with the name supplied
+				E.data:SetProfile("Jiberish PortraitMode") -- this will create a new profile with the name supplied
 				SetupLayout("JiberisPortraitMode")
 			end)
 			PluginInstallFrame.Option4:SetText("Portrait Mode")
@@ -135,7 +135,7 @@ local InstallerData = {
 
 			PluginInstallFrame.Option1:Show()
 			PluginInstallFrame.Option1:SetScript("OnClick", function()
-				E.data:SetProfile("Jiberis VXT") -- this will create a new profile with the name supplied
+				E.data:SetProfile("Jiberish VXT") -- this will create a new profile with the name supplied
 				SetupLayout("JiberisVXT") --this will apply the profile to the current profile
 			end)
 			PluginInstallFrame.Option1:SetText("VXT")
