@@ -96,8 +96,6 @@ local InstallerData = {
 		[2] = function()
 			PluginInstallFrame.SubTitle:SetText("Layouts 1")
 			PluginInstallFrame.Desc1:SetText("These are the layouts that are available. Please click a button below to apply the layout of your choosing.")
-			PluginInstallFrame.Desc2:SetText("This is line 2, replace with any text, just like you can replace line 1, dont forget to change this line Jiberish!")
-			PluginInstallFrame.Desc3:SetText("This is line 3, same as before you can add a description here (Desc1/2/3), keep in mind the longer size will cause issues as you can see with this line, you can try to use a break line that is written after this: \n to break lines and see if it helps")
 			PluginInstallFrame.Desc4:SetText("Importance: |cff07D400High|r")
 
 			PluginInstallFrame.Option1:Show()
