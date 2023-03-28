@@ -96,7 +96,7 @@ local InstallerData = {
 		[2] = function()
 			PluginInstallFrame.SubTitle:SetText("Layouts 1")
 			PluginInstallFrame.Desc1:SetText("These are the layouts that are available. Please click a button below to apply the layout of your choosing.")
-			PluginInstallFrame.Desc4:SetText("Importance: |cff07D400High|r")
+			PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
 
 			PluginInstallFrame.Option1:Show()
 			PluginInstallFrame.Option1:SetScript("OnClick", function() 
@@ -131,10 +131,8 @@ local InstallerData = {
 		end,
 		[3] = function()
 			PluginInstallFrame.SubTitle:SetText("Layouts 2")
-			PluginInstallFrame.Desc1:SetText("Keep in mind you can add descriptions for the layouts here")
-			PluginInstallFrame.Desc2:SetText("So that you can tell people what to expect")
-			PluginInstallFrame.Desc3:SetText("Or also add some recommendations or requirements, basically remember to replace this text")
-			PluginInstallFrame.Desc4:SetText("Importance: |cff07D400High|r")
+			PluginInstallFrame.Desc1:SetText("These are the layouts that are available. Please click a button below to apply the layout of your choosing.")
+			PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
 
 			PluginInstallFrame.Option1:Show()
 			PluginInstallFrame.Option1:SetScript("OnClick", function()
@@ -142,29 +140,6 @@ local InstallerData = {
 				SetupLayout("JiberisVXT") --this will apply the profile to the current profile
 			end)
 			PluginInstallFrame.Option1:SetText("VXT")
-
-			--this section is commented out since you're not using it *yet*
-			--[[PluginInstallFrame.Option2:Show()
-			PluginInstallFrame.Option2:SetScript("OnClick", function()
-				E.data:SetProfile("Jiberish Dark Mode") -- this will create a new profile with the name supplied
-				SetupLayout("JiberishDarkMode")
-			end)
-			PluginInstallFrame.Option2:SetText("Dark Mode")
-
-			PluginInstallFrame.Option3:Show()
-			PluginInstallFrame.Option3:SetScript("OnClick", function()
-				E.data:SetProfile("Jiberish Dark Pasch") -- this will create a new profile with the name supplied
-				SetupLayout("JiberishDarkPasch")
-			end)
-			PluginInstallFrame.Option3:SetText("DarkPasch")
-			--you can add an option4, but you will need to add another page for more buttons/profiles
-
-			PluginInstallFrame.Option4:Show()
-			PluginInstallFrame.Option4:SetScript("OnClick", function()
-				E.data:SetProfile("Jiberish Dark Pasch") -- this will create a new profile with the name supplied
-				SetupLayout("JiberishDarkPasch")
-			end)
-			PluginInstallFrame.Option4:SetText("DarkPasch")]]
 		end,
 		[4] = function()
 			_G.PluginInstallFrame.SubTitle:SetFormattedText('Discord')
