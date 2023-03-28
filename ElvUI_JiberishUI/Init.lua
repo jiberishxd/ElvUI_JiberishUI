@@ -240,7 +240,7 @@ P[MyPluginName] = {}
 function JiberishUI:Initialize()
 
 	--hide Eltruism install since you are going to apply settings anyway
-	if _G["PluginInstallFrame"] and _G["PluginInstallFrame"].Title then
+	if _G["PluginInstallFrame"] and _G["PluginInstallFrame"].Title and E.db[MyPluginName].install_version == nil then
 		if _G["PluginInstallFrame"].Title:GetText() ~= nil and _G["PluginInstallFrame"].Title:GetText() == ElvUI_EltreumUI.Name then
 			local PI = E:GetModule('PluginInstaller')
 			PI.CloseInstall()
