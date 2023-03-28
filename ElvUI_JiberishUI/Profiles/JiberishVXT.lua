@@ -2038,7 +2038,7 @@ function JiberishUI:JiberishVXT()
 	E.db["unitframe"]["units"]["raid3"]["roleIcon"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["raid3"]["roleIcon"]["yOffset"] = 3
 	E.db["unitframe"]["units"]["raid3"]["verticalSpacing"] = 5
-	E.db["unitframe"]["units"]["raid3"]["visibility"] = "[@raid21,noexists] hide;show"
+	E.db["unitframe"]["units"]["raid3"]["visibility"] = "[@raid31,noexists] hide;show"
 	E.db["unitframe"]["units"]["raid3"]["width"] = 132
 	E.db["unitframe"]["units"]["raidpet"]["CLASS1"] = "WARRIOR"
 	E.db["unitframe"]["units"]["raidpet"]["CLASS10"] = "MONK"
