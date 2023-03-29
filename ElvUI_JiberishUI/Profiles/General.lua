@@ -634,6 +634,15 @@ function JiberishUI:EltruismNPSettings()
 	E.db.ElvUI_EltreumUI.skins.shadow.nppower = true
 	E.db.ElvUI_EltreumUI.skins.shadow.npcastbar = true
 	E.db.ElvUI_EltreumUI.skins.shadow.npportraits = true
+
+	E.db.ElvUI_EltreumUI.skins.shadow.raid = false
+	E.db.ElvUI_EltreumUI.skins.shadow.aura = false
+	E.db.ElvUI_EltreumUI.skins.shadow.ufaura = false
+	E.db.ElvUI_EltreumUI.skins.shadow.actionbars = false
+	E.db.ElvUI_EltreumUI.skins.shadow.minimap = false
+	E.db.ElvUI_EltreumUI.skins.shadow.chat = false
+	E.db.ElvUI_EltreumUI.skins.shadow.unitframes = false
+
 	E.db.ElvUI_EltreumUI.nameplates.nameplatepower.a = 1
 	E.db.ElvUI_EltreumUI.nameplates.nameplatelevel = true
 	E.db.ElvUI_EltreumUI.nameplates.friendlynameplatetoggle.friendlynames = false -- turns out blizzard fakes the nameplates and alphas the helthbar, causing huge performance costs
