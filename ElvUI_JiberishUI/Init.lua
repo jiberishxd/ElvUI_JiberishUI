@@ -55,7 +55,10 @@ local function SetupLayout(layout)
 	JiberishUI:FixClassColors()
 
 	--disable here since profiles might have nameplate settings
-	E.private["nameplates"]["enable"] = false --keep this in mind, you'll need to comment out the nameplate sections of the profiles
+	--E.private["nameplates"]["enable"] = false --keep this in mind, you'll need to comment out the nameplate sections of the profiles
+
+	--import eltruism nameplates
+	JiberishUI:EltruismNPSettings()
 	
 	--Update ElvUI
 	E:StaggeredUpdateAll()

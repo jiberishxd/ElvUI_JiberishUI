@@ -66,13 +66,13 @@ function JiberishUI:General()
 	end
 
 	--nameplate filters (even though its disabled it needs to appear to prevent errors)
-	E.private["nameplates"]["enable"] = true --keep this in mind, you'll need to comment out the nameplate sections of the profiles
+	--[[E.private["nameplates"]["enable"] = true --keep this in mind, you'll need to comment out the nameplate sections of the profiles
 	E.db["nameplates"]["filters"] = E.db["nameplates"]["filters"] or {}
 	for _, filterName in pairs({'EltreumTarget', 'EltreumInterrupt', 'EltreumRare', 'Neutral', 'm-2nd-Priority', 'm-High-HP','m-Priority-Target','m-Priority-Target-oof','m-Special', 'Explosives', 'm-3nd-Priority'}) do
 		E.global["nameplates"]["filters"][filterName] = {}
 		E.NamePlates:StyleFilterCopyDefaults(E.global["nameplates"]["filters"][filterName])
 		E.db["nameplates"]["filters"][filterName] = E.global["nameplates"]["filters"][filterName]
-	end
+	end]]
 
 	--start the datatexts
 	E.db["datatexts"]["panels"]["LeftChatDataPanel"]["enable"] = false
@@ -607,4 +607,49 @@ function JiberishUI:FixClassColors()
 	E.db["general"]["valuecolor"]["r"] = valuecolors.r
 	E.db["general"]["valuecolor"]["g"] = valuecolors.g
 	E.db["general"]["valuecolor"]["b"] = valuecolors.b
+end
+
+
+--setup eltruism nameplates/settings
+function JiberishUI:EltruismNPSettings()
+	ElvUI_EltreumUI:SetupNamePlates('ElvUI')
+	E.db.ElvUI_EltreumUI.nameplates.nameplatepower.autoadjustposition = true
+	E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.ClassColorGlow = true
+	E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.ClassBorderNameplate = false
+	if not E.db.ElvUI_EltreumUI.unitframes.gradientmode.npenable then
+		E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.nameplatetexture = true
+	end
+	E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.classbarautohide = true
+	E.db.ElvUI_EltreumUI.nameplates.nameplatepower.texture = "ElvUI Norm1"
+	E.db.ElvUI_EltreumUI.nameplates.nameplatepower.modeleffect = true
+	E.db.ElvUI_EltreumUI.nameplates.classification.enable = false
+	E.db.ElvUI_EltreumUI.nameplates.nameplatepower.gradient = true
+
+	--power bar scaling issues
+	E.db.ElvUI_EltreumUI.nameplates.nameplatepower.sizex = 110.5
+
+	--nameplate shadows (requires main shadows)
+	E.db.ElvUI_EltreumUI.skins.shadow.enable = true
+	E.db.ElvUI_EltreumUI.skins.shadow.nameplates = true
+	E.db.ElvUI_EltreumUI.skins.shadow.nppower = true
+	E.db.ElvUI_EltreumUI.skins.shadow.npcastbar = true
+	E.db.ElvUI_EltreumUI.skins.shadow.npportraits = true
+	E.db.ElvUI_EltreumUI.nameplates.nameplatepower.a = 1
+	E.db.ElvUI_EltreumUI.nameplates.nameplatelevel = true
+	E.db.ElvUI_EltreumUI.nameplates.friendlynameplatetoggle.friendlynames = false -- turns out blizzard fakes the nameplates and alphas the helthbar, causing huge performance costs
+	E.db.ElvUI_EltreumUI.nameplates.friendlynameplatetoggle.hidefriendly = false -- and this one is the same but with health so make this one off as well
+	E.db.ElvUI_EltreumUI.nameplates.friendlynameplatetoggle.disablefriendly = true --so hide it instead
+	E.db.ElvUI_EltreumUI.nameplates.nptextureversion = "V2"
+	E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.enableHealthHeight = true
+	E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.useelvuinpheight = true
+	E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.targetmodel = true
+	E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.restedoverlap = true
+	E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.npglow = true
+	E.db.ElvUI_EltreumUI.nameplates.auras.enable = true
+	E.db.ElvUI_EltreumUI.unitframes.gradientmode.nporientation = "VERTICAL"
+	E.private.ElvUI_EltreumUI.nameplatepower.enable = true
+	E.private.ElvUI_EltreumUI.nameplatepower.adjust = true
+	if E.Retail then
+		E.db.ElvUI_EltreumUI.cvars.autohidenpcname = true
+	end
 end
