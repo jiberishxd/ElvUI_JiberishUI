@@ -103,6 +103,15 @@ local InstallerData = {
 			PluginInstallFrame.Desc1:SetText("These are the layouts that are available. Please click a button below to apply the layout of your choosing.")
 			PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
 
+			--if plater is loaded then it will cause issues with elvui nameplates
+			if IsAddOnLoaded("Plater") then
+				PluginInstallFrame.Desc1:SetText("You have Plater enabled, which will cause errors during install, please disable it during install and enable when you are done")
+				_G.PluginInstallFrame.Option1:Disable()
+				_G.PluginInstallFrame.Option2:Disable()
+				_G.PluginInstallFrame.Option3:Disable()
+				_G.PluginInstallFrame.Option4:Disable()
+			end
+
 			PluginInstallFrame.Option1:Show()
 			PluginInstallFrame.Option1:SetScript("OnClick", function() 
 				E.data:SetProfile("Jiberish Caith") -- this will create a new profile with the name supplied
@@ -138,6 +147,12 @@ local InstallerData = {
 			PluginInstallFrame.SubTitle:SetText("Layouts 2")
 			PluginInstallFrame.Desc1:SetText("These are the layouts that are available. Please click a button below to apply the layout of your choosing.")
 			PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
+
+			--if plater is loaded then it will cause issues with elvui nameplates
+			if IsAddOnLoaded("Plater") then
+				PluginInstallFrame.Desc1:SetText("You have Plater enabled, which will cause errors during install, please disable it during install and enable when you are done")
+				_G.PluginInstallFrame.Option1:Disable()
+			end
 
 			PluginInstallFrame.Option1:Show()
 			PluginInstallFrame.Option1:SetScript("OnClick", function()
