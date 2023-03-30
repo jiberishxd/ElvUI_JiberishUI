@@ -38,6 +38,9 @@ local function SetupLayout(layout)
 	--import eltruism nameplates
 	JiberishUI:EltruismNPSettings()
 
+	--import gradient mode
+	ElvUI_EltreumUI:GradientMode()
+
 	--setup general settings
 	JiberishUI:General()
 
