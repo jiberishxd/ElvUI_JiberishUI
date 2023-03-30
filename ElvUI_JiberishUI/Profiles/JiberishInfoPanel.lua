@@ -72,6 +72,7 @@ function JiberishUI:JiberishInfoPanel()
 	E.db["ElvUI_EltreumUI"]["unitframes"]["gradientmode"]["playercastbarR1"] = 1
 	E.db["ElvUI_EltreumUI"]["unitframes"]["gradientmode"]["playercastbarR2"] = 1
 	E.db["ElvUI_EltreumUI"]["unitframes"]["lightmode"] = true
+	E.db["ElvUI_EltreumUI"]["unitframes"]["darkmode"] = false
 	E.db["ElvUI_EltreumUI"]["unitframes"]["ufcustomtexture"]["castbartexture"] = "mMediaTag N38"
 	E.db["ElvUI_EltreumUI"]["unitframes"]["ufcustomtexture"]["enable"] = true
 	E.db["ElvUI_EltreumUI"]["unitframes"]["ufcustomtexture"]["tappedtexture"] = "Gradient"

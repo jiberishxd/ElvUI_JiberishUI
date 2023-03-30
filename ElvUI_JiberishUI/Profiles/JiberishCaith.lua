@@ -106,6 +106,7 @@ function JiberishUI:JiberishCaith()
 	E.db["ElvUI_EltreumUI"]["unitframes"]["gradientmode"]["playercastbarR2"] = 0.67058825492859
 	E.db["ElvUI_EltreumUI"]["unitframes"]["gradientmode"]["targetcastbarG1custom"] = 0.60000002384186
 	E.db["ElvUI_EltreumUI"]["unitframes"]["lightmode"] = true
+	E.db["ElvUI_EltreumUI"]["unitframes"]["darkmode"] = false
 	E.db["ElvUI_EltreumUI"]["unitframes"]["ufcustomtexture"]["bosstexture"] = "mMediaTag Caith UI 1"
 	E.db["ElvUI_EltreumUI"]["unitframes"]["ufcustomtexture"]["castbartexture"] = "mMediaTag Caith UI 1"
 	E.db["ElvUI_EltreumUI"]["unitframes"]["ufcustomtexture"]["deathknighttexture"] = "mMediaTag Caith UI 1"

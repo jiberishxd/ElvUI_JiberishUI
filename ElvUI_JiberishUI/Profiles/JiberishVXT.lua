@@ -316,6 +316,7 @@ function JiberishUI:JiberishVXT()
 	E.db["ElvUI_EltreumUI"]["unitframes"]["infopanelontop"] = true
 	E.db["ElvUI_EltreumUI"]["unitframes"]["infopanelontopallframes"] = true
 	E.db["ElvUI_EltreumUI"]["unitframes"]["lightmode"] = true
+	E.db["ElvUI_EltreumUI"]["unitframes"]["darkmode"] = false
 	E.db["ElvUI_EltreumUI"]["unitframes"]["models"]["ufalpha"] = 1
 	E.db["ElvUI_EltreumUI"]["unitframes"]["sparkcustomcolor"]["enable"] = true
 	E.db["ElvUI_EltreumUI"]["unitframes"]["sparkcustomcolor"]["texture"] = "Eltreum-Fade"

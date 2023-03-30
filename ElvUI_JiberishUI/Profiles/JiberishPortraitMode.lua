@@ -41,6 +41,7 @@ function JiberishUI:JiberishPortraitMode()
 	E.db["ElvUI_EltreumUI"]["skins"]["shadow"]["nppower"] = true
 	E.db["ElvUI_EltreumUI"]["skins"]["shadow"]["ufaura"] = true
 	E.db["ElvUI_EltreumUI"]["skins"]["statcolors"] = true
+	E.db["ElvUI_EltreumUI"]["unitframes"]["lightmode"] = false
 	E.db["ElvUI_EltreumUI"]["unitframes"]["darkmode"] = true
 	E.db["ElvUI_EltreumUI"]["unitframes"]["gradientmode"]["customcolor"] = true
 	E.db["ElvUI_EltreumUI"]["unitframes"]["gradientmode"]["enable"] = true
