@@ -973,7 +973,6 @@ function JiberishUI:JiberishVXT()
 	E.db["nameplates"]["cooldown"]["fonts"]["fontSize"] = 15
 	E.db["nameplates"]["cooldown"]["override"] = false
 	E.db["nameplates"]["filters"]["EltreumTarget"]["triggers"]["enable"] = true
-	E.db["nameplates"]["filters"]["Neutral"]["triggers"]["enable"] = true
 	E.db["nameplates"]["font"] = "KMT-GothamXN_Ultra"
 	E.db["nameplates"]["lowHealthThreshold"] = 0.2
 	E.db["nameplates"]["plateSize"]["enemyWidth"] = 250
