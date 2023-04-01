@@ -250,6 +250,33 @@ local function InsertOptions()
 				desc = "Run the installation process.",
 				func = function() E:GetModule("PluginInstaller"):Queue(InstallerData); E:ToggleOptions(); end,
 			},
+			spacer3 = {
+				order = 18,
+				type = "description",
+				name = "\n\n\n",
+			},
+			header3 = {
+				order = 19,
+				type = "header",
+				name = "Gradient Colors",
+			},
+			description3 = {
+				order = 20,
+				type = "description",
+				name = "Change the Custom Colors in Eltruism.",
+			},
+			spacer4 = {
+				order = 21,
+				type = "description",
+				name = "",
+			},
+			vxtcolors = {
+				order = 22,
+				type = "execute",
+				name = "VXT Colors",
+				desc = "Set Eltruism Gradient Custom Colors to use VXT's Colors.",
+				func = function() JiberishUI:VXTGradientColors() E:StaticPopup_Show('CONFIG_RL') end,
+			},
 		},
 	}
 end
