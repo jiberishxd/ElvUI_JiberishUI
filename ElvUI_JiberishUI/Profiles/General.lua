@@ -633,6 +633,7 @@ function JiberishUI:EltruismNPSettings()
 	E.db.ElvUI_EltreumUI.skins.shadow.nppower = true
 	E.db.ElvUI_EltreumUI.skins.shadow.npcastbar = true
 	E.db.ElvUI_EltreumUI.skins.shadow.npportraits = true
+	E.db.ElvUI_EltreumUI.skins.shadow.npauras = true
 
 	E.db.ElvUI_EltreumUI.skins.shadow.raid = false
 	E.db.ElvUI_EltreumUI.skins.shadow.aura = false
