@@ -92,7 +92,7 @@ local InstallerData = {
 	Pages = {
 		[1] = function()
 			PluginInstallFrame.SubTitle:SetText("Welcome to the installation for |cff0DB1D0J|cff15A6D1i|cff1D9CD3b|cff2691D5e|cff2E87D6r|cff367DD8i|cff3F72DAs|cff4768DCh |cff5853DFU|cff6049E1I|r")
-			PluginInstallFrame.Desc1:SetText("This installation process will guide you through a few steps and create a new ElvUI profile. Note that nameplates are disabled as Jiberish uses Plater - see Discord for Plater profile links & others like Details")
+			PluginInstallFrame.Desc1:SetText("This installation process will guide you through a few steps and create a new ElvUI profile.")
 			PluginInstallFrame.Desc2:SetText("Please press the continue button if you wish to go through the installation process, otherwise click the 'Skip Process' button.")
 			PluginInstallFrame.Option1:Show()
 			PluginInstallFrame.Option1:SetScript("OnClick", InstallComplete)
