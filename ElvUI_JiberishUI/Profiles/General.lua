@@ -6,9 +6,6 @@ function JiberishUI:General()
 	if not E.db.movers then E.db.movers = {} end
 
 	E.global["general"]["UIScale"] = 0.59 --replace with the scale you use
-	if (not IsAddOnLoaded("ElvUI_SLE")) then
-		SetCVar('uiScale', 0.59)
-	end
 
 	--private profile
 	E.private.ElvUI_EltreumUI.install_version = GetAddOnMetadata("ElvUI_EltreumUI", "Version") -- this is so eltruism doesn't popup after
