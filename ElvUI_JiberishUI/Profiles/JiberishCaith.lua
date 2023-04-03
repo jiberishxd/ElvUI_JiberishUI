@@ -876,7 +876,6 @@ function JiberishUI:JiberishCaith()
 	E.db["movers"]["VehicleSeatMover"] = "BOTTOM,ElvUIParent,BOTTOM,327,100"
 	E.db["movers"]["ZoneAbility"] = "TOP,UIParent,TOP,123,-599"
 	E.db["movers"]["mMediaTagVolumeMover"] = "TOP,ElvUIParent,TOP,0,-679"
-	E.db["nameplates"]["filters"]["EltreumInterrupt"]["triggers"]["enable"] = true
 	E.db["tooltip"]["alwaysShowRealm"] = true
 	E.db["tooltip"]["colorAlpha"] = 1
 	E.db["tooltip"]["cursorAnchorType"] = "ANCHOR_CURSOR_RIGHT"
