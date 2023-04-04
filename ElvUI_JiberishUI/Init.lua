@@ -15,6 +15,7 @@ local tconcat = _G.table.concat
 --Change this line and use a unique name for your plugin.
 local MyPluginName = "|cff00b3ffJiberish UI|r"
 --"|cff0DB1D0J|cff15A6D1i|cff1D9CD3b|cff2691D5e|cff2E87D6r|cff367DD8i|cff3F72DAs|cff4768DCh |cff5853DFU|cff6049E1I|r"
+--"|cFF4668dcJ|cFF5268d7i|cFF5d68d3b|cFF6969cee|cFF7569car|cFF8069c5i|cFF8c69c1s|cFF986abch |cFFa36ab8U|cFFaf6ab3I|r"
 --Create references to ElvUI internals
 local E, L, V, P, G = unpack(ElvUI)
 
@@ -66,7 +67,7 @@ local function SetupLayout(layout)
 	--Update ElvUI
 	E:StaggeredUpdateAll()
 	--Show message about layout being set
-	PluginInstallStepComplete.message = "|cff0DB1D0J|cff15A6D1i|cff1D9CD3b|cff2691D5e|cff2E87D6r|cff367DD8i|cff3F72DAs|cff4768DCh |cff5853DFU|cff6049E1I|r".." Layout Set"
+	PluginInstallStepComplete.message = "|cFF4668dcJ|cFF5268d7i|cFF5d68d3b|cFF6969cee|cFF7569car|cFF8069c5i|cFF8c69c1s|cFF986abch |cFFa36ab8U|cFFaf6ab3I|r".." Layout Set"
 	PluginInstallStepComplete:Show()
 end
 
@@ -86,12 +87,12 @@ end
 --This is the data we pass on to the ElvUI Plugin Installer.
 --The Plugin Installer is reponsible for displaying the install guide for this layout.
 local InstallerData = {
-	Title = "|cff0DB1D0J|cff15A6D1i|cff1D9CD3b|cff2691D5e|cff2E87D6r|cff367DD8i|cff3F72DAs|cff4768DCh |cff5853DFU|cff6049E1I|r",
-	Name = "|cff0DB1D0J|cff15A6D1i|cff1D9CD3b|cff2691D5e|cff2E87D6r|cff367DD8i|cff3F72DAs|cff4768DCh |cff5853DFU|cff6049E1I|r",
+	Title = "|cFF4668dcJ|cFF5268d7i|cFF5d68d3b|cFF6969cee|cFF7569car|cFF8069c5i|cFF8c69c1s|cFF986abch |cFFa36ab8U|cFFaf6ab3I|r",
+	Name = "|cFF4668dcJ|cFF5268d7i|cFF5d68d3b|cFF6969cee|cFF7569car|cFF8069c5i|cFF8c69c1s|cFF986abch |cFFa36ab8U|cFFaf6ab3I|r",
 	tutorialImage = "Interface\\AddOns\\ElvUI_JiberishUI\\logo.tga", --If you have a logo you want to use, otherwise it uses the one from ElvUI
 	Pages = {
 		[1] = function()
-			PluginInstallFrame.SubTitle:SetText("Welcome to the installation for |cff0DB1D0J|cff15A6D1i|cff1D9CD3b|cff2691D5e|cff2E87D6r|cff367DD8i|cff3F72DAs|cff4768DCh |cff5853DFU|cff6049E1I|r")
+			PluginInstallFrame.SubTitle:SetText("Welcome to the installation for |cFF4668dcJ|cFF5268d7i|cFF5d68d3b|cFF6969cee|cFF7569car|cFF8069c5i|cFF8c69c1s|cFF986abch |cFFa36ab8U|cFFaf6ab3I|r")
 			PluginInstallFrame.Desc1:SetText("This installation process will guide you through a few steps and create a new ElvUI profile.")
 			PluginInstallFrame.Desc2:SetText("Please press the continue button if you wish to go through the installation process, otherwise click the 'Skip Process' button.")
 			PluginInstallFrame.Option1:Show()
@@ -197,17 +198,17 @@ local function InsertOptions()
 	E.Options.args.MyPluginName = {
 		order = 100,
 		type = "group",
-		name = "|cff0DB1D0J|cff15A6D1i|cff1D9CD3b|cff2691D5e|cff2E87D6r|cff367DD8i|cff3F72DAs|cff4768DCh |cff5853DFU|cff6049E1I|r",
+		name = "|cFF4668dcJ|cFF5268d7i|cFF5d68d3b|cFF6969cee|cFF7569car|cFF8069c5i|cFF8c69c1s|cFF986abch |cFFa36ab8U|cFFaf6ab3I|r",
 		args = {
 			header1 = {
 				order = 1,
 				type = "header",
-				name = "|cff0DB1D0J|cff15A6D1i|cff1D9CD3b|cff2691D5e|cff2E87D6r|cff367DD8i|cff3F72DAs|cff4768DCh |cff5853DFU|cff6049E1I|r",
+				name = "|cFF4668dcJ|cFF5268d7i|cFF5d68d3b|cFF6969cee|cFF7569car|cFF8069c5i|cFF8c69c1s|cFF986abch |cFFa36ab8U|cFFaf6ab3I|r",
 			},
 			description1 = {
 				order = 2,
 				type = "description",
-				name = format("%s is a layout for ElvUI.", "|cff0DB1D0J|cff15A6D1i|cff1D9CD3b|cff2691D5e|cff2E87D6r|cff367DD8i|cff3F72DAs|cff4768DCh |cff5853DFU|cff6049E1I|r"),
+				name = format("%s is a layout for ElvUI.", "|cFF4668dcJ|cFF5268d7i|cFF5d68d3b|cFF6969cee|cFF7569car|cFF8069c5i|cFF8c69c1s|cFF986abch |cFFa36ab8U|cFFaf6ab3I|r"),
 			},
 			thankyou = {
 				order = 3,
