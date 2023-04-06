@@ -637,7 +637,6 @@ function JiberishUI:JiberishInfoPanel()
 	E.db["movers"]["WatchFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-122,-292"
 	E.db["movers"]["ZoneAbility"] = "BOTTOM,UIParent,BOTTOM,184,560"
 	E.db["movers"]["tokenHolderMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-123"
-	E.db["nameplates"]["filters"]["EltreumInterrupt"]["triggers"]["enable"] = true
 	E.db["tooltip"]["colorAlpha"] = 1
 	E.db["tooltip"]["font"] = "KMT-GothamXN_Ultra"
 	E.db["tooltip"]["fontOutline"] = "OUTLINE"
