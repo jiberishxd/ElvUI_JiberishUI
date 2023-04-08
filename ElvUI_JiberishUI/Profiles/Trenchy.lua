@@ -517,6 +517,7 @@ function JiberishUI:Trenchy()
 	E.private["ElvUI_EltreumUI"]["isInstalled"]["sle"] = true
 	E.private["ElvUI_EltreumUI"]["isInstalled"]["windtools"] = true
 	E.private["ElvUI_EltreumUI"]["nameplatepower"]["adjust"] = true
+	E.private.ElvUI_EltreumUI.nameplatepower.enable = false
 	E.private["auras"]["buffsHeader"] = false
 	E.private["general"]["chatBubbleFont"] = "KMT-GothamXN_Ultra"
 	E.private["general"]["chatBubbleFontOutline"] = "OUTLINE"
@@ -3342,6 +3343,7 @@ function JiberishUI:TrenchyDark()
 	--private
 	E.private["ElvUI_EltreumUI"]["doomignored"] = "195182"
 	E.private["ElvUI_EltreumUI"]["nameplatepower"]["adjust"] = true
+	E.private.ElvUI_EltreumUI.nameplatepower.enable = false
 	E.private["auras"]["buffsHeader"] = false
 	E.private["general"]["chatBubbleFont"] = "KMT-GothamXN_Ultra"
 	E.private["general"]["chatBubbleFontOutline"] = "OUTLINE"
