@@ -172,14 +172,14 @@ local InstallerData = {
 				E.data:SetProfile("Trenchy") -- this will create a new profile with the name supplied
 				SetupLayout("Trenchy") --this will apply the profile to the current profile
 			end)
-			PluginInstallFrame.Option1:SetText("VXT")
+			PluginInstallFrame.Option2:SetText("Trenchy")
 
 			PluginInstallFrame.Option3:Show()
 			PluginInstallFrame.Option3:SetScript("OnClick", function()
 				E.data:SetProfile("Trenchy Dark") -- this will create a new profile with the name supplied
 				SetupLayout("TrenchyDark") --this will apply the profile to the current profile
 			end)
-			PluginInstallFrame.Option1:SetText("VXT")
+			PluginInstallFrame.Option3:SetText("Trenchy Dark")
 
 		end,
 		[4] = function()
