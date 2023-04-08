@@ -269,6 +269,34 @@ function JiberishUI:Trenchy()
 	E.db["unitframe"]["units"]["raid2"]["customTexts"]["JiberishGroup"] = {}
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["JiberishGroup"] = {}
 
+	--private
+	E.private["ElvUI_EltreumUI"]["doomignored"] = "195182"
+	E.private["ElvUI_EltreumUI"]["isInstalled"]["projectazilroka"] = true
+	E.private["ElvUI_EltreumUI"]["isInstalled"]["sle"] = true
+	E.private["ElvUI_EltreumUI"]["isInstalled"]["windtools"] = true
+	E.private["ElvUI_EltreumUI"]["nameplatepower"]["adjust"] = true
+	E.private["auras"]["buffsHeader"] = false
+	E.private["general"]["chatBubbleFont"] = "KMT-GothamXN_Ultra"
+	E.private["general"]["chatBubbleFontOutline"] = "OUTLINE"
+	E.private["general"]["chatBubbleFontSize"] = 10
+	E.private["general"]["chatBubbleName"] = true
+	E.private["general"]["chatBubbles"] = "nobackdrop"
+	E.private["general"]["dmgfont"] = "KMT-GothamXN_Ultra"
+	E.private["general"]["glossTex"] = "mMediaTag P2"
+	E.private["general"]["minimap"]["hideClassHallReport"] = true
+	E.private["general"]["minimap"]["hideTracking"] = true
+	E.private["general"]["namefont"] = "KMT-GothamXN_Ultra"
+	E.private["general"]["nameplateFont"] = "KMT-GothamXN_Ultra"
+	E.private["general"]["nameplateFontSize"] = 10
+	E.private["general"]["nameplateLargeFont"] = "KMT-GothamXN_Ultra"
+	E.private["general"]["nameplateLargeFontSize"] = 10
+	E.private["general"]["normTex"] = "mMediaTag P2"
+	E.private["general"]["raidUtility"] = false
+	E.private["general"]["totemTracker"] = false
+	E.private["install_complete"] = "13.29"
+	E.private["skins"]["parchmentRemoverEnable"] = true
+	E.private["theme"] = "class"
+
 	E.db["ElvUI_EltreumUI"]["borders"]["bar1borders"] = false
 	E.db["ElvUI_EltreumUI"]["borders"]["bar2borders"] = false
 	E.db["ElvUI_EltreumUI"]["borders"]["bar3borders"] = false
@@ -2855,7 +2883,7 @@ function JiberishUI:TrenchyDark()
 	E.private["general"]["chatBubbleName"] = true
 	E.private["general"]["chatBubbles"] = "nobackdrop"
 	E.private["general"]["dmgfont"] = "KMT-GothamXN_Ultra"
-	E.private["general"]["glossTex"] = "mMediaTag A1"
+	E.private["general"]["glossTex"] = "mMediaTag P2"
 	E.private["general"]["minimap"]["hideClassHallReport"] = true
 	E.private["general"]["minimap"]["hideTracking"] = true
 	E.private["general"]["namefont"] = "KMT-GothamXN_Ultra"
@@ -2863,11 +2891,12 @@ function JiberishUI:TrenchyDark()
 	E.private["general"]["nameplateFontSize"] = 10
 	E.private["general"]["nameplateLargeFont"] = "KMT-GothamXN_Ultra"
 	E.private["general"]["nameplateLargeFontSize"] = 10
-	E.private["general"]["normTex"] = "mMediaTag A1"
+	E.private["general"]["normTex"] = "mMediaTag P2"
 	E.private["general"]["raidUtility"] = false
 	E.private["general"]["totemTracker"] = false
 	E.private["skins"]["parchmentRemoverEnable"] = true
 	E.private["theme"] = "class"
+	E.private["install_complete"] = "13.29"
 
 	--profile
 	E.db["ElvUI_EltreumUI"]["borders"]["bar1borders"] = false
