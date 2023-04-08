@@ -93,6 +93,28 @@ function JiberishUI:General()
 	E.global["datatexts"]["customPanels"]["EltruismDataText"]["height"] = 23
 	E.db["movers"]["DTPanelEltruismDataTextMover"] = "BOTTOM,UIParent,BOTTOM,0,4"
 
+	E.DataTexts:BuildPanelFrame('EltruismTime')
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["backdrop"] = false
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["panelTransparency"] = false
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["border"] = false
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["frameLevel"] = 2
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["frameStrata"] = "LOW"
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["fonts"]["enable"] = true
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["fonts"]["font"] = "Kimberley"
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["fonts"]["fontOutline"] = "THICKOUTLINE"
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["fonts"]["fontSize"] = 18
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["growth"] = "HORIZONTAL"
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["mouseover"] = false
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["name"] = "Eltruism"
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["numPoints"] = 1
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["textJustify"] = "CENTER"
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["tooltipAnchor"] = "ANCHOR_TOPLEFT"
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["tooltipXOffset"] = -17
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["tooltipYOffset"] = 4
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["visibility"] = "[petbattle] hide;show"
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["height"] = 22
+	E.global["datatexts"]["customPanels"]["EltruismTime"]["width"] = 120
+
 	local buttonwidth = _G.RightChatToggleButton:GetWidth()
 	local width = ceil(E.screenWidth)
 	E.global["datatexts"]["customPanels"]["EltruismDataText"]["width"] = 2 + math.ceil(width - (buttonwidth * 2))
