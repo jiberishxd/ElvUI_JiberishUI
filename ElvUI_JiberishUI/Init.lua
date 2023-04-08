@@ -56,6 +56,10 @@ local function SetupLayout(layout)
 		JiberishUI:JiberishPortraitMode()
 	elseif layout == "JiberisVXT" then
 		JiberishUI:JiberishVXT()
+	elseif layout == "Trenchy" then
+		JiberishUI:Trenchy()
+	elseif layout == "TrenchyDark" then
+		JiberishUI:TrenchyDark()
 	end
 
 	--fix the colors after the profile
@@ -161,6 +165,22 @@ local InstallerData = {
 				SetupLayout("JiberisVXT") --this will apply the profile to the current profile
 			end)
 			PluginInstallFrame.Option1:SetText("VXT")
+
+
+			PluginInstallFrame.Option2:Show()
+			PluginInstallFrame.Option2:SetScript("OnClick", function()
+				E.data:SetProfile("Trenchy") -- this will create a new profile with the name supplied
+				SetupLayout("Trenchy") --this will apply the profile to the current profile
+			end)
+			PluginInstallFrame.Option1:SetText("VXT")
+
+			PluginInstallFrame.Option3:Show()
+			PluginInstallFrame.Option3:SetScript("OnClick", function()
+				E.data:SetProfile("Trenchy Dark") -- this will create a new profile with the name supplied
+				SetupLayout("TrenchyDark") --this will apply the profile to the current profile
+			end)
+			PluginInstallFrame.Option1:SetText("VXT")
+
 		end,
 		[4] = function()
 			_G.PluginInstallFrame.SubTitle:SetFormattedText('Discord')

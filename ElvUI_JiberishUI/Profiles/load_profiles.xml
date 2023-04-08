@@ -5,4 +5,5 @@
 	<Script file='JiberishMinimal.lua'/>
 	<Script file='JiberishPortraitMode.lua'/>
 	<Script file='JiberishVXT.lua'/>
+	<Script file='Trenchy.lua'/>
 </Ui>

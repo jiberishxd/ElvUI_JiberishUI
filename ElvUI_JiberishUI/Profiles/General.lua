@@ -587,7 +587,6 @@ function JiberishUI:General()
 	E.db["unitframe"]["units"]["pet"]["customTexts"]["JiberishPetName"]["text_format"] = "[name:eltruism:gradient]"
 	E.db["unitframe"]["units"]["pet"]["customTexts"]["JiberishPetName"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["pet"]["customTexts"]["JiberishPetName"]["yOffset"] = -1
-
 end
 
 --fix colors afterwards so jiberish doesn't need to manually fix each new profile
