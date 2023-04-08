@@ -518,6 +518,8 @@ function JiberishUI:Trenchy()
 	E.private["ElvUI_EltreumUI"]["isInstalled"]["windtools"] = true
 	E.private["ElvUI_EltreumUI"]["nameplatepower"]["adjust"] = true
 	E.private.ElvUI_EltreumUI.nameplatepower.enable = false
+	E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.enableHealthHeight = false
+	E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.targetmodel = false
 	E.private["auras"]["buffsHeader"] = false
 	E.private["general"]["chatBubbleFont"] = "KMT-GothamXN_Ultra"
 	E.private["general"]["chatBubbleFontOutline"] = "OUTLINE"
@@ -1911,6 +1913,7 @@ function JiberishUI:Trenchy()
 	E.db["nameplates"]["units"]["TARGET"]["classpower"]["sortDirection"] = "asc"
 	E.db["nameplates"]["units"]["TARGET"]["classpower"]["width"] = 150
 	E.db["nameplates"]["units"]["TARGET"]["classpower"]["yOffset"] = 26
+	E.db["nameplates"]["units"]["TARGET"]["classpower"]["enable"] = false
 	E.db["nameplates"]["visibility"]["enemy"]["totems"] = true
 	E.db["tooltip"]["alwaysShowRealm"] = true
 	E.db["tooltip"]["colorAlpha"] = 0.7
@@ -3344,6 +3347,8 @@ function JiberishUI:TrenchyDark()
 	E.private["ElvUI_EltreumUI"]["doomignored"] = "195182"
 	E.private["ElvUI_EltreumUI"]["nameplatepower"]["adjust"] = true
 	E.private.ElvUI_EltreumUI.nameplatepower.enable = false
+	E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.enableHealthHeight = false
+	E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.targetmodel = false
 	E.private["auras"]["buffsHeader"] = false
 	E.private["general"]["chatBubbleFont"] = "KMT-GothamXN_Ultra"
 	E.private["general"]["chatBubbleFontOutline"] = "OUTLINE"
@@ -4675,6 +4680,7 @@ function JiberishUI:TrenchyDark()
 	E.db["nameplates"]["units"]["TARGET"]["classpower"]["sortDirection"] = "asc"
 	E.db["nameplates"]["units"]["TARGET"]["classpower"]["width"] = 150
 	E.db["nameplates"]["units"]["TARGET"]["classpower"]["yOffset"] = 26
+	E.db["nameplates"]["units"]["TARGET"]["classpower"]["enable"] = false
 	E.db["nameplates"]["visibility"]["enemy"]["totems"] = true
 	E.db["tooltip"]["alwaysShowRealm"] = true
 	E.db["tooltip"]["colorAlpha"] = 0.7
