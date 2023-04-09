@@ -305,6 +305,8 @@ function JiberishUI:Trenchy()
 	E.private["actionbar"]["hideCooldownBling"] = true
 	E.private["general"]["replaceCombatText"] = true
 
+	E.db["nameplates"]["units"]["TARGET"]["classpower"]["enable"] = false
+
 	--profile
 	E.db["ElvUI_EltreumUI"]["borders"]["bar1borders"] = false
 	E.db["ElvUI_EltreumUI"]["borders"]["bar2borders"] = false
@@ -3140,6 +3142,8 @@ function JiberishUI:TrenchyDark()
 	E.private["install_complete"] = "13.29"
 	E.private["actionbar"]["hideCooldownBling"] = true
 	E.private["general"]["replaceCombatText"] = true
+
+	E.db["nameplates"]["units"]["TARGET"]["classpower"]["enable"] = false
 
 	--profile
 	E.db["ElvUI_EltreumUI"]["borders"]["bar1borders"] = false
