@@ -9,6 +9,7 @@ ignore:
   - ElvUI_JiberishUI/Changelog.md
   - ElvUI_JiberishUI/README.md
   - "*.md"
+  - ElvUI_JiberishUI/Screenshots
 
 move-folders:
     ElvUI_JiberishUI/ElvUI_JiberishUI: ElvUI_JiberishUI
