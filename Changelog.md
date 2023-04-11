@@ -1,5 +1,6 @@
 ### 1.0.3
-___
-This is a test line  
-This is a second line  
-This is a third line
+Added Trenchy's profiles  
+Added a button to apply VXT'x gradient colors  
+Fixed a few install errors  
+Fix non existent nameplate filter causing errors
+
