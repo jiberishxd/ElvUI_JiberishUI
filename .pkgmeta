@@ -7,7 +7,7 @@ ignore:
   - ElvUI_JiberishUI/.github
   - .pkgmeta
   - ElvUI_JiberishUI/Changelog.md
-  - eltruism/README.md
+  - ElvUI_JiberishUI/README.md
   - "*.md"
 
 move-folders:
