@@ -1,0 +1,18 @@
+package-as: ElvUI_JiberishUI
+
+enable-nolib-creation: no
+
+ignore:
+  - ElvUI_JiberishUI/.git
+  - ElvUI_JiberishUI/.github
+  - .pkgmeta
+  - ElvUI_JiberishUI/Changelog.md
+  - eltruism/README.md
+  - "*.md"
+
+move-folders:
+    ElvUI_JiberishUI/ElvUI_JiberishUI: ElvUI_JiberishUI
+
+manual-changelog:
+  filename: Changelog.md
+  markup-type: markdown
