@@ -1,5 +1,5 @@
 ### [![](https://img.shields.io/badge/JiberishUI-Join-purple.svg?longCache=true?style=flat-square&logo=discord)](https://discord.gg/jr5w8ArzAx)
-<p align="center"> <img src="https://github.com/jiberishxd/ElvUI_JiberishUI/raw/main/ElvUI_JiberishUI/logo.tga"/></p>
+<p align="center"> <img src="https://github.com/jiberishxd/ElvUI_JiberishUI/raw/main/Screenshots/logo.png"/></p>
 
 **JiberishUI** is an ElvUI Plugin for World of Warcraft which includes **7 custom ElvUI profiles** that leverage ****Elvui Eltruism** by Eltreum & **Elvui mMedia Tags** by Blinkii. 
 
