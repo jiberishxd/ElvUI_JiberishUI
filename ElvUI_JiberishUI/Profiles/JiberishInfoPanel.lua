@@ -593,7 +593,9 @@ function JiberishUI:JiberishInfoPanel()
 	E.db["movers"]["PetAB"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,468,94"
 	E.db["movers"]["PetBattleABMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,4"
 	E.db["movers"]["PetBattleStatusMover"] = "TOP,PetBattleFrame,TOP,0,0"
-	E.db["movers"]["PlayerNameplate"] = "BOTTOM,ElvUIParent,BOTTOM,0,359"
+	if E.private.nameplates.enable then
+		E.db["movers"]["PlayerNameplate"] = "BOTTOM,ElvUIParent,BOTTOM,0,359"
+	end
 	E.db["movers"]["PlayerPortraitMover"] = "BOTTOM,ElvUIParent,BOTTOM,-281,415"
 	E.db["movers"]["PlayerPowerBarMover"] = "BOTTOM,UIParent,BOTTOM,0,164"
 	E.db["movers"]["PowerBarContainerMover"] = "TOP,UIParent,TOP,0,-79"

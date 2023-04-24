@@ -62,15 +62,6 @@ function JiberishUI:General()
 		E.global["unitframe"]["AuraBarColors"][80353]["color"]["r"] = 0.38431376218796
 	end
 
-	--nameplate filters (even though its disabled it needs to appear to prevent errors)
-	--[[E.private["nameplates"]["enable"] = true --keep this in mind, you'll need to comment out the nameplate sections of the profiles
-	E.db["nameplates"]["filters"] = E.db["nameplates"]["filters"] or {}
-	for _, filterName in pairs({'EltreumTarget', 'EltreumInterrupt', 'EltreumRare', 'Neutral', 'm-2nd-Priority', 'm-High-HP','m-Priority-Target','m-Priority-Target-oof','m-Special', 'Explosives', 'm-3nd-Priority'}) do
-		E.global["nameplates"]["filters"][filterName] = {}
-		E.NamePlates:StyleFilterCopyDefaults(E.global["nameplates"]["filters"][filterName])
-		E.db["nameplates"]["filters"][filterName] = E.global["nameplates"]["filters"][filterName]
-	end]]
-
 	--start the datatexts
 	E.db["datatexts"]["panels"]["LeftChatDataPanel"]["enable"] = false
 	E.db["datatexts"]["panels"]["RightChatDataPanel"]["enable"] = false
@@ -629,6 +620,7 @@ end
 
 --setup eltruism nameplates/settings
 function JiberishUI:EltruismNPSettings()
+	if not E.private.nameplates.enable then return end
 	ElvUI_EltreumUI:SetupNamePlates('ElvUI')
 	E.db.ElvUI_EltreumUI.nameplates.nameplatepower.autoadjustposition = true
 	E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.ClassColorGlow = true
