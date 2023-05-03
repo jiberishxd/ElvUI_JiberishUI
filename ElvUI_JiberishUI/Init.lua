@@ -43,6 +43,9 @@ local function SetupLayout(layout)
 
 	--import gradient mode
 	ElvUI_EltreumUI:GradientMode()
+	
+	--set Eltruism defaults (some of which will be disabled on profiles)
+	--ElvUI_EltreumUI:UpdateEltruismSettings()
 
 	--setup general settings
 	JiberishUI:General()
