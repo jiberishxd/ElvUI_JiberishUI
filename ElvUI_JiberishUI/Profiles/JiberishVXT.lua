@@ -803,10 +803,8 @@ function JiberishUI:JiberishVXT()
 	E.db["general"]["valuecolor"]["g"] = 0.58039215686275
 	E.db["general"]["valuecolor"]["r"] = 0
 	E.db["mMT"]["interruptoncd"]["enable"] = false
-	E.db["mMT"]["interruptoncd"]["kickcd"]["b"] = 0.54509806632996
-	E.db["mMT"]["interruptoncd"]["kickcd"]["r"] = 0.54509806632996
-
-
+	E.db["mMT"]["interruptoncd"]["oncdcolor"]["colora"]["b"] = 0.54509806632996
+	E.db["mMT"]["interruptoncd"]["oncdcolor"]["colora"]["r"] = 0.54509806632996
 	E.db["mMT"]["nameplate"]["healthmarker"]["enable"] = true
 	E.db["mMT"]["roleicons"]["dd"] = "fire4"
 	E.db["mMT"]["roleicons"]["heal"] = "cross5"
