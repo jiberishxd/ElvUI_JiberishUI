@@ -3354,6 +3354,9 @@ function JiberishUI:TrenchyDark()
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["JiberishGroup"] = {}
 
 	--private
+	E.private.ElvUI_EltreumUI.nameplatepower.enable = false
+	E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.enableHealthHeight = false
+	E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.targetmodel = false
 	E.private["ElvUI_EltreumUI"]["doomignored"] = "195182"
 	E.private["ElvUI_EltreumUI"]["isInstalled"]["projectazilroka"] = true
 	E.private["ElvUI_EltreumUI"]["isInstalled"]["sle"] = true
