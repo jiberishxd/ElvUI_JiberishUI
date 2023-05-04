@@ -1079,9 +1079,8 @@ function JiberishUI:Trenchy()
 	E.db["general"]["valuecolor"]["r"] = 1
 	E.db["general"]["vehicleSeatIndicatorSize"] = 76
 	E.db["mMT"]["SAffix"] = true
-	E.db["mMT"]["mCustomBackdrop"]["health"]["texture"] = "mMediaTag Caith UI 1"
-	E.db["mMT"]["mCustomClassColors"]["colors"]["MONK"]["b"] = 0.60000002384186
-	E.db["mMT"]["mCustomCombatIcons"] = 2
+	E.db["mMT"]["custombackgrounds"]["health"]["texture"] = "mMediaTag Caith UI 1"
+	E.db["mMT"]["customclasscolors"]["colors"]["MONK"]["b"] = 0.60000002384186
 	E.db["mMT"]["dockdatatext"]["customfontzise"] = true
 	E.db["mMT"]["dockdatatext"]["font"] = "Friz Quadrata TT"
 	E.db["mMT"]["dockdatatext"]["fontSize"] = 13
@@ -1092,13 +1091,9 @@ function JiberishUI:Trenchy()
 	E.db["mMT"]["dockdatatext"]["guild"]["iconcolor"]["a"] = 1
 	E.db["mMT"]["dockdatatext"]["guild"]["iconcolor"]["b"] = 0.59607845544815
 	E.db["mMT"]["dockdatatext"]["guild"]["iconcolor"]["r"] = 0
-	E.db["mMT"]["mExecutemarker"]["enable"] = true
+	E.db["mMT"]["nameplate"]["executemarker"]["enable"] = true
 	E.db["mMT"]["nameplate"]["healthmarker"]["enable"] = true
-	E.db["mMT"]["mMsg"] = false
-	E.db["mMT"]["mMythicPlusTools"]["keys"] = false
 	E.db["mMT"]["roleicons"]["enable"] = false
-	E.db["mMT"]["mTags"]["skullname"] = "SKULL15"
-	E.db["mMT"]["mTags"]["skullpath"] = "Interface\\AddOns\\ElvUI_mMediaTag\\media\\misc\\skull15.tga"
 	E.db["movers"]["AlertFrameMover"] = "TOP,UIParent,TOP,0,-67"
 	E.db["movers"]["ArenaHeaderMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-3,-308"
 	E.db["movers"]["AzeriteBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,430,-1"
