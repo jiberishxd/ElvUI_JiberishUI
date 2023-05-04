@@ -147,7 +147,7 @@ function JiberishUI:Trenchy()
 
 	JiberishUI:TrenchyStyleFilters()
 
-	E.global["general"]["UIScale"] = 0.7 --replace with the scale you use
+	E.global["general"]["UIScale"] = 0.59 --replace with the scale you use
 
 	--customtexts
 	E.db["unitframe"]["units"]["player"]["customTexts"]["Class icon"] = {}
@@ -1635,6 +1635,7 @@ function JiberishUI:Trenchy()
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["parent"] = "Health"
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["xOffset"] = 6
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["yOffset"] = -3
+		E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["position"] = "TOPLEFT"
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["portrait"]["height"] = 30
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["portrait"]["position"] = "LEFT"
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["portrait"]["width"] = 30
@@ -3336,7 +3337,7 @@ end
 function JiberishUI:TrenchyDark()
 	JiberishUI:TrenchyStyleFilters()
 
-	E.global["general"]["UIScale"] = 0.7 --replace with the scale you use
+	E.global["general"]["UIScale"] = 0.59 --replace with the scale you use
 
 	--customtexts
 	E.db["unitframe"]["units"]["player"]["customTexts"]["Class icon"] = {}
@@ -4816,6 +4817,7 @@ function JiberishUI:TrenchyDark()
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["parent"] = "Health"
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["xOffset"] = 6
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["yOffset"] = -3
+		E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["position"] = "TOPLEFT"
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["portrait"]["height"] = 30
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["portrait"]["position"] = "LEFT"
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["portrait"]["width"] = 30
