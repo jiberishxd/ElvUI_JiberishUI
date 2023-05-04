@@ -765,7 +765,7 @@ function JiberishUI:JiberishCaith()
 	E.db["general"]["valuecolor"]["g"] = 0.78039222955704
 	E.db["general"]["valuecolor"]["r"] = 0.24705883860588
 	E.db["general"]["vehicleSeatIndicatorSize"] = 84
-	E.db["mMediaTag"]["mHealthmarker"]["enable"] = true
+	E.db["mMT"]["nameplate"]["healthmarker"]["enable"] = true
 	E.db["mMediaTag"]["mHoverTexture"] = "mMediaTag Caith UI 1"
 	E.db["mMediaTag"]["mPluginVersion"] = "2.94"
 	E.db["mMediaTag"]["mRoleSymbols"]["dd"] = "firenew6"

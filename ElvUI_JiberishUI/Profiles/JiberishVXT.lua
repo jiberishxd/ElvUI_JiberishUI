@@ -805,7 +805,7 @@ function JiberishUI:JiberishVXT()
 	E.db["mMediaTag"]["mCastbar"]["enable"] = false
 	E.db["mMediaTag"]["mCastbar"]["kickcd"]["b"] = 0.54509806632996
 	E.db["mMediaTag"]["mCastbar"]["kickcd"]["r"] = 0.54509806632996
-	E.db["mMediaTag"]["mHealthmarker"]["enable"] = true
+	E.db["mMT"]["nameplate"]["healthmarker"]["enable"] = true
 	E.db["mMediaTag"]["mPluginVersion"] = "2.94"
 	E.db["mMediaTag"]["mRoleSymbols"]["dd"] = "fire4"
 	E.db["mMediaTag"]["mRoleSymbols"]["heal"] = "cross5"

@@ -1093,7 +1093,7 @@ function JiberishUI:Trenchy()
 	E.db["mMediaTag"]["mDock"]["guild"]["iconcolor"]["b"] = 0.59607845544815
 	E.db["mMediaTag"]["mDock"]["guild"]["iconcolor"]["r"] = 0
 	E.db["mMediaTag"]["mExecutemarker"]["enable"] = true
-	E.db["mMediaTag"]["mHealthmarker"]["enable"] = true
+	E.db["mMT"]["nameplate"]["healthmarker"]["enable"] = true
 	E.db["mMediaTag"]["mMsg"] = false
 	E.db["mMediaTag"]["mMythicPlusTools"]["keys"] = false
 	E.db["mMediaTag"]["mPluginVersion"] = "2.95.2"
@@ -3936,7 +3936,7 @@ function JiberishUI:TrenchyDark()
 	E.db["mMediaTag"]["mDock"]["guild"]["iconcolor"]["b"] = 0.59607845544815
 	E.db["mMediaTag"]["mDock"]["guild"]["iconcolor"]["r"] = 0
 	E.db["mMediaTag"]["mExecutemarker"]["enable"] = true
-	E.db["mMediaTag"]["mHealthmarker"]["enable"] = true
+	E.db["mMT"]["nameplate"]["healthmarker"]["enable"] = true
 	E.db["mMediaTag"]["mMsg"] = false
 	E.db["mMediaTag"]["mMythicPlusTools"]["keys"] = false
 	E.db["mMediaTag"]["mPluginVersion"] = "2.95.2"
