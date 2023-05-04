@@ -766,11 +766,10 @@ function JiberishUI:JiberishCaith()
 	E.db["general"]["valuecolor"]["r"] = 0.24705883860588
 	E.db["general"]["vehicleSeatIndicatorSize"] = 84
 	E.db["mMT"]["nameplate"]["healthmarker"]["enable"] = true
-	E.db["mMediaTag"]["mHoverTexture"] = "mMediaTag Caith UI 1"
-	E.db["mMediaTag"]["mPluginVersion"] = "2.94"
-	E.db["mMediaTag"]["mRoleSymbols"]["dd"] = "firenew6"
-	E.db["mMediaTag"]["mRoleSymbols"]["heal"] = "cross20"
-	E.db["mMediaTag"]["mRoleSymbols"]["tank"] = "shield27"
+	E.db["mMT"]["mHoverTexture"] = "mMediaTag Caith UI 1"
+	E.db["mMT"]["roleicons"]["dd"] = "firenew6"
+	E.db["mMT"]["roleicons"]["heal"] = "cross20"
+	E.db["mMT"]["roleicons"]["tank"] = "shield27"
 	E.db["movers"]["AlertFrameMover"] = "TOP,UIParent,TOP,0,-329"
 	E.db["movers"]["AltPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,165"
 	E.db["movers"]["ArenaHeaderMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-400,-413"

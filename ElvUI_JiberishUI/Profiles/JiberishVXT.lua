@@ -802,14 +802,15 @@ function JiberishUI:JiberishVXT()
 	E.db["general"]["valuecolor"]["b"] = 1
 	E.db["general"]["valuecolor"]["g"] = 0.58039215686275
 	E.db["general"]["valuecolor"]["r"] = 0
-	E.db["mMediaTag"]["mCastbar"]["enable"] = false
-	E.db["mMediaTag"]["mCastbar"]["kickcd"]["b"] = 0.54509806632996
-	E.db["mMediaTag"]["mCastbar"]["kickcd"]["r"] = 0.54509806632996
+	E.db["mMT"]["interruptoncd"]["enable"] = false
+	E.db["mMT"]["interruptoncd"]["kickcd"]["b"] = 0.54509806632996
+	E.db["mMT"]["interruptoncd"]["kickcd"]["r"] = 0.54509806632996
+
+
 	E.db["mMT"]["nameplate"]["healthmarker"]["enable"] = true
-	E.db["mMediaTag"]["mPluginVersion"] = "2.94"
-	E.db["mMediaTag"]["mRoleSymbols"]["dd"] = "fire4"
-	E.db["mMediaTag"]["mRoleSymbols"]["heal"] = "cross5"
-	E.db["mMediaTag"]["mRoleSymbols"]["tank"] = "shield11"
+	E.db["mMT"]["roleicons"]["dd"] = "fire4"
+	E.db["mMT"]["roleicons"]["heal"] = "cross5"
+	E.db["mMT"]["roleicons"]["tank"] = "shield11"
 	E.db["movers"]["AlertFrameMover"] = "BOTTOM,UIParent,BOTTOM,367,651"
 	E.db["movers"]["AltPowerBarMover"] = "BOTTOM,UIParent,BOTTOM,0,148"
 	E.db["movers"]["ArenaHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-981,712"

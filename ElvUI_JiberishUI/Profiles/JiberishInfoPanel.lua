@@ -513,10 +513,9 @@ function JiberishUI:JiberishInfoPanel()
 	E.db["general"]["valuecolor"]["g"] = 0.78039222955704
 	E.db["general"]["valuecolor"]["r"] = 0.24705883860588
 	E.db["general"]["vehicleSeatIndicatorSize"] = 76
-	E.db["mMediaTag"]["mPluginVersion"] = "2.94"
-	E.db["mMediaTag"]["mRoleSymbols"]["dd"] = "firenew6"
-	E.db["mMediaTag"]["mRoleSymbols"]["heal"] = "cross19"
-	E.db["mMediaTag"]["mRoleSymbols"]["tank"] = "shield28"
+	E.db["mMT"]["roleicons"]["dd"] = "firenew6"
+	E.db["mMT"]["roleicons"]["heal"] = "cross19"
+	E.db["mMT"]["roleicons"]["tank"] = "shield28"
 	E.db["movers"]["AlertFrameMover"] = "TOP,ElvUIParent,TOP,0,-140"
 	E.db["movers"]["AltPowerBarMover"] = "TOP,ElvUIParent,TOP,0,-201"
 	E.db["movers"]["ArenaHeaderMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-519,-296"
