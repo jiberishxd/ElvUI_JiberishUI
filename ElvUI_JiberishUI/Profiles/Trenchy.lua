@@ -120,14 +120,6 @@ function JiberishUI:TrenchyStyleFilters()
 	E.global["nameplates"]["filters"]["EltreumTotems"]["triggers"]["notTarget"] = true
 	E.global["nameplates"]["filters"]["EltreumTotems"]["triggers"]["playerCanAttack"] = true
 	E.global["nameplates"]["filters"]["EltreumTotems"]["triggers"]["priority"] = 14
-	E.global["nameplates"]["filters"]["ElvUI_Explosives"]["actions"]["alpha"] = 100
-	E.global["nameplates"]["filters"]["ElvUI_Explosives"]["actions"]["color"]["healthColor"]["b"] = 1
-	E.global["nameplates"]["filters"]["ElvUI_Explosives"]["actions"]["color"]["healthColor"]["g"] = 1
-	E.global["nameplates"]["filters"]["ElvUI_Explosives"]["actions"]["color"]["healthColor"]["r"] = 1
-	E.global["nameplates"]["filters"]["ElvUI_Explosives"]["actions"]["scale"] = 1.25
-	E.global["nameplates"]["filters"]["ElvUI_Explosives"]["actions"]["texture"]["enable"] = true
-	E.global["nameplates"]["filters"]["ElvUI_Explosives"]["actions"]["texture"]["texture"] = "mMediaTag K32"
-	E.global["nameplates"]["filters"]["ElvUI_Explosives"]["triggers"]["priority"] = 1
 	E.global["nameplates"]["filters"]["ElvUI_NonTarget"]["actions"]["alpha"] = 70
 	E.global["nameplates"]["filters"]["ElvUI_NonTarget"]["actions"]["color"]["borderColor"]["b"] = 0.22745099663734
 	E.global["nameplates"]["filters"]["ElvUI_NonTarget"]["actions"]["color"]["borderColor"]["g"] = 0.11764706671238
@@ -1551,7 +1543,6 @@ function JiberishUI:Trenchy()
 		E.db["nameplates"]["filters"]["EltreumSpellsteal"]["triggers"]["enable"] = false
 		E.db["nameplates"]["filters"]["EltreumTarget"]["triggers"]["enable"] = true
 		E.db["nameplates"]["filters"]["EltreumTotems"]["triggers"]["enable"] = true
-		E.db["nameplates"]["filters"]["ElvUI_Explosives"]["triggers"]["enable"] = false
 		E.db["nameplates"]["highlight"] = false
 		E.db["nameplates"]["lowHealthThreshold"] = 0.2
 		E.db["nameplates"]["overlapV"] = 1
@@ -4736,7 +4727,6 @@ function JiberishUI:TrenchyDark()
 		E.db["nameplates"]["filters"]["EltreumSpellsteal"]["triggers"]["enable"] = false
 		E.db["nameplates"]["filters"]["EltreumTarget"]["triggers"]["enable"] = true
 		E.db["nameplates"]["filters"]["EltreumTotems"]["triggers"]["enable"] = true
-		E.db["nameplates"]["filters"]["ElvUI_Explosives"]["triggers"]["enable"] = false
 		E.db["nameplates"]["highlight"] = false
 		E.db["nameplates"]["lowHealthThreshold"] = 0.2
 		E.db["nameplates"]["overlapV"] = 1
