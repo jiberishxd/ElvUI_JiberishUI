@@ -733,7 +733,7 @@ function JiberishUI:JiberishMinimal()
 	E.db["mMT"]["dockdatatext"]["itemlevel"]["name"] = "Colored69"
 	E.db["mMT"]["dockdatatext"]["lfd"]["name"] = "Colored10"
 	E.db["mMT"]["dockdatatext"]["mainmenu"]["name"] = "Colored33"
-	E.db["mMT"]["dockdatatext"]["notification"]["name"] = "Colored38"
+	E.db["mMT"]["dockdatatext"]["notification"]["icon"] = "Colored38"
 	E.db["mMT"]["dockdatatext"]["profession"]["name"] = "Colored20"
 	E.db["mMT"]["dockdatatext"]["quest"]["name"] = "Colored29"
 	E.db["mMT"]["dockdatatext"]["spellbook"]["name"] = "Colored12"
