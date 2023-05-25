@@ -789,8 +789,6 @@ function JiberishUI:JiberishVXT()
 	E.db["general"]["minimap"]["icons"]["mail"]["texture"] = "Mail2"
 	E.db["general"]["minimap"]["icons"]["mail"]["xOffset"] = -4
 	E.db["general"]["minimap"]["icons"]["mail"]["yOffset"] = -4
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["font"] = "KMT-GothamXN_Ultra"
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["fontSize"] = 13
 	E.db["general"]["minimap"]["icons"]["tracking"]["scale"] = 0.8
 	E.db["general"]["minimap"]["locationFont"] = "KMT-GothamXN_Ultra"
 	E.db["general"]["minimap"]["locationFontSize"] = 16

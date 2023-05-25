@@ -682,10 +682,6 @@ function JiberishUI:JiberishMinimal()
 	E.db["general"]["minimap"]["icons"]["mail"]["texture"] = "Mail2"
 	E.db["general"]["minimap"]["icons"]["mail"]["xOffset"] = 8
 	E.db["general"]["minimap"]["icons"]["mail"]["yOffset"] = -4
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["fontSize"] = 16
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["position"] = "BOTTOMLEFT"
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["xOffset"] = 15
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["yOffset"] = -8
 	E.db["general"]["minimap"]["icons"]["tracking"]["position"] = "TOPLEFT"
 	E.db["general"]["minimap"]["icons"]["tracking"]["xOffset"] = 4
 	E.db["general"]["minimap"]["icons"]["tracking"]["yOffset"] = -40

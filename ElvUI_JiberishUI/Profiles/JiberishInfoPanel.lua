@@ -491,9 +491,6 @@ function JiberishUI:JiberishInfoPanel()
 	E.db["general"]["minimap"]["icons"]["mail"]["texture"] = "Mail2"
 	E.db["general"]["minimap"]["icons"]["mail"]["xOffset"] = 5
 	E.db["general"]["minimap"]["icons"]["mail"]["yOffset"] = 5
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["font"] = "KMT-GothamXN_Ultra"
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["xOffset"] = 0
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["yOffset"] = 0
 	E.db["general"]["minimap"]["locationFont"] = "KMT-GothamXN_Ultra"
 	E.db["general"]["minimap"]["locationFontSize"] = 12
 	E.db["general"]["minimap"]["resetZoom"]["enable"] = true

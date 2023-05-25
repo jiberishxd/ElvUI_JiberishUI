@@ -1282,10 +1282,6 @@ function JiberishUI:Trenchy()
 	E.db["general"]["minimap"]["icons"]["mail"]["texture"] = "Mail1"
 	E.db["general"]["minimap"]["icons"]["mail"]["xOffset"] = 0
 	E.db["general"]["minimap"]["icons"]["mail"]["yOffset"] = 0
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["font"] = "KMT-GothamXN_Ultra"
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["fontSize"] = 20
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["xOffset"] = -24
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["yOffset"] = 13
 	E.db["general"]["minimap"]["locationFont"] = "KMT-GothamXN_Ultra"
 	E.db["general"]["minimap"]["locationText"] = "SHOW"
 	E.db["general"]["minimap"]["resetZoom"]["enable"] = true
@@ -4467,10 +4463,6 @@ function JiberishUI:TrenchyDark()
 	E.db["general"]["minimap"]["icons"]["mail"]["texture"] = "Mail1"
 	E.db["general"]["minimap"]["icons"]["mail"]["xOffset"] = 0
 	E.db["general"]["minimap"]["icons"]["mail"]["yOffset"] = 0
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["font"] = "KMT-GothamXN_Ultra"
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["fontSize"] = 20
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["xOffset"] = -24
-	E.db["general"]["minimap"]["icons"]["queueStatus"]["yOffset"] = 13
 	E.db["general"]["minimap"]["locationFont"] = "KMT-GothamXN_Ultra"
 	E.db["general"]["minimap"]["locationText"] = "SHOW"
 	E.db["general"]["minimap"]["resetZoom"]["enable"] = true
