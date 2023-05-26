@@ -782,9 +782,6 @@ function JiberishUI:JiberishVXT()
 	E.db["general"]["minimap"]["icons"]["classHall"]["yOffset"] = 4
 	E.db["general"]["minimap"]["icons"]["difficulty"]["xOffset"] = 4
 	E.db["general"]["minimap"]["icons"]["difficulty"]["yOffset"] = -4
-	E.db["general"]["minimap"]["icons"]["lfgEye"]["scale"] = 1
-	E.db["general"]["minimap"]["icons"]["lfgEye"]["xOffset"] = -4
-	E.db["general"]["minimap"]["icons"]["lfgEye"]["yOffset"] = 4
 	E.db["general"]["minimap"]["icons"]["mail"]["position"] = "BOTTOMLEFT"
 	E.db["general"]["minimap"]["icons"]["mail"]["texture"] = "Mail2"
 	E.db["general"]["minimap"]["icons"]["mail"]["xOffset"] = -4

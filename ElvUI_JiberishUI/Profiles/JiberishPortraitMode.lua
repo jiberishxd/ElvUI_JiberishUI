@@ -674,9 +674,6 @@ function JiberishUI:JiberishPortraitMode()
 	E.db["general"]["minimap"]["icons"]["classHall"]["scale"] = 0.6
 	E.db["general"]["minimap"]["icons"]["classHall"]["xOffset"] = 25
 	E.db["general"]["minimap"]["icons"]["classHall"]["yOffset"] = 25
-	E.db["general"]["minimap"]["icons"]["lfgEye"]["position"] = "BOTTOMLEFT"
-	E.db["general"]["minimap"]["icons"]["lfgEye"]["xOffset"] = -20
-	E.db["general"]["minimap"]["icons"]["lfgEye"]["yOffset"] = -20
 	E.db["general"]["minimap"]["icons"]["mail"]["position"] = "BOTTOMRIGHT"
 	E.db["general"]["minimap"]["icons"]["mail"]["scale"] = 1.2
 	E.db["general"]["minimap"]["icons"]["mail"]["texture"] = "Mail2"

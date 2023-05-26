@@ -484,9 +484,6 @@ function JiberishUI:JiberishInfoPanel()
 	E.db["general"]["minimap"]["icons"]["difficulty"]["scale"] = 0.9
 	E.db["general"]["minimap"]["icons"]["difficulty"]["xOffset"] = 13
 	E.db["general"]["minimap"]["icons"]["difficulty"]["yOffset"] = -5
-	E.db["general"]["minimap"]["icons"]["lfgEye"]["scale"] = 0.7
-	E.db["general"]["minimap"]["icons"]["lfgEye"]["xOffset"] = 0
-	E.db["general"]["minimap"]["icons"]["lfgEye"]["yOffset"] = 0
 	E.db["general"]["minimap"]["icons"]["mail"]["position"] = "BOTTOMLEFT"
 	E.db["general"]["minimap"]["icons"]["mail"]["texture"] = "Mail2"
 	E.db["general"]["minimap"]["icons"]["mail"]["xOffset"] = 5
