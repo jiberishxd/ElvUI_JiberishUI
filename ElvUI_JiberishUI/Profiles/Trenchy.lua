@@ -1306,7 +1306,9 @@ function JiberishUI:Trenchy()
 	E.db["mMT"]["nameplate"]["executemarker"]["enable"] = true
 	E.db["mMT"]["nameplate"]["healthmarker"]["enable"] = true
 	E.db["mMT"]["nameplate"]["healthmarker"]["overlaytexture"] = "mMediaTag A6"
-	E.db["movers"]["AddonCompartmentMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-211,-3"
+	if E.Retail then
+		E.db["movers"]["AddonCompartmentMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-211,-3"
+	end
 	E.db["movers"]["AlertFrameMover"] = "TOP,UIParent,TOP,0,-67"
 	E.db["movers"]["ArenaHeaderMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-3,-308"
 	E.db["movers"]["AzeriteBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,430,-1"
@@ -4470,7 +4472,9 @@ function JiberishUI:TrenchyDark()
 	E.db["mMT"]["nameplate"]["executemarker"]["enable"] = true
 	E.db["mMT"]["nameplate"]["healthmarker"]["enable"] = true
 	E.db["mMT"]["nameplate"]["healthmarker"]["overlaytexture"] = "mMediaTag A6"
-	E.db["movers"]["AddonCompartmentMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-211,-3"
+	if E.Retail then
+		E.db["movers"]["AddonCompartmentMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-211,-3"
+	end
 	E.db["movers"]["AlertFrameMover"] = "TOP,UIParent,TOP,0,-67"
 	E.db["movers"]["ArenaHeaderMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-3,-308"
 	E.db["movers"]["AzeriteBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,430,-1"
