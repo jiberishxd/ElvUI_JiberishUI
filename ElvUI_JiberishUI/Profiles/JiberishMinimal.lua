@@ -1298,9 +1298,6 @@ function JiberishUI:JiberishMinimal()
 	E.db["unitframe"]["units"]["focus"]["raidicon"]["yOffset"] = -6
 	E.db["unitframe"]["units"]["focus"]["threatStyle"] = "NONE"
 	E.db["unitframe"]["units"]["focus"]["width"] = 135
-	if E.Retail then
-		E.db["unitframe"]["units"]["focustarget"]["CombatIcon"]["enable"] = false
-	end
 	E.db["unitframe"]["units"]["focustarget"]["buffs"]["anchorPoint"] = "TOPLEFT"
 	E.db["unitframe"]["units"]["focustarget"]["buffs"]["countFont"] = "GothamXNarrow"
 	E.db["unitframe"]["units"]["focustarget"]["buffs"]["countFontSize"] = 14
