@@ -1298,7 +1298,9 @@ function JiberishUI:JiberishPortraitMode()
 	E.db["unitframe"]["units"]["focus"]["raidicon"]["yOffset"] = -6
 	E.db["unitframe"]["units"]["focus"]["threatStyle"] = "NONE"
 	E.db["unitframe"]["units"]["focus"]["width"] = 135
-	E.db["unitframe"]["units"]["focustarget"]["CombatIcon"]["enable"] = false
+	if E.Retail then
+		E.db["unitframe"]["units"]["focustarget"]["CombatIcon"]["enable"] = false
+	end
 	E.db["unitframe"]["units"]["focustarget"]["buffs"]["anchorPoint"] = "TOPLEFT"
 	E.db["unitframe"]["units"]["focustarget"]["buffs"]["countFont"] = "GothamXNarrow"
 	E.db["unitframe"]["units"]["focustarget"]["buffs"]["countFontSize"] = 14

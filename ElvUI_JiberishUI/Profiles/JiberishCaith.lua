@@ -1354,7 +1354,9 @@ function JiberishUI:JiberishCaith()
 	E.db["unitframe"]["units"]["focus"]["smartAuraPosition"] = "DEBUFFS_ON_BUFFS"
 	E.db["unitframe"]["units"]["focus"]["threatStyle"] = "NONE"
 	E.db["unitframe"]["units"]["focus"]["width"] = 275
-	E.db["unitframe"]["units"]["focustarget"]["CombatIcon"]["enable"] = false
+	if E.Retail then
+		E.db["unitframe"]["units"]["focustarget"]["CombatIcon"]["enable"] = false
+	end
 	E.db["unitframe"]["units"]["focustarget"]["buffs"]["anchorPoint"] = "TOPLEFT"
 	E.db["unitframe"]["units"]["focustarget"]["buffs"]["countFont"] = "GothamXNarrow"
 	E.db["unitframe"]["units"]["focustarget"]["buffs"]["countFontSize"] = 14
