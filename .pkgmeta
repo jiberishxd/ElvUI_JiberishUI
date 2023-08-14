@@ -10,6 +10,7 @@ ignore:
   - ElvUI_JiberishUI/README.md
   - "*.md"
   - ElvUI_JiberishUI/Screenshots
+  - .luacheckrc
 
 move-folders:
     ElvUI_JiberishUI/ElvUI_JiberishUI: ElvUI_JiberishUI
