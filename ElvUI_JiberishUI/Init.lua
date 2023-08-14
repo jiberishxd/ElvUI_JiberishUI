@@ -43,7 +43,7 @@ local function SetupLayout(layout)
 
 	--import gradient mode
 	ElvUI_EltreumUI:GradientMode()
-	
+
 	--set Eltruism defaults (some of which will be disabled on profiles)
 	--ElvUI_EltreumUI:UpdateEltruismSettings()
 
@@ -57,14 +57,16 @@ local function SetupLayout(layout)
 		JiberishUI:JiberishInfoPanel()
 	elseif layout == "JiberishMinimal" then
 		JiberishUI:JiberishMinimal()
-	elseif layout == "JiberisPortraitMode" then
+	elseif layout == "JiberishPortraitMode" then
 		JiberishUI:JiberishPortraitMode()
-	elseif layout == "JiberisVXT" then
+	elseif layout == "JiberishVXT" then
 		JiberishUI:JiberishVXT()
 	elseif layout == "Trenchy" then
 		JiberishUI:Trenchy()
 	elseif layout == "TrenchyDark" then
 		JiberishUI:TrenchyDark()
+	elseif layout == "JiberishMidnight" then
+		JiberishUI:JiberishMidnight()
 	end
 
 	--fix the colors after the profile
@@ -138,7 +140,7 @@ local InstallerData = {
 			PluginInstallFrame.Option4:Show()
 			PluginInstallFrame.Option4:SetScript("OnClick", function()
 				E.data:SetProfile("Jiberish PortraitMode") -- this will create a new profile with the name supplied
-				SetupLayout("JiberisPortraitMode")
+				SetupLayout("JiberishPortraitMode")
 			end)
 			PluginInstallFrame.Option4:SetText("Portrait Mode")
 
@@ -173,6 +175,23 @@ local InstallerData = {
 
 		end,
 		[4] = function()
+			PluginInstallFrame.SubTitle:SetText("Layouts 3")
+			PluginInstallFrame.Desc1:SetText("These are the layouts that are available. Please click a button below to apply the layout of your choosing.")
+			PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
+
+			PluginInstallFrame.Option1:Show()
+			PluginInstallFrame.Option1:SetScript("OnClick", function()
+				E.data:SetProfile("Jiberish Midnight") -- this will create a new profile with the name supplied
+				SetupLayout("JiberishMidnight") --this will apply the profile to the current profile
+			end)
+			PluginInstallFrame.Option1:SetText("VXT")
+
+			--not used yet
+			PluginInstallFrame.Option2:Hide()
+			PluginInstallFrame.Option3:Hide()
+
+		end,
+		[5] = function()
 			_G.PluginInstallFrame.SubTitle:SetFormattedText('Discord')
 			_G.PluginInstallFrame.Desc1:SetText(L["Join the Discord if you have any questions or issues"])
 			_G.PluginInstallFrame.Option1:Enable()
