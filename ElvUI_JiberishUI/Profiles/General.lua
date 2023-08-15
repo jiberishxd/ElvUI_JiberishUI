@@ -679,7 +679,8 @@ function JiberishUI:EltruismNPSettings()
 	E.db.ElvUI_EltreumUI.nameplates.nameplateOptions.npglow = true
 	E.db.ElvUI_EltreumUI.nameplates.auras.enable = true
 	E.db.ElvUI_EltreumUI.unitframes.gradientmode.nporientation = "VERTICAL"
-	E.private.ElvUI_EltreumUI.nameplatepower.enable = true
+	E.private.ElvUI_EltreumUI.nameplatepower.enable = false
+	E.db.nameplates.units.TARGET.classpower.enable = false --elvui target class bar
 	E.private.ElvUI_EltreumUI.nameplatepower.adjust = true
 	if E.Retail then
 		E.db.ElvUI_EltreumUI.cvars.autohidenpcname = true
