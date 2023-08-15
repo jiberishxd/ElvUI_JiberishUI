@@ -658,13 +658,13 @@ function JiberishUI:EltruismNPSettings()
 	E.db.ElvUI_EltreumUI.skins.shadow.npportraits = true
 	E.db.ElvUI_EltreumUI.skins.shadow.npauras = true
 
-	E.db.ElvUI_EltreumUI.skins.shadow.raid = false
-	E.db.ElvUI_EltreumUI.skins.shadow.aura = false
-	E.db.ElvUI_EltreumUI.skins.shadow.ufaura = false
-	E.db.ElvUI_EltreumUI.skins.shadow.actionbars = false
-	E.db.ElvUI_EltreumUI.skins.shadow.minimap = false
-	E.db.ElvUI_EltreumUI.skins.shadow.chat = false
-	E.db.ElvUI_EltreumUI.skins.shadow.unitframes = false
+	E.db.ElvUI_EltreumUI.skins.shadow.raid = true
+	E.db.ElvUI_EltreumUI.skins.shadow.aura = true
+	E.db.ElvUI_EltreumUI.skins.shadow.ufaura = true
+	E.db.ElvUI_EltreumUI.skins.shadow.actionbars = true
+	E.db.ElvUI_EltreumUI.skins.shadow.minimap = true
+	E.db.ElvUI_EltreumUI.skins.shadow.chat = true
+	E.db.ElvUI_EltreumUI.skins.shadow.unitframes = true
 
 	E.db.ElvUI_EltreumUI.nameplates.nameplatepower.a = 1
 	E.db.ElvUI_EltreumUI.nameplates.nameplatelevel = true
