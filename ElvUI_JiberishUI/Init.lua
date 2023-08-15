@@ -74,6 +74,8 @@ local function SetupLayout(layout)
 		JiberishUI:JiberishAndromeda()
 	elseif layout == "JiberishImmersed" then
 		JiberishUI:JiberishImmersed()
+	elseif layout == "JiberishWinterChill" then
+		JiberishUI:JiberishWinterChill()
 	end
 
 	--fix the colors after the profile
@@ -116,6 +118,10 @@ local InstallerData = {
 			PluginInstallFrame.Option1:Show()
 			PluginInstallFrame.Option1:SetScript("OnClick", InstallComplete)
 			PluginInstallFrame.Option1:SetText("Skip Process")
+
+			PluginInstallFrame.Option2:Hide()
+			PluginInstallFrame.Option3:Hide()
+			PluginInstallFrame.Option4:Hide()
 		end,
 		[2] = function()
 			PluginInstallFrame.SubTitle:SetText("Layouts 1")
@@ -123,21 +129,21 @@ local InstallerData = {
 			PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
 
 			PluginInstallFrame.Option1:Show()
-			PluginInstallFrame.Option1:SetScript("OnClick", function() 
+			PluginInstallFrame.Option1:SetScript("OnClick", function()
 				E.data:SetProfile("Jiberish Caith") -- this will create a new profile with the name supplied
 				SetupLayout("JiberishCaith") --this will apply the profile to the current profile
 			end)
 			PluginInstallFrame.Option1:SetText("Caith")
-			
+
 			PluginInstallFrame.Option2:Show()
-			PluginInstallFrame.Option2:SetScript("OnClick", function() 
+			PluginInstallFrame.Option2:SetScript("OnClick", function()
 				E.data:SetProfile("Jiberish InfoPanel") -- this will create a new profile with the name supplied
 				SetupLayout("JiberishInfoPanel")
 			end)
 			PluginInstallFrame.Option2:SetText("Info Panel")
-			
+
 			PluginInstallFrame.Option3:Show()
-			PluginInstallFrame.Option3:SetScript("OnClick", function() 
+			PluginInstallFrame.Option3:SetScript("OnClick", function()
 				E.data:SetProfile("Jiberish Minimal") -- this will create a new profile with the name supplied
 				SetupLayout("JiberishMinimal")
 			end)
@@ -180,6 +186,8 @@ local InstallerData = {
 			end)
 			PluginInstallFrame.Option3:SetText("Trenchy Dark")
 
+			PluginInstallFrame.Option4:Hide()
+
 		end,
 		[4] = function()
 			PluginInstallFrame.SubTitle:SetText("Layouts 3")
@@ -216,20 +224,44 @@ local InstallerData = {
 
 		end,
 		[5] = function()
+			PluginInstallFrame.SubTitle:SetText("Layouts 4")
+			PluginInstallFrame.Desc1:SetText("These are the layouts that are available. Please click a button below to apply the layout of your choosing.")
+			PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
+
+			PluginInstallFrame.Option1:Show()
+			PluginInstallFrame.Option1:SetScript("OnClick", function()
+				E.data:SetProfile("Jiberish Winter's Chill") -- this will create a new profile with the name supplied
+				SetupLayout("JiberishWinterChill") --this will apply the profile to the current profile
+			end)
+			PluginInstallFrame.Option1:SetText("Winter's Chill")
+
+			PluginInstallFrame.Option2:Hide()
+			PluginInstallFrame.Option3:Hide()
+			PluginInstallFrame.Option4:Hide()
+		end,
+		[6] = function()
 			_G.PluginInstallFrame.SubTitle:SetFormattedText('Discord')
 			_G.PluginInstallFrame.Desc1:SetText(L["Join the Discord if you have any questions or issues"])
 			_G.PluginInstallFrame.Option1:Enable()
 			_G.PluginInstallFrame.Option1:Show()
 			_G.PluginInstallFrame.Option1:SetScript('OnClick', function() E:StaticPopup_Show('ELVUI_EDITBOX', nil, nil, 'https://discord.gg/jr5w8ArzAx')  end)
 			_G.PluginInstallFrame.Option1:SetText('Discord')
+
+			PluginInstallFrame.Option2:Hide()
+			PluginInstallFrame.Option3:Hide()
+			PluginInstallFrame.Option4:Hide()
 		end,
-		[6] = function()
+		[7] = function()
 			PluginInstallFrame.SubTitle:SetText("Installation Complete")
 			PluginInstallFrame.Desc1:SetText("You have completed the installation process.")
 			PluginInstallFrame.Desc2:SetText("Please click the button below in order to finalize the process and automatically reload your UI.")
 			PluginInstallFrame.Option1:Show()
 			PluginInstallFrame.Option1:SetScript("OnClick", InstallComplete)
 			PluginInstallFrame.Option1:SetText("Finished")
+
+			PluginInstallFrame.Option2:Hide()
+			PluginInstallFrame.Option3:Hide()
+			PluginInstallFrame.Option4:Hide()
 		end,
 	},
 	StepTitles = {
@@ -237,8 +269,9 @@ local InstallerData = {
 		[2] = "Layouts 1",
 		[3] = "Layouts 2",
 		[4] = "Layouts 3",
-		[5] = "Discord",
-		[6] = "Installation Complete",
+		[5] = "Layouts 4",
+		[6] = "Discord",
+		[7] = "Installation Complete",
 	},
 	StepTitlesColor = {1, 1, 1},
 	StepTitlesColorSelected = {0.41, 0.25, 0.89},
