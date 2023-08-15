@@ -127,6 +127,19 @@ function JiberishUI:General()
 	E.db["datatexts"]["panels"]["RightChatDataPanel"]["backdrop"] = false
 
 	--start the custom texts
+	E.db["unitframe"]["units"]["party"]["customTexts"]["JiberishStatus"] = {}
+	E.db["unitframe"]["units"]["player"]["customTexts"]["Class icon"] = {}
+	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishSTANCE"] = {}
+	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPvP"] = {}
+	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPlayerAbsorb"] = {}
+	E.db["unitframe"]["units"]["target"]["customTexts"]["Class Icon"] = {}
+	E.db["unitframe"]["units"]["target"]["customTexts"]["JiberishTargetAbsorb"] = {}
+	E.db["unitframe"]["units"]["party"]["customTexts"]["Class Icon"] = {}
+	E.db["unitframe"]["units"]["party"]["customTexts"]["JiberishStatus"] = {}
+	E.db["unitframe"]["units"]["targettarget"]["customTexts"]["JiberishStatus"] = {}
+	E.db["unitframe"]["units"]["raid1"]["customTexts"]["JiberishGroup"] = {}
+	E.db["unitframe"]["units"]["raid2"]["customTexts"]["JiberishGroup"] = {}
+	E.db["unitframe"]["units"]["raid3"]["customTexts"]["JiberishGroup"] = {}
 
 	--party
 	E.db["unitframe"]["units"]["party"]["customTexts"] = E.db["unitframe"]["units"]["party"]["customTexts"] or {}
