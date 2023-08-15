@@ -438,7 +438,7 @@ function JiberishUI:JiberishDeathGlass()
 	E.db["ElvUI_EltreumUI"]["unitframes"]["sparkcustomcolor"]["enable"] = true
 	E.db["ElvUI_EltreumUI"]["unitframes"]["sparkcustomcolor"]["texture"] = "Eltreum-Fade"
 	E.db["ElvUI_EltreumUI"]["unitframes"]["sparkcustomcolor"]["width"] = 20
-	E.db["ElvUI_EltreumUI"]["unitframes"]["ufcustomtexture"]["backdropalpha"] = 0.7
+	E.db["ElvUI_EltreumUI"]["unitframes"]["ufcustomtexture"]["backdropalpha"] = 1
 	E.db["ElvUI_EltreumUI"]["unitframes"]["ufcustomtexture"]["backdroptexture"] = "Asphyxia-Norm"
 	E.db["ElvUI_EltreumUI"]["unitframes"]["ufcustomtexture"]["bosstexture"] = "MaUIv3"
 	E.db["ElvUI_EltreumUI"]["unitframes"]["ufcustomtexture"]["castbartexture"] = "mMediaTag N38"
