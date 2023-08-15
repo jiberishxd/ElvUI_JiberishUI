@@ -76,9 +76,9 @@ local function SetupLayout(layout)
 		JiberishUI:JiberishImmersed()
 	elseif layout == "JiberishWinterChill" then
 		JiberishUI:JiberishWinterChill()
-	elseif layout == "JiberisPortraitSymbol" then
+	elseif layout == "JiberishPortraitSymbol" then
 		JiberishUI:JiberishPortraitSymbol()
-	elseif layout == "JiberisVerticality" then
+	elseif layout == "JiberishVerticality" then
 		JiberishUI:JiberishVerticality()
 	end
 
