@@ -140,6 +140,9 @@ end
 function JiberishUI:JiberishInfoPanel()
 	if not E.db.movers then E.db.movers = {} end
 
+	--call trenchy's style filters since they are being used
+	JiberishUI:TrenchyStyleFilters()
+
 	--np
 	JiberishUI:JiberishInfoPanelNP()
 
