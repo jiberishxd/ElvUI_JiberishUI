@@ -67,7 +67,7 @@ local function SetupLayout(layout)
 		JiberishUI:TrenchyDark()
 	elseif layout == "JiberishMidnight" then
 		JiberishUI:JiberishMidnight()
-	elseif layout == "JiberisDeathGlass" then
+	elseif layout == "JiberishDeathGlass" then
 		JiberishUI:JiberishDeathGlass()
 	elseif layout == "JiberishAndromeda" then
 		JiberishUI:JiberishAndromeda()
