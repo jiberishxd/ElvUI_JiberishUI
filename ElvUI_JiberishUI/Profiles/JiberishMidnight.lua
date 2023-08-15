@@ -2450,7 +2450,7 @@ function JiberishUI:JiberishMidnight()
 	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishSTANCE"]["justifyH"] = "LEFT"
 	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishSTANCE"]["size"] = 10
 	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishSTANCE"]["text_format"] = "[eltruism:stance]"
-	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishSTANCE"]["xOffset"] = 6
+	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishSTANCE"]["xOffset"] = 34
 	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishSTANCE"]["yOffset"] = 0
 	E.db["unitframe"]["units"]["player"]["debuffs"]["anchorPoint"] = "TOPRIGHT"
 	E.db["unitframe"]["units"]["player"]["debuffs"]["countFont"] = "KMT-GothamXN_Ultra"
