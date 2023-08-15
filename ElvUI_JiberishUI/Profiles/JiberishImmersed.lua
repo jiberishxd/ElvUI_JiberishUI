@@ -1267,7 +1267,7 @@ function JiberishUI:JiberishImmersed()
 	E.db["nameplates"]["lowHealthThreshold"] = 0.2
 	E.db["nameplates"]["overlapV"] = 1
 	E.db["nameplates"]["plateSize"]["enemyHeight"] = 20
-	E.db["nameplates"]["plateSize"]["enemyWidth"] = 120
+	E.db["nameplates"]["plateSize"]["enemyWidth"] = 150
 	E.db["nameplates"]["smoothbars"] = true
 	E.db["nameplates"]["statusbar"] = "mMediaTag A1"
 	E.db["nameplates"]["threat"]["badScale"] = 1.1
@@ -1303,7 +1303,7 @@ function JiberishUI:JiberishImmersed()
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["textYOffset"] = -1
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["timeToHold"] = 0.6
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["timeYOffset"] = -1
-	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["width"] = 120
+	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["width"] = 150
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["yOffset"] = -16
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["anchorPoint"] = "RIGHT"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["countFont"] = "KMT-GothamXN_Ultra"
@@ -1346,7 +1346,7 @@ function JiberishUI:JiberishImmersed()
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["format"] = "[name:abbrev:medium]"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["parent"] = "Health"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["xOffset"] = 6
-	E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["yOffset"] = -3
+	E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["yOffset"] = 8
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["portrait"]["height"] = 30
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["portrait"]["position"] = "LEFT"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["portrait"]["width"] = 30
@@ -1398,6 +1398,7 @@ function JiberishUI:JiberishImmersed()
 	E.db["nameplates"]["units"]["ENEMY_PLAYER"]["castbar"]["timeToHold"] = 0.6
 	E.db["nameplates"]["units"]["ENEMY_PLAYER"]["castbar"]["timeYOffset"] = -1
 	E.db["nameplates"]["units"]["ENEMY_PLAYER"]["castbar"]["yOffset"] = -14
+	E.db["nameplates"]["units"]["ENEMY_PLAYER"]["castbar"]["width"] = 150
 	E.db["nameplates"]["units"]["ENEMY_PLAYER"]["debuffs"]["anchorPoint"] = "TOP"
 	E.db["nameplates"]["units"]["ENEMY_PLAYER"]["debuffs"]["countFont"] = "KMT-GothamXN_Ultra"
 	E.db["nameplates"]["units"]["ENEMY_PLAYER"]["debuffs"]["countFontSize"] = 10
