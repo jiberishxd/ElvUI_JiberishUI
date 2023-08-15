@@ -1544,7 +1544,7 @@ function JiberishUI:JiberishMinimal()
 	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPlayerHealth"]["size"] = 14
 	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPlayerHealth"]["text_format"] = "[health:current-percent-nostatus:shortvalue]"
 	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPlayerHealth"]["xOffset"] = 0
-	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPlayerHealth"]["yOffset"] = 19
+	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPlayerHealth"]["yOffset"] = 21
 	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPlayerName"]["attachTextTo"] = "Health"
 	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPlayerName"]["enable"] = true
 	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPlayerName"]["font"] = "KMT-GothamXN_Ultra"
@@ -1553,7 +1553,7 @@ function JiberishUI:JiberishMinimal()
 	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPlayerName"]["size"] = 15
 	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPlayerName"]["text_format"] = "[name:eltruism:gradient]"
 	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPlayerName"]["xOffset"] = 0
-	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPlayerName"]["yOffset"] = 24
+	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPlayerName"]["yOffset"] = 21
 	E.db["unitframe"]["units"]["player"]["debuffs"]["countFont"] = "KMT-GothamXN_Ultra"
 	E.db["unitframe"]["units"]["player"]["debuffs"]["countFontSize"] = 16
 	E.db["unitframe"]["units"]["player"]["debuffs"]["countPosition"] = "TOP"
