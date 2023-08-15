@@ -76,6 +76,8 @@ local function SetupLayout(layout)
 		JiberishUI:JiberishImmersed()
 	elseif layout == "JiberishWinterChill" then
 		JiberishUI:JiberishWinterChill()
+	elseif layout == "JiberisPortraitSymbol" then
+		JiberishUI:JiberishPortraitSymbol()
 	end
 
 	--fix the colors after the profile
@@ -235,7 +237,13 @@ local InstallerData = {
 			end)
 			PluginInstallFrame.Option1:SetText("Winter's Chill")
 
-			PluginInstallFrame.Option2:Hide()
+			PluginInstallFrame.Option2:Show()
+			PluginInstallFrame.Option2:SetScript("OnClick", function()
+				E.data:SetProfile("Jiberish Portrait Symbol") -- this will create a new profile with the name supplied
+				SetupLayout("JiberishPortraitSymbol") --this will apply the profile to the current profile
+			end)
+			PluginInstallFrame.Option2:SetText("Portrait Symbol")
+
 			PluginInstallFrame.Option3:Hide()
 			PluginInstallFrame.Option4:Hide()
 		end,

@@ -8,6 +8,7 @@
 	<Script file='JiberishMidnight.lua'/>
 	<Script file='JiberishMinimal.lua'/>
 	<Script file='JiberishPortraitMode.lua'/>
+	<Script file='JiberishPortraitSymbol.lua'/>
 	<Script file='JiberishVXT.lua'/>
 	<Script file='JiberishWinterChill.lua'/>
 	<Script file='Trenchy.lua'/>
