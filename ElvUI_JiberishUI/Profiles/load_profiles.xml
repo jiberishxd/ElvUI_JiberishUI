@@ -1,6 +1,9 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
 	<Script file='General.lua'/>
+	<Script file='JiberishAndromeda.lua'/>
 	<Script file='JiberishCaith.lua'/>
+	<Script file='JiberishDeathGlass.lua'/>
+	<Script file='JiberishImmersed.lua'/>
 	<Script file='JiberishInfoPanel.lua'/>
 	<Script file='JiberishMidnight.lua'/>
 	<Script file='JiberishMinimal.lua'/>

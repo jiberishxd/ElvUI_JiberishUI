@@ -67,6 +67,12 @@ local function SetupLayout(layout)
 		JiberishUI:TrenchyDark()
 	elseif layout == "JiberishMidnight" then
 		JiberishUI:JiberishMidnight()
+	elseif layout == "JiberisDeathGlass" then
+		JiberishUI:JiberishDeathGlass()
+	elseif layout == "JiberishAndromeda" then
+		JiberishUI:JiberishAndromeda()
+	elseif layout == "JiberishImmersed" then
+		JiberishUI:JiberishImmersed()
 	end
 
 	--fix the colors after the profile
@@ -184,11 +190,28 @@ local InstallerData = {
 				E.data:SetProfile("Jiberish Midnight") -- this will create a new profile with the name supplied
 				SetupLayout("JiberishMidnight") --this will apply the profile to the current profile
 			end)
-			PluginInstallFrame.Option1:SetText("VXT")
+			PluginInstallFrame.Option1:SetText("Midnight")
 
-			--not used yet
-			PluginInstallFrame.Option2:Hide()
-			PluginInstallFrame.Option3:Hide()
+			PluginInstallFrame.Option2:Show()
+			PluginInstallFrame.Option2:SetScript("OnClick", function()
+				E.data:SetProfile("Jiberish Death Glass") -- this will create a new profile with the name supplied
+				SetupLayout("JiberishDeathGlass") --this will apply the profile to the current profile
+			end)
+			PluginInstallFrame.Option2:SetText("DeathGlass")
+
+			PluginInstallFrame.Option3:Show()
+			PluginInstallFrame.Option3:SetScript("OnClick", function()
+				E.data:SetProfile("Jiberish Andromeda") -- this will create a new profile with the name supplied
+				SetupLayout("JiberishAndromeda") --this will apply the profile to the current profile
+			end)
+			PluginInstallFrame.Option3:SetText("Andromeda")
+
+			PluginInstallFrame.Option4:Show()
+			PluginInstallFrame.Option4:SetScript("OnClick", function()
+				E.data:SetProfile("Jiberish Immersed") -- this will create a new profile with the name supplied
+				SetupLayout("JiberishImmersed") --this will apply the profile to the current profile
+			end)
+			PluginInstallFrame.Option4:SetText("Immersed")
 
 		end,
 		[5] = function()
@@ -199,7 +222,7 @@ local InstallerData = {
 			_G.PluginInstallFrame.Option1:SetScript('OnClick', function() E:StaticPopup_Show('ELVUI_EDITBOX', nil, nil, 'https://discord.gg/jr5w8ArzAx')  end)
 			_G.PluginInstallFrame.Option1:SetText('Discord')
 		end,
-		[5] = function()
+		[6] = function()
 			PluginInstallFrame.SubTitle:SetText("Installation Complete")
 			PluginInstallFrame.Desc1:SetText("You have completed the installation process.")
 			PluginInstallFrame.Desc2:SetText("Please click the button below in order to finalize the process and automatically reload your UI.")
@@ -212,8 +235,9 @@ local InstallerData = {
 		[1] = "Welcome",
 		[2] = "Layouts 1",
 		[3] = "Layouts 2",
-		[4] = "Discord",
-		[5] = "Installation Complete",
+		[4] = "Layouts 3",
+		[5] = "Discord",
+		[6] = "Installation Complete",
 	},
 	StepTitlesColor = {1, 1, 1},
 	StepTitlesColorSelected = {0.41, 0.25, 0.89},
