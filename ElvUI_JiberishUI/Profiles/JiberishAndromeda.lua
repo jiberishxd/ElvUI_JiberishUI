@@ -1943,7 +1943,7 @@ function JiberishUI:JiberishAndromeda()
 	E.db["unitframe"]["units"]["focus"]["castbar"]["customColor"]["colorBackdrop"]["r"] = 0.50196078431373
 	E.db["unitframe"]["units"]["focus"]["castbar"]["customColor"]["useClassColor"] = true
 	E.db["unitframe"]["units"]["focus"]["castbar"]["customColor"]["useCustomBackdrop"] = true
-	E.db["unitframe"]["units"]["focus"]["castbar"]["enable"] = false
+	E.db["unitframe"]["units"]["focus"]["castbar"]["enable"] = true
 	E.db["unitframe"]["units"]["focus"]["castbar"]["height"] = 30
 	E.db["unitframe"]["units"]["focus"]["castbar"]["strataAndLevel"]["frameStrata"] = "DIALOG"
 	E.db["unitframe"]["units"]["focus"]["castbar"]["timeToHold"] = 0.6

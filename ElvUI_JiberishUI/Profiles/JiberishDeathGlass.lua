@@ -211,7 +211,6 @@ function JiberishUI:JiberishDeathGlass()
 	E.private["skins"]["parchmentRemoverEnable"] = true
 	E.private["theme"] = "class"
 
-
 	--profile
 	E.db["ElvUI_EltreumUI"]["borders"]["bar1borders"] = false
 	E.db["ElvUI_EltreumUI"]["borders"]["bar2borders"] = false
