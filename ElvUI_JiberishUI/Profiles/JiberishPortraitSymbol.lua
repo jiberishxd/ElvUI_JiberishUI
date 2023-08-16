@@ -1350,7 +1350,7 @@ function JiberishUI:JiberishPortraitSymbol()
 	E.db["nameplates"]["statusbar"] = "mMediaTag A1"
 	E.db["nameplates"]["threat"]["badScale"] = 1.1
 	E.db["nameplates"]["threat"]["goodScale"] = 0.9
-	E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["anchorPoint"] = "TOPRIGHT"
+	E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["anchorPoint"] = "TOP"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["attachTo"] = "DEBUFFS"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["countFont"] = "KMT-GothamXN_Ultra"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["countFontSize"] = 10
@@ -1382,7 +1382,7 @@ function JiberishUI:JiberishPortraitSymbol()
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["timeToHold"] = 0.6
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["timeYOffset"] = -1
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["yOffset"] = -16
-	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["anchorPoint"] = "RIGHT"
+	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["anchorPoint"] = "TOP"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["countFont"] = "KMT-GothamXN_Ultra"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["countFontSize"] = 10
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["countXOffset"] = 2
@@ -1395,8 +1395,7 @@ function JiberishUI:JiberishPortraitSymbol()
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["priority"] = "Blacklist,blockNoDuration,blockNonPersonal,Personal,blockNonCastByNPC"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["size"] = 20
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["spacing"] = 4
-	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["xOffset"] = 4
-	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["yOffset"] = -1
+	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["yOffset"] = 6
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["eliteIcon"]["enable"] = true
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["eliteIcon"]["position"] = "LEFT"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["eliteIcon"]["size"] = 12
@@ -1420,10 +1419,9 @@ function JiberishUI:JiberishPortraitSymbol()
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["level"]["yOffset"] = -13
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["font"] = "KMT-GothamXN_Ultra"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["fontSize"] = 10
-	E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["format"] = "[name:abbrev:medium]"
+	E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["format"] = "[name:eltruism:gradientshort]"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["parent"] = "Health"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["position"] = "CENTER"
-	E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["xOffset"] = 6
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["yOffset"] = 8
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["portrait"]["height"] = 30
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["portrait"]["position"] = "LEFT"
@@ -1696,8 +1694,8 @@ function JiberishUI:JiberishPortraitSymbol()
 	E.db["nameplates"]["units"]["PLAYER"]["showTitle"] = false
 	E.db["nameplates"]["units"]["PLAYER"]["smartAuraPosition"] = "BUFFS_ON_DEBUFFS"
 	E.db["nameplates"]["units"]["PLAYER"]["title"]["font"] = "KMT-GothamXN_Ultra"
-	E.db["nameplates"]["units"]["TARGET"]["arrow"] = "mMediaTag16"
-	E.db["nameplates"]["units"]["TARGET"]["arrowScale"] = 0.31
+	E.db["nameplates"]["units"]["TARGET"]["arrow"] = "Eltruism01"
+	E.db["nameplates"]["units"]["TARGET"]["arrowScale"] = 0.35
 	E.db["nameplates"]["units"]["TARGET"]["arrowSpacing"] = 0
 	E.db["nameplates"]["units"]["TARGET"]["classpower"]["enable"] = true
 	E.db["nameplates"]["units"]["TARGET"]["classpower"]["sortDirection"] = "asc"
