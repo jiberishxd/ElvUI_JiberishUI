@@ -176,12 +176,6 @@ function JiberishUI:JiberishMidnight()
 	E.global["general"]["mapAlphaWhenMoving"] = 0.35
 	E.global["general"]["smallerWorldMap"] = false
 	E.global["general"]["smallerWorldMapScale"] = 1
-	E.global["unitframe"]["AuraBarColors"][2825]["color"]["b"] = 0.33333334326744
-	E.global["unitframe"]["AuraBarColors"][2825]["color"]["g"] = 0.37647062540054
-	E.global["unitframe"]["AuraBarColors"][2825]["color"]["r"] = 0.98039221763611
-	E.global["unitframe"]["AuraBarColors"][80353]["color"]["b"] = 0.91372555494308
-	E.global["unitframe"]["AuraBarColors"][80353]["color"]["g"] = 0.98039221763611
-	E.global["unitframe"]["AuraBarColors"][80353]["color"]["r"] = 0.38431376218796
 
 	--private
 	E.private["ElvUI_EltreumUI"]["doomignored"] = "195182"
