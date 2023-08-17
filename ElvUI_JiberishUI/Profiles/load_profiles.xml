@@ -7,7 +7,6 @@
 	<Script file='JiberishInfoPanel.lua'/>
 	<Script file='JiberishMidnight.lua'/>
 	<Script file='JiberishMinimal.lua'/>
-	<Script file='JiberishPortraitMode.lua'/>
 	<Script file='JiberishPortraitSymbol.lua'/>
 	<Script file='JiberishVerticality.lua'/>
 	<Script file='JiberishVXT.lua'/>

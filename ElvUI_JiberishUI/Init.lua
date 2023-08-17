@@ -58,8 +58,6 @@ local function SetupLayout(layout)
 		JiberishUI:JiberishInfoPanel()
 	elseif layout == "JiberishMinimal" then
 		JiberishUI:JiberishMinimal()
-	elseif layout == "JiberishPortraitMode" then
-		JiberishUI:JiberishPortraitMode()
 	elseif layout == "JiberishVXT" then
 		JiberishUI:JiberishVXT()
 	elseif layout == "Trenchy" then
@@ -153,13 +151,6 @@ local InstallerData = {
 			end)
 			PluginInstallFrame.Option3:SetText("Minimal")
 			--you can add an option4, but you will need to add another page for more buttons/profiles
-
-			PluginInstallFrame.Option4:Show()
-			PluginInstallFrame.Option4:SetScript("OnClick", function()
-				E.data:SetProfile("Jiberish PortraitMode") -- this will create a new profile with the name supplied
-				SetupLayout("JiberishPortraitMode")
-			end)
-			PluginInstallFrame.Option4:SetText("Portrait Mode")
 
 			-- 4 buttons is the max per "page", so you'll need to add another page for more profiles, as you can see, 3 is now another page and 4 is now the complete install page
 		end,
