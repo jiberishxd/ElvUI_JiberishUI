@@ -723,8 +723,8 @@ function JiberishUI:JiberishVerticality()
 	E.db["actionbar"]["barPet"]["countFontOutline"] = "OUTLINE"
 	E.db["actionbar"]["barPet"]["hotkeyFont"] = "KMT-GothamXN_Ultra"
 	E.db["actionbar"]["barPet"]["hotkeyFontOutline"] = "OUTLINE"
-	E.db["actionbar"]["barPet"]["inheritGlobalFade"] = true
 	E.db["actionbar"]["barPet"]["keepSizeRatio"] = false
+	E.db["actionbar"]["barPet"]["mouseover"] = true
 	E.db["actionbar"]["barPet"]["visibility"] = "[vehicleui] hide; [overridebar] hide; [possessbar] hide; [petbattle] hide; [@pet,exists] show; hide"
 	E.db["actionbar"]["chargeCooldown"] = true
 	E.db["actionbar"]["colorSwipeNormal"]["a"] = 1
@@ -1108,7 +1108,7 @@ function JiberishUI:JiberishVerticality()
 	E.db["mMT"]["nameplate"]["healthmarker"]["enable"] = true
 	E.db["mMT"]["nameplate"]["healthmarker"]["overlaytexture"] = "mMediaTag A6"
 	E.db["mMT"]["version"] = "3.17"
-	E.db["movers"]["AddonCompartmentMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-211,-3"
+	E.db["movers"]["AddonCompartmentMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-185,-6"
 	E.db["movers"]["AlertFrameMover"] = "TOP,UIParent,TOP,0,-67"
 	E.db["movers"]["ArenaHeaderMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-3,-308"
 	E.db["movers"]["AzeriteBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,430,-1"
@@ -1351,7 +1351,6 @@ function JiberishUI:JiberishVerticality()
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["channelTimeFormat"] = "REMAINING"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["displayTarget"] = true
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["font"] = "KMT-GothamXN_Ultra"
-	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["fontOutline"] = "THICKOUTLINE"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["fontSize"] = 9
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["height"] = 12
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["iconOffsetX"] = -1
@@ -1386,7 +1385,6 @@ function JiberishUI:JiberishVerticality()
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["eliteIcon"]["yOffset"] = 9
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["height"] = 12
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["font"] = "KMT-GothamXN_Ultra"
-	E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["fontOutline"] = "THICKOUTLINE"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["fontSize"] = 10
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["format"] = "[perhp] [classcolor:target]"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["parent"] = "Health"
@@ -1428,7 +1426,6 @@ function JiberishUI:JiberishVerticality()
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["title"]["format"] = "[mTargetingPlayers:icons:SQ]"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["title"]["parent"] = "Health"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["title"]["position"] = "BOTTOMLEFT"
-	E.db["nameplates"]["units"]["ENEMY_NPC"]["title"]["xOffset"] = -55
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["title"]["yOffset"] = 4
 	E.db["nameplates"]["units"]["ENEMY_PLAYER"]["buffs"]["anchorPoint"] = "TOP"
 	E.db["nameplates"]["units"]["ENEMY_PLAYER"]["buffs"]["attachTo"] = "DEBUFFS"
@@ -1908,6 +1905,7 @@ function JiberishUI:JiberishVerticality()
 	E.db["unitframe"]["units"]["assist"]["buffs"]["priority"] = "Blacklist,TurtleBuffs,RaidBuffsElvUI"
 	E.db["unitframe"]["units"]["assist"]["colorOverride"] = "FORCE_OFF"
 	E.db["unitframe"]["units"]["assist"]["debuffs"]["countFont"] = "KMT-GothamXN_Ultra"
+	E.db["unitframe"]["units"]["assist"]["enable"] = false
 	E.db["unitframe"]["units"]["assist"]["rdebuffs"]["font"] = "KMT-GothamXN_Ultra"
 	E.db["unitframe"]["units"]["assist"]["targetsGroup"]["enable"] = false
 	E.db["unitframe"]["units"]["boss"]["buffIndicator"]["size"] = 15
@@ -2296,7 +2294,7 @@ function JiberishUI:JiberishVerticality()
 	E.db["unitframe"]["units"]["pet"]["customTexts"]["JiberishPetName"]["size"] = 12
 	E.db["unitframe"]["units"]["pet"]["customTexts"]["JiberishPetName"]["text_format"] = "[name:eltruism:gradient]"
 	E.db["unitframe"]["units"]["pet"]["customTexts"]["JiberishPetName"]["xOffset"] = 0
-	E.db["unitframe"]["units"]["pet"]["customTexts"]["JiberishPetName"]["yOffset"] = 0
+	E.db["unitframe"]["units"]["pet"]["customTexts"]["JiberishPetName"]["yOffset"] = 5
 	E.db["unitframe"]["units"]["pet"]["customTexts"]["JiberishPetPower"]["attachTextTo"] = "Power"
 	E.db["unitframe"]["units"]["pet"]["customTexts"]["JiberishPetPower"]["enable"] = false
 	E.db["unitframe"]["units"]["pet"]["customTexts"]["JiberishPetPower"]["font"] = "KMT-GothamXN_Ultra"
@@ -2326,6 +2324,7 @@ function JiberishUI:JiberishVerticality()
 	E.db["unitframe"]["units"]["pet"]["fader"]["unittarget"] = true
 	E.db["unitframe"]["units"]["pet"]["fader"]["vehicle"] = true
 	E.db["unitframe"]["units"]["pet"]["health"]["colorHappiness"] = false
+	E.db["unitframe"]["units"]["pet"]["height"] = 11
 	E.db["unitframe"]["units"]["pet"]["name"]["text_format"] = ""
 	E.db["unitframe"]["units"]["pet"]["power"]["enable"] = false
 	E.db["unitframe"]["units"]["pet"]["power"]["width"] = "inset"
@@ -2452,6 +2451,7 @@ function JiberishUI:JiberishVerticality()
 	E.db["unitframe"]["units"]["player"]["debuffs"]["countFont"] = "KMT-GothamXN_Ultra"
 	E.db["unitframe"]["units"]["player"]["debuffs"]["countXOffset"] = 2
 	E.db["unitframe"]["units"]["player"]["debuffs"]["countYOffset"] = -4
+	E.db["unitframe"]["units"]["player"]["debuffs"]["enable"] = false
 	E.db["unitframe"]["units"]["player"]["debuffs"]["growthX"] = "LEFT"
 	E.db["unitframe"]["units"]["player"]["debuffs"]["height"] = 26
 	E.db["unitframe"]["units"]["player"]["debuffs"]["keepSizeRatio"] = false
@@ -2855,6 +2855,7 @@ function JiberishUI:JiberishVerticality()
 	E.db["unitframe"]["units"]["tank"]["debuffs"]["yOffset"] = -1
 	E.db["unitframe"]["units"]["tank"]["disableFocusGlow"] = true
 	E.db["unitframe"]["units"]["tank"]["disableMouseoverGlow"] = true
+	E.db["unitframe"]["units"]["tank"]["enable"] = false
 	E.db["unitframe"]["units"]["tank"]["fader"]["minAlpha"] = 0.5
 	E.db["unitframe"]["units"]["tank"]["height"] = 30
 	E.db["unitframe"]["units"]["tank"]["name"]["text_format"] = "[name:eltruism:gradient]"
@@ -2976,7 +2977,7 @@ function JiberishUI:JiberishVerticality()
 	E.db["unitframe"]["units"]["target"]["debuffs"]["priority"] = "Blacklist,blockNoDuration,blockNonPersonal,Personal,nonPersonal"
 	E.db["unitframe"]["units"]["target"]["debuffs"]["sizeOverride"] = 30
 	E.db["unitframe"]["units"]["target"]["debuffs"]["spacing"] = 3
-	E.db["unitframe"]["units"]["target"]["debuffs"]["yOffset"] = 2
+	E.db["unitframe"]["units"]["target"]["debuffs"]["yOffset"] = 18
 	E.db["unitframe"]["units"]["target"]["disableMouseoverGlow"] = true
 	E.db["unitframe"]["units"]["target"]["fader"]["minAlpha"] = 0.25
 	E.db["unitframe"]["units"]["target"]["fader"]["smooth"] = 0.25
