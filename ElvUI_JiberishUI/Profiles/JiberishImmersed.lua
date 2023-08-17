@@ -645,8 +645,8 @@ function JiberishUI:JiberishImmersed()
 	E.db["actionbar"]["barPet"]["countFontOutline"] = "OUTLINE"
 	E.db["actionbar"]["barPet"]["hotkeyFont"] = "KMT-GothamXN_Ultra"
 	E.db["actionbar"]["barPet"]["hotkeyFontOutline"] = "OUTLINE"
-	E.db["actionbar"]["barPet"]["inheritGlobalFade"] = true
 	E.db["actionbar"]["barPet"]["keepSizeRatio"] = false
+	E.db["actionbar"]["barPet"]["mouseover"] = true
 	E.db["actionbar"]["barPet"]["visibility"] = "[vehicleui] hide; [overridebar] hide; [possessbar] hide; [petbattle] hide; [@pet,exists] show; hide"
 	E.db["actionbar"]["chargeCooldown"] = true
 	E.db["actionbar"]["colorSwipeNormal"]["a"] = 1
@@ -1043,10 +1043,10 @@ function JiberishUI:JiberishImmersed()
 	E.db["movers"]["BigButtonsSeedBarMover"] = "TOP,ElvUIParent,TOP,0,-476"
 	E.db["movers"]["BossButton"] = "TOP,UIParent,TOP,128,-617"
 	E.db["movers"]["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-2,-306"
-	E.db["movers"]["BuffsMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-213,-4"
+	E.db["movers"]["BuffsMover"] = "TOPLEFT,UIParent,TOPLEFT,0,0"
 	E.db["movers"]["DTPanelEltruismDataTextMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,0"
 	E.db["movers"]["DTPanelEltruismTimeMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,0"
-	E.db["movers"]["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-213,-101"
+	E.db["movers"]["DebuffsMover"] = "TOPLEFT,UIParent,TOPLEFT,0,-95"
 	E.db["movers"]["DurabilityFrameMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,486,278"
 	E.db["movers"]["ElvAB_1"] = "BOTTOM,UIParent,BOTTOM,0,58"
 	E.db["movers"]["ElvAB_10"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,264"
@@ -1067,14 +1067,14 @@ function JiberishUI:JiberishImmersed()
 	E.db["movers"]["ElvUF_PetCastbarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,563,283"
 	E.db["movers"]["ElvUF_PetMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,615,254"
 	E.db["movers"]["ElvUF_PlayerAuraMover"] = "BOTTOM,ElvUIParent,BOTTOM,-276,239"
-	E.db["movers"]["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-135,292"
+	E.db["movers"]["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-136,292"
 	E.db["movers"]["ElvUF_PlayerMover"] = "BOTTOM,UIParent,BOTTOM,-136,323"
 	E.db["movers"]["ElvUF_Raid1Mover"] = "BOTTOM,ElvUIParent,BOTTOM,0,106"
 	E.db["movers"]["ElvUF_Raid2Mover"] = "BOTTOM,ElvUIParent,BOTTOM,0,105"
 	E.db["movers"]["ElvUF_Raid3Mover"] = "BOTTOM,ElvUIParent,BOTTOM,0,105"
 	E.db["movers"]["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736"
 	E.db["movers"]["ElvUF_TankMover"] = "BOTTOM,ElvUIParent,BOTTOM,-213,214"
-	E.db["movers"]["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,135,292"
+	E.db["movers"]["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,136,292"
 	E.db["movers"]["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,136,323"
 	E.db["movers"]["ElvUF_TargetTargetMover"] = "BOTTOM,UIParent,BOTTOM,321,324"
 	E.db["movers"]["ElvUIBagMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-22,51"
@@ -1267,7 +1267,7 @@ function JiberishUI:JiberishImmersed()
 	E.db["nameplates"]["statusbar"] = "mMediaTag A1"
 	E.db["nameplates"]["threat"]["badScale"] = 1.1
 	E.db["nameplates"]["threat"]["goodScale"] = 0.9
-	E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["anchorPoint"] = "TOPRIGHT"
+	E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["anchorPoint"] = "TOP"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["attachTo"] = "DEBUFFS"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["countFont"] = "KMT-GothamXN_Ultra"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["countFontSize"] = 10
@@ -1285,7 +1285,6 @@ function JiberishUI:JiberishImmersed()
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["channelTimeFormat"] = "REMAINING"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["displayTarget"] = true
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["font"] = "KMT-GothamXN_Ultra"
-	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["fontOutline"] = "THICKOUTLINE"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["fontSize"] = 9
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["height"] = 12
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["iconOffsetX"] = -1
@@ -1312,7 +1311,6 @@ function JiberishUI:JiberishImmersed()
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["priority"] = "Blacklist,blockNoDuration,blockNonPersonal,Personal,blockNonCastByNPC"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["size"] = 20
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["spacing"] = 4
-	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["xOffset"] = 4
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["debuffs"]["yOffset"] = 6
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["eliteIcon"]["enable"] = true
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["eliteIcon"]["position"] = "LEFT"
@@ -1321,7 +1319,6 @@ function JiberishUI:JiberishImmersed()
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["eliteIcon"]["yOffset"] = 9
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["height"] = 12
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["font"] = "KMT-GothamXN_Ultra"
-	E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["fontOutline"] = "THICKOUTLINE"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["fontSize"] = 10
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["format"] = "[perhp] [classcolor:target]"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["parent"] = "Health"
@@ -1363,7 +1360,6 @@ function JiberishUI:JiberishImmersed()
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["title"]["format"] = "[mTargetingPlayers:icons:SQ]"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["title"]["parent"] = "Health"
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["title"]["position"] = "BOTTOMLEFT"
-	E.db["nameplates"]["units"]["ENEMY_NPC"]["title"]["xOffset"] = -55
 	E.db["nameplates"]["units"]["ENEMY_NPC"]["title"]["yOffset"] = 4
 	E.db["nameplates"]["units"]["ENEMY_PLAYER"]["buffs"]["anchorPoint"] = "TOP"
 	E.db["nameplates"]["units"]["ENEMY_PLAYER"]["buffs"]["attachTo"] = "DEBUFFS"
@@ -2365,11 +2361,9 @@ function JiberishUI:JiberishImmersed()
 	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPlayerPower"]["yOffset"] = -1
 	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishPvP"]["enable"] = true
 	E.db["unitframe"]["units"]["player"]["customTexts"]["JiberishSTANCE"]["enable"] = true
-	E.db["unitframe"]["units"]["player"]["debuffs"]["anchorPoint"] = "TOPRIGHT"
 	E.db["unitframe"]["units"]["player"]["debuffs"]["countFont"] = "KMT-GothamXN_Ultra"
 	E.db["unitframe"]["units"]["player"]["debuffs"]["countXOffset"] = 2
 	E.db["unitframe"]["units"]["player"]["debuffs"]["countYOffset"] = -4
-	E.db["unitframe"]["units"]["player"]["debuffs"]["growthX"] = "LEFT"
 	E.db["unitframe"]["units"]["player"]["debuffs"]["height"] = 26
 	E.db["unitframe"]["units"]["player"]["debuffs"]["keepSizeRatio"] = false
 	E.db["unitframe"]["units"]["player"]["debuffs"]["perrow"] = 2
