@@ -1386,7 +1386,7 @@ function JiberishUI:JiberishMidnight()
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["format"] = "[name:eltruism:gradientshort]"
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["parent"] = "Health"
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["position"] = "CENTER"
-		E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["xOffset"] = 6
+		E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["xOffset"] = 0
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["yOffset"] = 8
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["portrait"]["height"] = 30
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["portrait"]["position"] = "LEFT"
