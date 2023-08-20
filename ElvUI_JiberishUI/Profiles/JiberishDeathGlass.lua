@@ -134,6 +134,16 @@ function JiberishUI:JiberishDeathGlassNP()
 	E.global["nameplates"]["filters"]["ElvUI_Target"]["actions"]["color"]["borderColor"]["r"] = 0
 	E.global["nameplates"]["filters"]["ElvUI_Target"]["actions"]["scale"] = 1.1
 	E.global["nameplates"]["filters"]["ElvUI_Target"]["actions"]["texture"]["texture"] = "mMediaTag P11"
+
+	E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["fontOutline"] = "OUTLINE"
+	E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["fontOutline"] = "OUTLINE"
+	E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["xOffset"] = 3
+	E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["fontOutline"] = "OUTLINE"
+	E.db["nameplates"]["units"]["ENEMY_NPC"]["title"]["xOffset"] = 0
+	E.db["nameplates"]["units"]["ENEMY_PLAYER"]["castbar"]["fontOutline"] = "OUTLINE"
+	E.db["nameplates"]["units"]["ENEMY_PLAYER"]["health"]["text"]["fontOutline"] = "OUTLINE"
+	E.db["nameplates"]["units"]["ENEMY_PLAYER"]["name"]["fontOutline"] = "OUTLINE"
+	E.db["nameplates"]["units"]["FRIENDLY_NPC"]["name"]["fontOutline"] = "OUTLINE"
 end
 
 function JiberishUI:JiberishDeathGlass()
@@ -1317,7 +1327,7 @@ function JiberishUI:JiberishDeathGlass()
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["format"] = "[perhp] [classcolor:target]"
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["parent"] = "Health"
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["position"] = "TOPRIGHT"
-		E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["xOffset"] = 4
+		E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["xOffset"] = 3
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["yOffset"] = -3
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["level"]["enable"] = false
 		E.db["nameplates"]["units"]["ENEMY_NPC"]["level"]["font"] = "KMT-GothamXN_Ultra"
