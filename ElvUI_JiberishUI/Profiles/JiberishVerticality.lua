@@ -3094,4 +3094,16 @@ function JiberishUI:JiberishVerticality()
 	E.db["unitframe"]["units"]["targettargettarget"]["height"] = 30
 	E.db["unitframe"]["units"]["targettargettarget"]["power"]["enable"] = false
 	E.db["unitframe"]["units"]["targettargettarget"]["power"]["text_format"] = "[power:current:shortvalue]"
+
+	if E.private.nameplates.enable then
+		E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["fontOutline"] = "OUTLINE"
+		E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["fontOutline"] = "OUTLINE"
+		E.db["nameplates"]["units"]["ENEMY_NPC"]["health"]["text"]["xOffset"] = 3
+		E.db["nameplates"]["units"]["ENEMY_NPC"]["name"]["fontOutline"] = "OUTLINE"
+		E.db["nameplates"]["units"]["ENEMY_NPC"]["title"]["xOffset"] = 0
+		E.db["nameplates"]["units"]["ENEMY_PLAYER"]["castbar"]["fontOutline"] = "OUTLINE"
+		E.db["nameplates"]["units"]["ENEMY_PLAYER"]["health"]["text"]["fontOutline"] = "OUTLINE"
+		E.db["nameplates"]["units"]["ENEMY_PLAYER"]["name"]["fontOutline"] = "OUTLINE"
+		E.db["nameplates"]["units"]["FRIENDLY_NPC"]["name"]["fontOutline"] = "OUTLINE"
+	end
 end
