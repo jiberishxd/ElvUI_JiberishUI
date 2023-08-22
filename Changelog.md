@@ -1,3 +1,5 @@
-### 1.0.6
-Updated Profiles for mMediaTag v3  
-Fixed errors in Profiles  
+### 1.1.1
+Added several profiles  
+Updated all profiles  
+Updated Credits  
+Fixed errors in Classic era when installing some profiles  
