@@ -115,6 +115,9 @@ local InstallerData = {
 	tutorialImage = "Interface\\AddOns\\ElvUI_JiberishUI\\logo.tga", --If you have a logo you want to use, otherwise it uses the one from ElvUI
 	Pages = {
 		[1] = function()
+			ElvUI_EltreumUI:ResizeInstall()
+			ElvUI_EltreumUI:ImproveInstall()
+
 			PluginInstallFrame.SubTitle:SetText("Welcome to the installation for |cFF4668dcJ|cFF5268d7i|cFF5d68d3b|cFF6969cee|cFF7569car|cFF8069c5i|cFF8c69c1s|cFF986abch |cFFa36ab8U|cFFaf6ab3I|r")
 			PluginInstallFrame.Desc1:SetText("This installation process will guide you through a few steps and create a new ElvUI profile.")
 			PluginInstallFrame.Desc2:SetText("Please press the continue button if you wish to go through the installation process, otherwise click the 'Skip Process' button.")
@@ -125,8 +128,20 @@ local InstallerData = {
 			PluginInstallFrame.Option2:Hide()
 			PluginInstallFrame.Option3:Hide()
 			PluginInstallFrame.Option4:Hide()
+
+			_G.PluginInstallFrame.Option1:SetScript('OnEnter', nil)
+			_G.PluginInstallFrame.Option1:SetScript('OnLeave', nil)
+			_G.PluginInstallFrame.Option2:SetScript('OnEnter', nil)
+			_G.PluginInstallFrame.Option2:SetScript('OnLeave', nil)
+			_G.PluginInstallFrame.Option3:SetScript('OnEnter', nil)
+			_G.PluginInstallFrame.Option3:SetScript('OnLeave', nil)
+			_G.PluginInstallFrame.Option4:SetScript('OnEnter', nil)
+			_G.PluginInstallFrame.Option4:SetScript('OnLeave', nil)
+
 		end,
 		[2] = function()
+			ElvUI_EltreumUI:ResizeInstall()
+
 			PluginInstallFrame.SubTitle:SetText("Layouts 1")
 			PluginInstallFrame.Desc1:SetText("These are the layouts that are available. Please click a button below to apply the layout of your choosing.")
 			PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
@@ -137,6 +152,8 @@ local InstallerData = {
 				SetupLayout("JiberishCaith") --this will apply the profile to the current profile
 			end)
 			PluginInstallFrame.Option1:SetText("Caith")
+			_G.PluginInstallFrame.Option1:SetScript('OnEnter', function() ElvUI_EltreumUI:ImproveInstall(nil,"ENTERING",nil,true,"Interface\\Addons\\ElvUI_JiberishUI\\Media\\Installer\\Caith.jpg") end)
+			_G.PluginInstallFrame.Option1:SetScript('OnLeave', function() ElvUI_EltreumUI:ImproveInstall(nil,"LEAVING")end)
 
 			PluginInstallFrame.Option2:Show()
 			PluginInstallFrame.Option2:SetScript("OnClick", function()
@@ -144,6 +161,8 @@ local InstallerData = {
 				SetupLayout("JiberishInfoPanel")
 			end)
 			PluginInstallFrame.Option2:SetText("Info Panel")
+			_G.PluginInstallFrame.Option2:SetScript('OnEnter', function() ElvUI_EltreumUI:ImproveInstall(nil,"ENTERING",nil,true,"Interface\\Addons\\ElvUI_JiberishUI\\Media\\Installer\\InfoPanel.jpg") end)
+			_G.PluginInstallFrame.Option2:SetScript('OnLeave', function() ElvUI_EltreumUI:ImproveInstall(nil,"LEAVING")end)
 
 			PluginInstallFrame.Option3:Show()
 			PluginInstallFrame.Option3:SetScript("OnClick", function()
@@ -151,11 +170,11 @@ local InstallerData = {
 				SetupLayout("JiberishMinimal")
 			end)
 			PluginInstallFrame.Option3:SetText("Minimal")
-			--you can add an option4, but you will need to add another page for more buttons/profiles
-
-			-- 4 buttons is the max per "page", so you'll need to add another page for more profiles, as you can see, 3 is now another page and 4 is now the complete install page
+			_G.PluginInstallFrame.Option3:SetScript('OnEnter', function() ElvUI_EltreumUI:ImproveInstall(nil,"ENTERING",nil,true,"Interface\\Addons\\ElvUI_JiberishUI\\Media\\Installer\\Minimal.jpg") end)
+			_G.PluginInstallFrame.Option3:SetScript('OnLeave', function() ElvUI_EltreumUI:ImproveInstall(nil,"LEAVING")end)
 		end,
 		[3] = function()
+			ElvUI_EltreumUI:ResizeInstall()
 			PluginInstallFrame.SubTitle:SetText("Layouts 2")
 			PluginInstallFrame.Desc1:SetText("These are the layouts that are available. Please click a button below to apply the layout of your choosing.")
 			PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
@@ -166,7 +185,8 @@ local InstallerData = {
 				SetupLayout("JiberishVXT") --this will apply the profile to the current profile
 			end)
 			PluginInstallFrame.Option1:SetText("VXT")
-
+			_G.PluginInstallFrame.Option1:SetScript('OnEnter', function() ElvUI_EltreumUI:ImproveInstall(nil,"ENTERING",nil,true,"Interface\\Addons\\ElvUI_JiberishUI\\Media\\Installer\\VXT.jpg") end)
+			_G.PluginInstallFrame.Option1:SetScript('OnLeave', function() ElvUI_EltreumUI:ImproveInstall(nil,"LEAVING")end)
 
 			PluginInstallFrame.Option2:Show()
 			PluginInstallFrame.Option2:SetScript("OnClick", function()
@@ -174,6 +194,8 @@ local InstallerData = {
 				SetupLayout("Trenchy") --this will apply the profile to the current profile
 			end)
 			PluginInstallFrame.Option2:SetText("Trenchy")
+			_G.PluginInstallFrame.Option2:SetScript('OnEnter', function() ElvUI_EltreumUI:ImproveInstall(nil,"ENTERING",nil,true,"Interface\\Addons\\ElvUI_JiberishUI\\Media\\Installer\\Trenchy.jpg") end)
+			_G.PluginInstallFrame.Option2:SetScript('OnLeave', function() ElvUI_EltreumUI:ImproveInstall(nil,"LEAVING")end)
 
 			PluginInstallFrame.Option3:Show()
 			PluginInstallFrame.Option3:SetScript("OnClick", function()
@@ -181,11 +203,15 @@ local InstallerData = {
 				SetupLayout("TrenchyDark") --this will apply the profile to the current profile
 			end)
 			PluginInstallFrame.Option3:SetText("Trenchy Dark")
+			_G.PluginInstallFrame.Option3:SetScript('OnEnter', function() ElvUI_EltreumUI:ImproveInstall(nil,"ENTERING",nil,true,"Interface\\Addons\\ElvUI_JiberishUI\\Media\\Installer\\TrenchyDark.jpg") end)
+			_G.PluginInstallFrame.Option3:SetScript('OnLeave', function() ElvUI_EltreumUI:ImproveInstall(nil,"LEAVING")end)
 
 			PluginInstallFrame.Option4:Hide()
-
+			_G.PluginInstallFrame.Option4:SetScript('OnEnter', nil)
+			_G.PluginInstallFrame.Option4:SetScript('OnLeave', nil)
 		end,
 		[4] = function()
+			ElvUI_EltreumUI:ResizeInstall()
 			PluginInstallFrame.SubTitle:SetText("Layouts 3")
 			PluginInstallFrame.Desc1:SetText("These are the layouts that are available. Please click a button below to apply the layout of your choosing.")
 			PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
@@ -196,6 +222,8 @@ local InstallerData = {
 				SetupLayout("JiberishMidnight") --this will apply the profile to the current profile
 			end)
 			PluginInstallFrame.Option1:SetText("Midnight")
+			_G.PluginInstallFrame.Option1:SetScript('OnEnter', function() ElvUI_EltreumUI:ImproveInstall(nil,"ENTERING",nil,true,"Interface\\Addons\\ElvUI_JiberishUI\\Media\\Installer\\Midnight.jpg") end)
+			_G.PluginInstallFrame.Option1:SetScript('OnLeave', function() ElvUI_EltreumUI:ImproveInstall(nil,"LEAVING")end)
 
 			PluginInstallFrame.Option2:Show()
 			PluginInstallFrame.Option2:SetScript("OnClick", function()
@@ -203,6 +231,8 @@ local InstallerData = {
 				SetupLayout("JiberishDeathGlass") --this will apply the profile to the current profile
 			end)
 			PluginInstallFrame.Option2:SetText("DeathGlass")
+			_G.PluginInstallFrame.Option2:SetScript('OnEnter', function() ElvUI_EltreumUI:ImproveInstall(nil,"ENTERING",nil,true,"Interface\\Addons\\ElvUI_JiberishUI\\Media\\Installer\\DeathGlass.jpg") end)
+			_G.PluginInstallFrame.Option2:SetScript('OnLeave', function() ElvUI_EltreumUI:ImproveInstall(nil,"LEAVING")end)
 
 			PluginInstallFrame.Option3:Show()
 			PluginInstallFrame.Option3:SetScript("OnClick", function()
@@ -210,6 +240,8 @@ local InstallerData = {
 				SetupLayout("JiberishAndromeda") --this will apply the profile to the current profile
 			end)
 			PluginInstallFrame.Option3:SetText("Andromeda")
+			_G.PluginInstallFrame.Option3:SetScript('OnEnter', function() ElvUI_EltreumUI:ImproveInstall(nil,"ENTERING",nil,true,"Interface\\Addons\\ElvUI_JiberishUI\\Media\\Installer\\Andromeda.jpg") end)
+			_G.PluginInstallFrame.Option3:SetScript('OnLeave', function() ElvUI_EltreumUI:ImproveInstall(nil,"LEAVING")end)
 
 			PluginInstallFrame.Option4:Show()
 			PluginInstallFrame.Option4:SetScript("OnClick", function()
@@ -217,9 +249,12 @@ local InstallerData = {
 				SetupLayout("JiberishImmersed") --this will apply the profile to the current profile
 			end)
 			PluginInstallFrame.Option4:SetText("Immersed")
+			_G.PluginInstallFrame.Option4:SetScript('OnEnter', function() ElvUI_EltreumUI:ImproveInstall(nil,"ENTERING",nil,true,"Interface\\Addons\\ElvUI_JiberishUI\\Media\\Installer\\Immersed.jpg") end)
+			_G.PluginInstallFrame.Option4:SetScript('OnLeave', function() ElvUI_EltreumUI:ImproveInstall(nil,"LEAVING")end)
 
 		end,
 		[5] = function()
+			ElvUI_EltreumUI:ResizeInstall()
 			PluginInstallFrame.SubTitle:SetText("Layouts 4")
 			PluginInstallFrame.Desc1:SetText("These are the layouts that are available. Please click a button below to apply the layout of your choosing.")
 			PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
@@ -230,6 +265,8 @@ local InstallerData = {
 				SetupLayout("JiberishWinterChill") --this will apply the profile to the current profile
 			end)
 			PluginInstallFrame.Option1:SetText("Winter's Chill")
+			_G.PluginInstallFrame.Option1:SetScript('OnEnter', function() ElvUI_EltreumUI:ImproveInstall(nil,"ENTERING",nil,true,"Interface\\Addons\\ElvUI_JiberishUI\\Media\\Installer\\WintersChill.jpg") end)
+			_G.PluginInstallFrame.Option1:SetScript('OnLeave', function() ElvUI_EltreumUI:ImproveInstall(nil,"LEAVING")end)
 
 			PluginInstallFrame.Option2:Show()
 			PluginInstallFrame.Option2:SetScript("OnClick", function()
@@ -237,6 +274,8 @@ local InstallerData = {
 				SetupLayout("JiberishPortraitSymbol") --this will apply the profile to the current profile
 			end)
 			PluginInstallFrame.Option2:SetText("Portrait Symbol")
+			_G.PluginInstallFrame.Option2:SetScript('OnEnter', function() ElvUI_EltreumUI:ImproveInstall(nil,"ENTERING",nil,true,"Interface\\Addons\\ElvUI_JiberishUI\\Media\\Installer\\PortraitSymbol.jpg") end)
+			_G.PluginInstallFrame.Option2:SetScript('OnLeave', function() ElvUI_EltreumUI:ImproveInstall(nil,"LEAVING")end)
 
 			PluginInstallFrame.Option3:Show()
 			PluginInstallFrame.Option3:SetScript("OnClick", function()
@@ -244,10 +283,15 @@ local InstallerData = {
 				SetupLayout("JiberishVerticality") --this will apply the profile to the current profile
 			end)
 			PluginInstallFrame.Option3:SetText("Verticality")
+			_G.PluginInstallFrame.Option3:SetScript('OnEnter', function() ElvUI_EltreumUI:ImproveInstall(nil,"ENTERING",nil,true,"Interface\\Addons\\ElvUI_JiberishUI\\Media\\Installer\\Verticality.jpg") end)
+			_G.PluginInstallFrame.Option3:SetScript('OnLeave', function() ElvUI_EltreumUI:ImproveInstall(nil,"LEAVING")end)
 
 			PluginInstallFrame.Option4:Hide()
+			_G.PluginInstallFrame.Option4:SetScript('OnEnter', nil)
+			_G.PluginInstallFrame.Option4:SetScript('OnLeave', nil)
 		end,
 		[6] = function()
+			ElvUI_EltreumUI:ResizeInstall()
 			_G.PluginInstallFrame.SubTitle:SetFormattedText('Discord')
 			_G.PluginInstallFrame.Desc1:SetText(L["Join the Discord if you have any questions or issues"])
 			_G.PluginInstallFrame.Option1:Enable()
@@ -255,11 +299,21 @@ local InstallerData = {
 			_G.PluginInstallFrame.Option1:SetScript('OnClick', function() E:StaticPopup_Show('ELVUI_EDITBOX', nil, nil, 'https://discord.gg/jr5w8ArzAx')  end)
 			_G.PluginInstallFrame.Option1:SetText('Discord')
 
+			_G.PluginInstallFrame.Option1:SetScript('OnEnter', nil)
+			_G.PluginInstallFrame.Option1:SetScript('OnLeave', nil)
+			_G.PluginInstallFrame.Option2:SetScript('OnEnter', nil)
+			_G.PluginInstallFrame.Option2:SetScript('OnLeave', nil)
+			_G.PluginInstallFrame.Option3:SetScript('OnEnter', nil)
+			_G.PluginInstallFrame.Option3:SetScript('OnLeave', nil)
+			_G.PluginInstallFrame.Option4:SetScript('OnEnter', nil)
+			_G.PluginInstallFrame.Option4:SetScript('OnLeave', nil)
+
 			PluginInstallFrame.Option2:Hide()
 			PluginInstallFrame.Option3:Hide()
 			PluginInstallFrame.Option4:Hide()
 		end,
 		[7] = function()
+			ElvUI_EltreumUI:ResizeInstall()
 			PluginInstallFrame.SubTitle:SetText("Installation Complete")
 			PluginInstallFrame.Desc1:SetText("You have completed the installation process.")
 			PluginInstallFrame.Desc2:SetText("Please click the button below in order to finalize the process and automatically reload your UI.")
@@ -270,6 +324,19 @@ local InstallerData = {
 			PluginInstallFrame.Option2:Hide()
 			PluginInstallFrame.Option3:Hide()
 			PluginInstallFrame.Option4:Hide()
+
+			_G.PluginInstallFrame.Option1:SetScript('OnEnter', nil)
+			_G.PluginInstallFrame.Option1:SetScript('OnLeave', nil)
+
+			_G.PluginInstallFrame.Option2:SetScript('OnEnter', nil)
+			_G.PluginInstallFrame.Option2:SetScript('OnLeave', nil)
+
+			_G.PluginInstallFrame.Option3:SetScript('OnEnter', nil)
+			_G.PluginInstallFrame.Option3:SetScript('OnLeave', nil)
+
+			_G.PluginInstallFrame.Option4:SetScript('OnEnter', nil)
+			_G.PluginInstallFrame.Option4:SetScript('OnLeave', nil)
+
 		end,
 	},
 	StepTitles = {
