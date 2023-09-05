@@ -31,7 +31,7 @@ local CREDITS = {
     '|cff82B4ffEltreum|r - Programming, Inspiration, LEGEND!',
     'Vxt, Fab, Pasch, Trenchy, Blinkii, Merathilis, Benik, Tukui.org, and the amazing ElvUI Discord community!',
     'FABLED CHAMPIONS thank you for your support! - Exs, Kiyong',
-	'FABLED MYTHS - Spectated, Mörf, JustKali, MontegoSlay, JaxDewars, Thirion',
+	'FABLED MYTHS - Claq, Spectated, Mörf, JustKali, MontegoSlay, JaxDewars, Thirion',
     "FABLED LEGENDS - Butze",
 	"IMMORTAL MYTHS - Seba and OrificeHorace",
   }
