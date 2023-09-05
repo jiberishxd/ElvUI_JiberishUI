@@ -31,7 +31,7 @@ local CREDITS = {
     '|cff82B4ffEltreum|r - Programming, Inspiration, LEGEND!',
     'Vxt, Fab, Pasch, Trenchy, Blinkii, Merathilis, Benik, Tukui.org, and the amazing ElvUI Discord community!',
     '|cff0DB1D0FABLED CHAMPIONS|r - thank you for your support! - Exs, Kiyong',
-	'|cff18A2D2FABLED MYTHS|r - Claq, Spectated, Mörf, JustKali, MontegoSlay, JaxDewars, Thirion',
+	'|cff0066FABLED MYTHS|r - Claq, Spectated, Mörf, JustKali, MontegoSlay, JaxDewars, Thirion',
     "|cff2F86D7FABLED LEGENDS|r - Butze",
 	"|cff525BDEIMMORTAL MYTHS|r - Seba and OrificeHorace",
   }
