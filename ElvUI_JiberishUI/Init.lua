@@ -29,9 +29,9 @@ local JiberishUI = E:NewModule(MyPluginName, "AceHook-3.0", "AceEvent-3.0", "Ace
 local CREDITS = {
     "|cff0DB1D0J|r|cff18A2D2i|r|cff2494D4b|r|cff2F86D7e|r|cff3B78D9r|r|cff4669DBi|r|cff525BDEs|r|cff5D4DE0h|r - Author",
     '|cff82B4ffEltreum|r - Programming, Inspiration, LEGEND!',
-    '|cffec1000Trenchy|r, |cff00baffBlinkii|r, Vxt, Fab, Pasch, Merathilis, Benik, Tukui.org, and the amazing ElvUI Discord community!',
-    '|cff00fcdcFABLED CHAMPIONS|r - thank you for your support! - Exs, Kiyong',
-	'|cfff0066FFABLED MYTHS|r - Claq, Spectated, Mörf, JustKali, MontegoSlay, JaxDewars, Thirion',
+    '|cffec1000Trenchy|r, |cff00baffBlinkii|r, Vxt, Fab, Dlarge, Pasch, Rebelmania, Nerdzilla, Merathilis, Benik, Tukui.org, and the amazing ElvUI Discord community!',
+    '|cff00fcdcFABLED CHAMPIONS|r - thank you for your support! - Exs, Kiyong, Buff Dracula'
+	'|cfff0066FFABLED MYTHS|r - Claq, Spectated, Mörf, JustKali, MontegoSlay, JaxDewars, Thirion, Tapestry, Remotelyhere'
     "|cff0086ffFABLED LEGENDS|r - Butze",
 	"|cff525BDEIMMORTAL MYTHS|r - Seba and OrificeHorace",
   }
