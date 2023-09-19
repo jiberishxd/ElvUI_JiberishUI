@@ -2485,6 +2485,8 @@ function JiberishUI:JiberishWinterChill()
 	E.db["unitframe"]["units"]["player"]["power"]["text_format"] = ""
 	E.db["unitframe"]["units"]["player"]["power"]["width"] = "spaced"
 	E.db["unitframe"]["units"]["player"]["power"]["xOffset"] = 0
+	E.db["unitframe"]["units"]["player"]["power"]["strataAndLevel"]["frameStrata"] = "MEDIUM"
+	E.db["unitframe"]["units"]["player"]["power"]["strataAndLevel"]["useCustomStrata"] = true
 	E.db["unitframe"]["units"]["player"]["pvp"]["position"] = "CENTER"
 	E.db["unitframe"]["units"]["player"]["pvp"]["text_format"] = ""
 	E.db["unitframe"]["units"]["player"]["raidRoleIcons"]["scale"] = 1.15
@@ -2495,7 +2497,7 @@ function JiberishUI:JiberishWinterChill()
 	E.db["unitframe"]["units"]["player"]["raidicon"]["size"] = 20
 	E.db["unitframe"]["units"]["player"]["raidicon"]["xOffset"] = 30
 	E.db["unitframe"]["units"]["player"]["raidicon"]["yOffset"] = 2
-	E.db["unitframe"]["units"]["player"]["strataAndLevel"]["frameStrata"] = "HIGH"
+	E.db["unitframe"]["units"]["player"]["strataAndLevel"]["frameStrata"] = "MEDIUM"
 	E.db["unitframe"]["units"]["player"]["strataAndLevel"]["useCustomStrata"] = true
 	E.db["unitframe"]["units"]["player"]["threatStyle"] = "NONE"
 	E.db["unitframe"]["units"]["player"]["width"] = 275
@@ -2993,7 +2995,7 @@ function JiberishUI:JiberishWinterChill()
 	E.db["unitframe"]["units"]["target"]["power"]["height"] = 5
 	E.db["unitframe"]["units"]["target"]["power"]["position"] = "RIGHT"
 	E.db["unitframe"]["units"]["target"]["power"]["powerPrediction"] = true
-	E.db["unitframe"]["units"]["target"]["power"]["strataAndLevel"]["frameStrata"] = "HIGH"
+	E.db["unitframe"]["units"]["target"]["power"]["strataAndLevel"]["frameStrata"] = "MEDIUM"
 	E.db["unitframe"]["units"]["target"]["power"]["strataAndLevel"]["useCustomStrata"] = true
 	E.db["unitframe"]["units"]["target"]["power"]["text_format"] = ""
 	E.db["unitframe"]["units"]["target"]["power"]["xOffset"] = 0
@@ -3006,7 +3008,7 @@ function JiberishUI:JiberishWinterChill()
 	E.db["unitframe"]["units"]["target"]["raidicon"]["size"] = 20
 	E.db["unitframe"]["units"]["target"]["raidicon"]["xOffset"] = 30
 	E.db["unitframe"]["units"]["target"]["raidicon"]["yOffset"] = 2
-	E.db["unitframe"]["units"]["target"]["strataAndLevel"]["frameStrata"] = "HIGH"
+	E.db["unitframe"]["units"]["target"]["strataAndLevel"]["frameStrata"] = "MEDIUM"
 	E.db["unitframe"]["units"]["target"]["strataAndLevel"]["useCustomStrata"] = true
 	E.db["unitframe"]["units"]["target"]["threatStyle"] = "NONE"
 	E.db["unitframe"]["units"]["target"]["width"] = 275
