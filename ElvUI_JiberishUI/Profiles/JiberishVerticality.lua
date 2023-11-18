@@ -2964,7 +2964,7 @@ function JiberishUI:JiberishVerticality()
 	E.db["unitframe"]["units"]["target"]["customTexts"]["JiberishTargetPower"]["fontOutline"] = "OUTLINE"
 	E.db["unitframe"]["units"]["target"]["customTexts"]["JiberishTargetPower"]["justifyH"] = "LEFT"
 	E.db["unitframe"]["units"]["target"]["customTexts"]["JiberishTargetPower"]["size"] = 10
-	E.db["unitframe"]["units"]["target"]["customTexts"]["JiberishTargetPower"]["text_format"] = "[powercolor][mPowerPercent]"
+	E.db["unitframe"]["units"]["target"]["customTexts"]["JiberishTargetPower"]["text_format"] = "[powercolor][mPower:percent]"
 	E.db["unitframe"]["units"]["target"]["customTexts"]["JiberishTargetPower"]["xOffset"] = 127
 	E.db["unitframe"]["units"]["target"]["customTexts"]["JiberishTargetPower"]["yOffset"] = -1
 	E.db["unitframe"]["units"]["target"]["debuffs"]["attachTo"] = "FRAME"
