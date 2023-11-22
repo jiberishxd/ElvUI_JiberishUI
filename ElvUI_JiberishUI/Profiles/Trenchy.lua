@@ -281,7 +281,6 @@ function JiberishUI:Trenchy()
 		E.private["WT"]["skins"]["blizzard"]["weeklyRewards"] = false
 		E.private["WT"]["skins"]["blizzard"]["worldMap"] = false
 		E.private["WT"]["skins"]["elvui"]["enable"] = false
-		E.private["WT"]["skins"]["errorMessage"]["size"] = 18
 		E.private["WT"]["skins"]["ime"]["label"]["name"] = "KMT-GothamXN_Ultra"
 		E.private["WT"]["skins"]["removeParchment"] = false
 		E.private["WT"]["skins"]["shadow"] = false
@@ -3516,7 +3515,6 @@ function JiberishUI:TrenchyDark()
 		E.private["WT"]["skins"]["blizzard"]["weeklyRewards"] = false
 		E.private["WT"]["skins"]["blizzard"]["worldMap"] = false
 		E.private["WT"]["skins"]["elvui"]["enable"] = false
-		E.private["WT"]["skins"]["errorMessage"]["size"] = 18
 		E.private["WT"]["skins"]["ime"]["label"]["name"] = "KMT-GothamXN_Ultra"
 		E.private["WT"]["skins"]["removeParchment"] = false
 		E.private["WT"]["skins"]["shadow"] = false
