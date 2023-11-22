@@ -2028,7 +2028,7 @@ function JiberishUI:JiberishImmersed()
 	E.db["unitframe"]["units"]["raid1"]["roleIcon"]["yOffset"] = 5
 	E.db["unitframe"]["units"]["raid1"]["summonIcon"]["attachToObject"] = "Health"
 	E.db["unitframe"]["units"]["raid1"]["summonIcon"]["yOffset"] = -5
-	E.db["unitframe"]["units"]["raid1"]["visibility"] = "[@raid6,noexists] hide;show"
+	E.db["unitframe"]["units"]["raid1"]["visibility"] = "[@raid6,noexists][@raid21,exists] hide;show"
 	E.db["unitframe"]["units"]["raid2"]["buffIndicator"]["size"] = 20
 	E.db["unitframe"]["units"]["raid2"]["buffs"]["anchorPoint"] = "BOTTOMRIGHT"
 	E.db["unitframe"]["units"]["raid2"]["buffs"]["attachTo"] = "DEBUFFS"
@@ -2137,6 +2137,7 @@ function JiberishUI:JiberishImmersed()
 	E.db["unitframe"]["units"]["raid2"]["roleIcon"]["yOffset"] = 5
 	E.db["unitframe"]["units"]["raid2"]["summonIcon"]["attachToObject"] = "Health"
 	E.db["unitframe"]["units"]["raid2"]["summonIcon"]["yOffset"] = -5
+	E.db["unitframe"]["units"]["raid2"]["visibility"] = "[@raid21,noexists][@raid31,exists] hide;show"
 	E.db["unitframe"]["units"]["raid3"]["buffIndicator"]["size"] = 20
 	E.db["unitframe"]["units"]["raid3"]["buffs"]["anchorPoint"] = "BOTTOMRIGHT"
 	E.db["unitframe"]["units"]["raid3"]["buffs"]["attachTo"] = "DEBUFFS"
@@ -2245,6 +2246,9 @@ function JiberishUI:JiberishImmersed()
 	E.db["unitframe"]["units"]["raid3"]["roleIcon"]["yOffset"] = 5
 	E.db["unitframe"]["units"]["raid3"]["summonIcon"]["attachToObject"] = "Health"
 	E.db["unitframe"]["units"]["raid3"]["summonIcon"]["yOffset"] = -5
+	E.db["unitframe"]["units"]["raid3"]["visibility"] = "[@raid31,noexists] hide;show"
+	
+	-- RaidPet
 	E.db["unitframe"]["units"]["raidpet"]["horizontalSpacing"] = 0
 	E.db["unitframe"]["units"]["raidpet"]["numGroups"] = 3
 	E.db["unitframe"]["units"]["raidpet"]["rdebuffs"]["duration"]["position"] = "TOP"

@@ -1753,6 +1753,7 @@ function JiberishUI:JiberishVXT()
 	E.db["unitframe"]["units"]["raid2"]["roleIcon"]["size"] = 12
 	E.db["unitframe"]["units"]["raid2"]["roleIcon"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["raid2"]["roleIcon"]["yOffset"] = 3
+	E.db["unitframe"]["units"]["raid2"]["visibility"] = "[@raid21,noexists][@raid31,exists] hide;show"
 	E.db["unitframe"]["units"]["raid2"]["width"] = 130
 	E.db["unitframe"]["units"]["raid3"]["buffs"]["countFont"] = "KMT-GothamXN_Ultra"
 	E.db["unitframe"]["units"]["raid3"]["customTexts"]["JiberishGroup"]["enable"] = true
@@ -1815,6 +1816,7 @@ function JiberishUI:JiberishVXT()
 	E.db["unitframe"]["units"]["raid3"]["roleIcon"]["xOffset"] = 0
 	E.db["unitframe"]["units"]["raid3"]["roleIcon"]["yOffset"] = 3
 	E.db["unitframe"]["units"]["raid3"]["verticalSpacing"] = 5
+	E.db["unitframe"]["units"]["raid3"]["visibility"] = "[@raid31,noexists] hide;show"
 	E.db["unitframe"]["units"]["raid3"]["width"] = 132
 
 	-- RaidPet
