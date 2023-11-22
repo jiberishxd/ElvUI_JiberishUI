@@ -2045,7 +2045,7 @@ function JiberishUI:JiberishVerticality()
 	E.db["unitframe"]["units"]["raid1"]["summonIcon"]["attachToObject"] = "Health"
 	E.db["unitframe"]["units"]["raid1"]["summonIcon"]["yOffset"] = -5
 	E.db["unitframe"]["units"]["raid1"]["verticalSpacing"] = 11
-	E.db["unitframe"]["units"]["raid1"]["visibility"] = "[@raid6,noexists] hide;show"
+	E.db["unitframe"]["units"]["raid1"]["visibility"] = "[@raid6,noexists][@raid21,exists] hide;show"
 	E.db["unitframe"]["units"]["raid1"]["width"] = 55
 	E.db["unitframe"]["units"]["raid2"]["buffIndicator"]["size"] = 20
 	E.db["unitframe"]["units"]["raid2"]["buffs"]["anchorPoint"] = "BOTTOMRIGHT"
@@ -2155,6 +2155,7 @@ function JiberishUI:JiberishVerticality()
 	E.db["unitframe"]["units"]["raid2"]["summonIcon"]["attachToObject"] = "Health"
 	E.db["unitframe"]["units"]["raid2"]["summonIcon"]["yOffset"] = -5
 	E.db["unitframe"]["units"]["raid2"]["verticalSpacing"] = 9
+	E.db["unitframe"]["units"]["raid2"]["visibility"] = "[@raid21,noexists][@raid31,exists] hide;show"
 	E.db["unitframe"]["units"]["raid2"]["width"] = 50
 	E.db["unitframe"]["units"]["raid3"]["buffIndicator"]["size"] = 20
 	E.db["unitframe"]["units"]["raid3"]["buffs"]["anchorPoint"] = "BOTTOMRIGHT"
@@ -2263,6 +2264,7 @@ function JiberishUI:JiberishVerticality()
 	E.db["unitframe"]["units"]["raid3"]["summonIcon"]["attachToObject"] = "Health"
 	E.db["unitframe"]["units"]["raid3"]["summonIcon"]["yOffset"] = -5
 	E.db["unitframe"]["units"]["raid3"]["verticalSpacing"] = 10
+	E.db["unitframe"]["units"]["raid3"]["visibility"] = "[@raid31,noexists] hide;show"
 	E.db["unitframe"]["units"]["raid3"]["width"] = 50
 
 	-- RaidPet

@@ -1894,6 +1894,7 @@ function JiberishUI:JiberishCaith()
 	E.db["unitframe"]["units"]["raid2"]["summonIcon"]["yOffset"] = -2
 	E.db["unitframe"]["units"]["raid2"]["threatStyle"] = "NONE"
 	E.db["unitframe"]["units"]["raid2"]["verticalSpacing"] = 8
+	E.db["unitframe"]["units"]["raid2"]["visibility"] = "[@raid21,noexists][@raid31,exists] hide;show"
 	E.db["unitframe"]["units"]["raid2"]["width"] = 105
 
 	-- Raid3

@@ -1968,6 +1968,7 @@ function JiberishUI:JiberishMinimal()
 	E.db["unitframe"]["units"]["raid2"]["summonIcon"]["yOffset"] = -2
 	E.db["unitframe"]["units"]["raid2"]["threatStyle"] = "NONE"
 	E.db["unitframe"]["units"]["raid2"]["verticalSpacing"] = 8
+	E.db["unitframe"]["units"]["raid2"]["visibility"] = "[@raid21,noexists][@raid31,exists] hide;show"
 	E.db["unitframe"]["units"]["raid2"]["width"] = 105
 	E.db["unitframe"]["units"]["raid3"]["buffIndicator"]["size"] = 10
 	E.db["unitframe"]["units"]["raid3"]["buffs"]["anchorPoint"] = "BOTTOMRIGHT"
@@ -2077,6 +2078,7 @@ function JiberishUI:JiberishMinimal()
 	E.db["unitframe"]["units"]["raid3"]["summonIcon"]["yOffset"] = -2
 	E.db["unitframe"]["units"]["raid3"]["threatStyle"] = "NONE"
 	E.db["unitframe"]["units"]["raid3"]["verticalSpacing"] = 8
+	E.db["unitframe"]["units"]["raid3"]["visibility"] = "[@raid31,noexists] hide;show"
 	E.db["unitframe"]["units"]["raid3"]["width"] = 105
 
 	-- Boss
