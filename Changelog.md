@@ -1,2 +1,2 @@
-### 1.1.8
-TOC and Profile Update
+### 1.2.0
+TOC Update, Fixed Raid Visibility Settings, Eltruism Font Update
