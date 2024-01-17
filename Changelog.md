@@ -1,2 +1,2 @@
-### 1.2.0
-TOC Update, Fixed Raid Visibility Settings, Eltruism Font Update
+### 1.2.1
+TOC Update, 10.2.5 Alignment

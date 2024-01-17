@@ -29,12 +29,8 @@ local JiberishUI = E:NewModule(MyPluginName, "AceHook-3.0", "AceEvent-3.0", "Ace
 local CREDITS = {
     "|cff0DB1D0J|r|cff18A2D2i|r|cff2494D4b|r|cff2F86D7e|r|cff3B78D9r|r|cff4669DBi|r|cff525BDEs|r|cff5D4DE0h|r - Author",
     '|cff82B4ffEltreum|r - Programming, Inspiration, LEGEND!',
-    '|cffec1000Trenchy|r, |cff00baffBlinkii|r, Vxt, Fab, Dlarge, Pasch, Rebelmania, Nerdzilla, Merathilis, Benik, Tukui.org, and the amazing ElvUI Discord community!',
-    '|cff00fcdcFABLED CHAMPIONS|r - thank you for your support! - Exs, Kiyong, Buff Dracula, Conty',
-	'|cfff0066FFABLED MYTHS|r - Claq, Mörf, JustKali, MontegoSlay, JaxDewars, Thirion, Tapestry, Levelone, Remotelyhere, t00slow, joelyoyolol, Feyumi, idonghaljulmoreum, ItsMicoo, Aiapaek, AlixoKiwi, Arx, atny, Bread, Boof, Cinna, Claay, CloudChaseGaming, Clush, Cody, crit, Daoku, Dieser, Eclipse, Faradayz, Feyumi, Fro, Gera, Ghostlore, Gera, HunterZ, GRZLY, Grobbs, Jerriko, Jester, Jmehh, Mewcular, Maavis, Mookins, MykiiZ, Overlake, Pastafarian, Pressd, Punaks, Purpdrank, RN, Round, Savenx, Scoopachip, Skyze, TeddyFreddy, Tupack, Whiskeypits, youknow, yulspapa, Zennisin, zoteck, crazy retpala, MnMFTW, Dellice',
-    "|cff0086ffFABLED LEGENDS|r - Butze, Neoxas, LokiTheD3c3iver, Bruce, Jaraxal, MP, benzo, Duck, 6ix, Aern, arnold, Benloutre, Ben-800, Clush, Dark, Daugbjerg, dodgerslim, Elijah, Exode, Frog Dogg, haphap, Icceed, Jaraxal, jewell, Kra3zy, KRIS, lomu, LordKuqii, LUC1D DREAM, Mooch, Mottster, Odvi, Paddy, PinnacleHigh, Revegu, Sanix, seriius, Spyder, StatiK, Tsunderella, Tz Tok Obama, xStellarParallax, Zana, Zephox, 신성이, Daniel Maria, zae, Ryan, naime, Reaper",
-	"|cff525BDEIMMORTAL MYTHS|r - Seba, OrificeHorace, TheHonx, Four, HiirokaZ, EVIL, Defzone, Bruce",
-	"|cff525BDEETERNALS|r - Boldboy, Kaidenge",
+    '|cffec1000Trenchy|r, |cff00baffBlinkii|r, Vxt, Fab, Dlarge, Pasch, Rebelmania, Nerdzilla, Merathilis, Benik, Tukui.org, and the amazing ElvUI Discord community! Every Fabled Myth, Legend, Immortal, and Eternal... THANK YOU!',
+
   }
 local CREDITS_STRING = tconcat(CREDITS, '|n')
 
