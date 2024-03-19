@@ -29,7 +29,7 @@ local JiberishUI = E:NewModule(MyPluginName, "AceHook-3.0", "AceEvent-3.0", "Ace
 local CREDITS = {
     "|cff0DB1D0J|r|cff18A2D2i|r|cff2494D4b|r|cff2F86D7e|r|cff3B78D9r|r|cff4669DBi|r|cff525BDEs|r|cff5D4DE0h|r - Author",
     '|cff82B4ffEltreum|r - Programming, Inspiration, LEGEND!',
-    '|cffec1000Trenchy|r, |cff00baffBlinkii|r, Vxt, Fab, Dlarge, Pasch, Rebelmania, Nerdzilla, Merathilis, Benik, Tukui.org, and the amazing ElvUI Discord community! Every Fabled Myth, Legend, Immortal, and Eternal... THANK YOU!',
+    '|cffec1000Trenchy|r, |cff00baffBlinkii|r, |cffec1000Repooc, Pastafarian, Thurin, Claq, Stoned, Vxt, Fab, Dlarge, Pasch, Rebelmania, Nerdzilla, Merathilis, Benik, Tukui.org, and the amazing ElvUI Discord community! Every Fabled Myth, Legend, Immortal, and Eternal... THANK YOU!',
 
   }
 local CREDITS_STRING = tconcat(CREDITS, '|n')
