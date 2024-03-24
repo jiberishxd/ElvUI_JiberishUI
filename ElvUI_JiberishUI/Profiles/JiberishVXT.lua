@@ -44,8 +44,6 @@ function JiberishUI:JiberishVXT()
 	E.db["general"]["lootRoll"]["nameFontSize"] = 15
 	E.db["general"]["lootRoll"]["statusBarTexture"] = "Vxt"
 	E.db["general"]["lootRoll"]["style"] = "fullbar"
-	E.db["general"]["minimap"]["icons"]["challengeMode"]["xOffset"] = 4
-	E.db["general"]["minimap"]["icons"]["challengeMode"]["yOffset"] = -4
 	E.db["general"]["minimap"]["icons"]["classHall"]["position"] = "TOPRIGHT"
 	E.db["general"]["minimap"]["icons"]["classHall"]["yOffset"] = 4
 	E.db["general"]["minimap"]["icons"]["difficulty"]["xOffset"] = 4

@@ -54,8 +54,6 @@ function JiberishUI:JiberishMinimal()
 	E.db["general"]["lootRoll"]["width"] = 450
 	E.db["general"]["minimap"]["clusterBackdrop"] = false
 	E.db["general"]["minimap"]["icons"]["calendar"]["scale"] = 0.65
-	E.db["general"]["minimap"]["icons"]["challengeMode"]["xOffset"] = 0
-	E.db["general"]["minimap"]["icons"]["challengeMode"]["yOffset"] = 0
 	E.db["general"]["minimap"]["icons"]["classHall"]["position"] = "TOPRIGHT"
 	E.db["general"]["minimap"]["icons"]["classHall"]["scale"] = 0.6
 	E.db["general"]["minimap"]["icons"]["classHall"]["xOffset"] = 25
