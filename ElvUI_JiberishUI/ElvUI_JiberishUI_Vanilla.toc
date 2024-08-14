@@ -1,7 +1,7 @@
-## Interface: 11500
+## Interface: 11503
 ## Author: Jiberish
 ## Notes: Jiberish UI, an Eltruism Edit with mMediaTag textures
-## Version: 1.2.6
+## Version: 1.2.7
 ## Title: |cff1784d1ElvUI|r |cff0DB1D0J|cff15A6D1i|cff1D9CD3b|cff2691D5e|cff2E87D6r|cff367DD8i|cff3F72DAs|cff4768DCh |cff5853DFU|cff6049E1I|r
 ## RequiredDeps: ElvUI, ElvUI_EltreumUI, ElvUI_mMediaTag
 ## X-Curse-Project-ID: 843406

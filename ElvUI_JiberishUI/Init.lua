@@ -1,6 +1,6 @@
 --Don't worry about this
 local addon, ns = ...
-local Version = GetAddOnMetadata(addon, "Version")
+local Version = C_AddOns.GetAddOnMetadata(addon, "Version")
 
 --Cache Lua / WoW API
 local format = string.format

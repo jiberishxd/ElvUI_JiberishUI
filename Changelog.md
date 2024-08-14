@@ -1,2 +1,2 @@
-### 1.2.6
-TOC Update, Prepatch
+### 1.2.7
+TOC Update, API Updates

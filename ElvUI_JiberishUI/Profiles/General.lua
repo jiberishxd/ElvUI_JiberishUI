@@ -8,9 +8,9 @@ function JiberishUI:General()
 	E.global["general"]["UIScale"] = 0.59 --replace with the scale you use
 
 	--private profile
-	E.private.ElvUI_EltreumUI.install_version = GetAddOnMetadata("ElvUI_EltreumUI", "Version") -- this is so eltruism doesn't popup after
+	E.private.ElvUI_EltreumUI.install_version = C_AddOns.GetAddOnMetadata("ElvUI_EltreumUI", "Version") -- this is so eltruism doesn't popup after
 	--E.db.mui.core.installed = true -- this is so merathilis doesn't popup after
-	--E.private.mui.general.install_complete = GetAddOnMetadata("ElvUI_MerathilisUI", "Version") -- this is so merathilis doesn't popup after
+	--E.private.mui.general.install_complete = C_AddOns.GetAddOnMetadata("ElvUI_MerathilisUI", "Version") -- this is so merathilis doesn't popup after
 	--E.private["bags"]["enable"] = false
 
 	E.private["ElvUI_EltreumUI"]["isInstalled"]["projectazilroka"] = true
