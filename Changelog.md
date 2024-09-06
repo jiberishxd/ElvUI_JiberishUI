@@ -1,2 +1,2 @@
-### 1.2.7
-TOC Update, API Updates
+## 1.2.8
+Fixed an error while installing Trenchy's profile
