@@ -1,5 +1,6 @@
 local E, L, V, P, G = unpack(ElvUI)
 local JiberishUI = E:GetModule('|cff00b3ffJiberish UI|r')
+local IsAddOnLoaded = _G.C_AddOns and _G.C_AddOns.IsAddOnLoaded or _G.IsAddOnLoaded
 
 function JiberishUI:TrenchyStyleFilters()
 	if not E.private.nameplates.enable then return end
