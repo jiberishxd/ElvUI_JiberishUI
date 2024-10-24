@@ -1,2 +1,2 @@
-## 1.2.8
-Fixed an error while installing Trenchy's profile
+## 1.2.9
+Update TOC
