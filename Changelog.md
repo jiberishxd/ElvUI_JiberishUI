@@ -1,2 +1,2 @@
-## 1.2.9
-Update TOC
+## 1.3.0
+Update TOC and Game Versions
