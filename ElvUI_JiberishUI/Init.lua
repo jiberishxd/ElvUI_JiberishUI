@@ -49,7 +49,7 @@ local function SetupLayout(layout)
 	--ElvUI_EltreumUI:UpdateEltruismSettings()
 
 	--setup general settings
-	JiberishUI:General()
+	JiberishUI:General() --likely needs to get removed
 
 	--profile specific settings (layouts)
 	if layout == "JiberishCaith" then
