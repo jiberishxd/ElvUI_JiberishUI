@@ -17,37 +17,37 @@ JiberishUI Includes 9 ElvUI Profiles made possible through Eltruism & mMedia Tag
 
 Allusive:
 
-[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_152057.jpg?raw=true)
+[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_152057.jpg)](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_152057.jpg)
 
 Immersive:
 
-[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_153540.jpg?raw=true)
+[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_153540.jpg?raw=true)](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_153540.jpg?raw=true)
 
 
 Verticality:
 
-[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_153856.jpg?raw=true)
+[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_153856.jpg?raw=true)](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_153856.jpg?raw=true)
 
 Andromeda:
 
-[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_154208.jpg?raw=true)
+[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_154208.jpg?raw=true)](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_154208.jpg?raw=true)
 
 Caith:
 
-[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_154409.jpg?raw=true)
+[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_154409.jpg?raw=true)](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_154409.jpg?raw=true)
 
 Midnight:
 
-[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_160112.jpg?raw=true)
+[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_160112.jpg?raw=true)](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_160112.jpg?raw=true)
 
 Impulse:
 
-[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_160352.jpg?raw=true)
+[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_160352.jpg?raw=true)](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_160352.jpg?raw=true)
 
 VXT:
 
-[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_160610.jpg?raw=true)
+[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_160610.jpg?raw=true)](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_160610.jpg?raw=true)
 
 Woven:
 
-[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_160848.jpg?raw=true)
+[![](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_160848.jpg?raw=true)](https://github.com/jiberishxd/svg/blob/main/WoWScrnShot_042425_160848.jpg?raw=true)
