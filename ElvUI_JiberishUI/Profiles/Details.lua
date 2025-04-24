@@ -23,7 +23,7 @@ function JiberishUI:Details(profile)
 	_G.Details:EraseProfile(tostring(profile))
 	_G.Details:ImportProfile(tostring(profile), profileTable[tostring(profile)])
 
-	if profileTable[tostring(profile)] ~= _G.Details:GetCurrentProfileName() then
-		_G.Details:ApplyProfile(profileTable[tostring(profile)])
+	if tostring(profile) ~= _G.Details:GetCurrentProfileName() then
+		_G.Details:ApplyProfile(tostring(profile))
 	end
 end
