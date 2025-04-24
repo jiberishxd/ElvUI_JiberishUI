@@ -14,7 +14,6 @@ JiberishUI Includes 9 ElvUI Profiles made possible through Eltruism & mMedia Tag
 **[Windtools](https://www.curseforge.com/wow/addons/elvui-windtools)**\
 **[ProjectAzilroka](https://www.curseforge.com/wow/addons/projectazilroka)**
 
-### Example of Profiles Included:
 
 Allusive:
 
