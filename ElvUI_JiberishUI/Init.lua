@@ -146,7 +146,6 @@ local InstallerData = {
 
 			_G.PluginInstallFrame.Option1:Show()
 			_G.PluginInstallFrame.Option1:SetScript("OnClick", function()
-				E.data:SetProfile("Jiberish Allusive") -- this will create a new profile with the name supplied
 				SetupLayout("JiberishAllusive")
 			end)
 			_G.PluginInstallFrame.Option1:SetText("Allusive")
@@ -155,7 +154,6 @@ local InstallerData = {
 
 			_G.PluginInstallFrame.Option2:Show()
 			_G.PluginInstallFrame.Option2:SetScript("OnClick", function()
-				E.data:SetProfile("Jiberish Andromeda") -- this will create a new profile with the name supplied
 				SetupLayout("JiberishAndromeda") --this will apply the profile to the current profile
 			end)
 			_G.PluginInstallFrame.Option2:SetText("Andromeda")
@@ -164,7 +162,6 @@ local InstallerData = {
 
 			_G.PluginInstallFrame.Option3:Show()
 			_G.PluginInstallFrame.Option3:SetScript("OnClick", function()
-				E.data:SetProfile("Jiberish Caith") -- this will create a new profile with the name supplied
 				SetupLayout("JiberishCaith") --this will apply the profile to the current profile
 			end)
 			_G.PluginInstallFrame.Option3:SetText("Caith")
@@ -181,7 +178,6 @@ local InstallerData = {
 
 			_G.PluginInstallFrame.Option1:Show()
 			_G.PluginInstallFrame.Option1:SetScript("OnClick", function()
-				E.data:SetProfile("Jiberish Immersed") -- this will create a new profile with the name supplied
 				SetupLayout("JiberishImmersed") --this will apply the profile to the current profile
 			end)
 			_G.PluginInstallFrame.Option1:SetText("Immersed")
@@ -190,7 +186,6 @@ local InstallerData = {
 
 			_G.PluginInstallFrame.Option2:Show()
 			_G.PluginInstallFrame.Option2:SetScript("OnClick", function()
-				E.data:SetProfile("Jiberish Impulse") -- this will create a new profile with the name supplied
 				SetupLayout("JiberishImpulse")
 			end)
 			_G.PluginInstallFrame.Option2:SetText("Impulse")
@@ -199,7 +194,6 @@ local InstallerData = {
 
 			_G.PluginInstallFrame.Option3:Show()
 			_G.PluginInstallFrame.Option3:SetScript("OnClick", function()
-				E.data:SetProfile("Jiberish Midnight") -- this will create a new profile with the name supplied
 				SetupLayout("JiberishMidnight") --this will apply the profile to the current profile
 			end)
 			_G.PluginInstallFrame.Option3:SetText("Midnight")
@@ -216,7 +210,6 @@ local InstallerData = {
 
 			_G.PluginInstallFrame.Option1:Show()
 			_G.PluginInstallFrame.Option1:SetScript("OnClick", function()
-				E.data:SetProfile("Jiberish Verticality") -- this will create a new profile with the name supplied
 				SetupLayout("JiberishVerticality") --this will apply the profile to the current profile
 			end)
 			_G.PluginInstallFrame.Option1:SetText("Verticality")
@@ -225,7 +218,6 @@ local InstallerData = {
 
 			_G.PluginInstallFrame.Option2:Show()
 			_G.PluginInstallFrame.Option2:SetScript("OnClick", function()
-				E.data:SetProfile("Jiberish VXT") -- this will create a new profile with the name supplied
 				SetupLayout("JiberishVXT") --this will apply the profile to the current profile
 			end)
 			_G.PluginInstallFrame.Option2:SetText("VXT")
@@ -234,7 +226,6 @@ local InstallerData = {
 
 			_G.PluginInstallFrame.Option3:Show()
 			_G.PluginInstallFrame.Option3:SetScript("OnClick", function()
-				E.data:SetProfile("Jiberish Woven") -- this will create a new profile with the name supplied
 				SetupLayout("JiberishWoven") --this will apply the profile to the current profile
 			end)
 			_G.PluginInstallFrame.Option3:SetText("Woven")
