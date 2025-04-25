@@ -76,7 +76,14 @@ local function SetupLayout(layout)
 	end
 
 	-- this is so eltruism doesn't popup after
-	E.private.ElvUI_EltreumUI.install_version = _G.C_AddOns.GetAddOnMetadata("ElvUI_EltreumUI", "Version")
+	if not E.private.ElvUI_EltreumUI.install_version then
+		local privateKey = _G.ElvPrivateDB.profileKeys and _G.ElvPrivateDB.profileKeys[E.mynameRealm]
+		if privateKey then
+			_G.ElvPrivateDB.profiles[privateKey]["ElvUI_EltreumUI"]["install_version"] = ElvUI_EltreumUI.Version
+		end
+	else
+		E.private.ElvUI_EltreumUI.install_version = ElvUI_EltreumUI.Version
+	end
 
 	--fix the colors after the profile
 	JiberishUI:FixClassColors()
