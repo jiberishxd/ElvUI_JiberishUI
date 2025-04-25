@@ -5,9 +5,6 @@ local valuecolors = E:ClassColor(E.myclass, true)
 function JiberishUI:General()
 	if not E.db.movers then E.db.movers = {} end
 
-	-- this is so eltruism doesn't popup after
-	E.private.ElvUI_EltreumUI.install_version = C_AddOns.GetAddOnMetadata("ElvUI_EltreumUI", "Version")
-
 	--this is so Eltruism's datatexts work fine
 	E.DataTexts:BuildPanelFrame('EltruismDataText')
 	E.global["datatexts"]["customPanels"]["EltruismDataText"]["backdrop"] = false

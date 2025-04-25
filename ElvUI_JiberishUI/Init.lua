@@ -75,6 +75,9 @@ local function SetupLayout(layout)
 		JiberishUI:JiberishWoven()
 	end
 
+	-- this is so eltruism doesn't popup after
+	E.private.ElvUI_EltreumUI.install_version = _G.C_AddOns.GetAddOnMetadata("ElvUI_EltreumUI", "Version")
+
 	--fix the colors after the profile
 	JiberishUI:FixClassColors()
 
