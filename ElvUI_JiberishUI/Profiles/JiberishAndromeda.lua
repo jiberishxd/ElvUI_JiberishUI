@@ -2,7 +2,7 @@ local E, L, V, P, G = unpack(ElvUI)
 local JiberishUI = E:GetModule('|cff00b3ffJiberish UI|r')
 local D = E:GetModule('Distributor')
 
-function JiberishUI:JiberishAndromedaNP()
+function JiberishUI:JiberishAndromeda()
 	if not E.private.nameplates.enable then return end
 
 	-- only replace these
