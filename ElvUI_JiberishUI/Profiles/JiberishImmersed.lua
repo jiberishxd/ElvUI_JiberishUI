@@ -20,5 +20,5 @@ function JiberishUI:JiberishImmersed()
 	D:ImportProfile(global)
 
 	-- update this as needed
-	E.global["general"]["UIScale"] = 0.71
+	E.global["general"]["UIScale"] = 0.71111111111111
 end
