@@ -1,2 +1,2 @@
-## 2.0.1
-Update TOC, Update 9 Jiberish Profiles, Added Details Profiles for each new profile
+## 2.0.2
+Update TOC, New Patch Update
