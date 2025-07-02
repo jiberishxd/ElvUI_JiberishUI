@@ -1,2 +1,2 @@
-## 2.0.2
-Update TOC, New Patch Update
+## 2.0.3
+Update TOC, New Patch Update, Mists Release, Nameplate Style Filters Update
