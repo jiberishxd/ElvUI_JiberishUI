@@ -417,5 +417,11 @@ function JiberishUI:Initialize()
 	EP:RegisterPlugin(addon, InsertOptions)
 end
 
+-- Eltreum UI print
+function JiberishUI:Print(msg)
+	print(MyPluginName..': '..msg)
+end
+
+
 --Register module with callback so it gets initialized when ready
 E:RegisterModule(JiberishUI:GetName())
