@@ -42,6 +42,12 @@ local function SetupLayout(layout)
 		JiberishUI:EltruismNPSettings()
 	end
 
+	--import elvui cvars
+	E:SetupCVars()
+
+	--import elvui chat
+	E:SetupChat()
+
 	--import gradient mode
 	ElvUI_EltreumUI:GradientMode()
 
