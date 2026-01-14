@@ -1,4 +1,4 @@
-## Interface: 50500
+## Interface: 50503
 ## Author: Jiberish
 ## Notes: JiberishUI, Custom Eltruism and mMediaTag ElvUI Profiles
 ## Version: 2.0.5
