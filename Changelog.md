@@ -1,6 +1,5 @@
-## 2.0.6
-<<<<<<< Updated upstream
-Updated install process to list reason for profile not importing
-=======
-Update TOC, TBC Support
->>>>>>> Stashed changes
+## 2.0.7
+
+Major Update for ElvUI Changes
+Removed mMediaTag and Details
+Custom text, portraits, positioning updates across all profiles

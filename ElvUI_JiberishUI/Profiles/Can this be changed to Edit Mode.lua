@@ -1,7 +1,7 @@
 local E, L, V, P, G = unpack(ElvUI)
 local JiberishUI = E:GetModule('|cff00b3ffJiberish UI|r')
 
--- Details profile setup
+-- Possible to make this an edit mode function?
 function JiberishUI:Details(profile)
 	if _G.Details then
 		local profileTable = {

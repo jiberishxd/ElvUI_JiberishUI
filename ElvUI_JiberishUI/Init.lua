@@ -57,8 +57,6 @@ local function SetupLayout(layout)
 	--setup general settings/datapanel creation
 	JiberishUI:General()
 
-	--import details profile
-	JiberishUI:Details(layout)
 
 	--profile specific settings (layouts)
 	if layout == "JiberishAllusive" then
